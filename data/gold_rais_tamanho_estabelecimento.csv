@@ -1,0 +1,2731 @@
+ano;tamanho_estabelecimento;descricao_secao_cnae;size
+2006;1000 ou mais;Administração pública, defesa e seguridade social;1
+2006;1000 ou mais;Alojamento e alimentação;1
+2006;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2006;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";2
+2006;1000 ou mais;Indústrias de transformação;1
+2006;1000 ou mais;Informação e comunicação;1
+2006;1000 ou mais;Transporte, armazenagem e correio;2
+2006;Ate 4;Administração pública, defesa e seguridade social;1
+2006;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;3
+2006;Ate 4;Alojamento e alimentação;10
+2006;Ate 4;Artes, cultura, esporte e recreação;6
+2006;Ate 4;Atividades administrativas e serviços complementares;25
+2006;Ate 4;Atividades financeiras, de seguros e serviços relacionados;14
+2006;Ate 4;Atividades imobiliárias;5
+2006;Ate 4;Atividades profissionais, científicas e técnicas;19
+2006;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";136
+2006;Ate 4;Construção;19
+2006;Ate 4;Educação;16
+2006;Ate 4;Indústrias de transformação;103
+2006;Ate 4;Indústrias extrativas;1
+2006;Ate 4;Informação e comunicação;13
+2006;Ate 4;Organismos internacionais e outras instituições extraterritoriais;1
+2006;Ate 4;Outras atividades de serviços;19
+2006;Ate 4;Saúde e serviços sociais;1
+2006;Ate 4;Saúde humana e serviços sociais;25
+2006;Ate 4;Serviços domésticos;1
+2006;Ate 4;Transporte, armazenagem e correio;19
+2006;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2006;De 10 a 19;Administração pública, defesa e seguridade social;1
+2006;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2006;De 10 a 19;Alojamento e alimentação;7
+2006;De 10 a 19;Artes, cultura, esporte e recreação;3
+2006;De 10 a 19;Atividades administrativas e serviços complementares;15
+2006;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;7
+2006;De 10 a 19;Atividades profissionais, científicas e técnicas;5
+2006;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";89
+2006;De 10 a 19;Construção;11
+2006;De 10 a 19;Educação;9
+2006;De 10 a 19;Indústrias de transformação;58
+2006;De 10 a 19;Informação e comunicação;6
+2006;De 10 a 19;Outras atividades de serviços;12
+2006;De 10 a 19;Saúde humana e serviços sociais;13
+2006;De 10 a 19;Transporte, armazenagem e correio;11
+2006;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2006;De 100 a 249;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2006;De 100 a 249;Alojamento e alimentação;1
+2006;De 100 a 249;Atividades administrativas e serviços complementares;8
+2006;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;1
+2006;De 100 a 249;Atividades imobiliárias;1
+2006;De 100 a 249;Atividades profissionais, científicas e técnicas;1
+2006;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";10
+2006;De 100 a 249;Construção;5
+2006;De 100 a 249;Educação;4
+2006;De 100 a 249;Indústrias de transformação;28
+2006;De 100 a 249;Informação e comunicação;2
+2006;De 100 a 249;Outras atividades de serviços;2
+2006;De 100 a 249;Saúde humana e serviços sociais;1
+2006;De 100 a 249;Transporte, armazenagem e correio;3
+2006;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2006;De 20 a 49;Administração pública, defesa e seguridade social;1
+2006;De 20 a 49;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2006;De 20 a 49;Alojamento e alimentação;6
+2006;De 20 a 49;Artes, cultura, esporte e recreação;2
+2006;De 20 a 49;Atividades administrativas e serviços complementares;14
+2006;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;6
+2006;De 20 a 49;Atividades imobiliárias;2
+2006;De 20 a 49;Atividades profissionais, científicas e técnicas;5
+2006;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";60
+2006;De 20 a 49;Construção;11
+2006;De 20 a 49;Educação;7
+2006;De 20 a 49;Indústrias de transformação;49
+2006;De 20 a 49;Indústrias extrativas;1
+2006;De 20 a 49;Informação e comunicação;11
+2006;De 20 a 49;Outras atividades de serviços;8
+2006;De 20 a 49;Saúde e serviços sociais;1
+2006;De 20 a 49;Saúde humana e serviços sociais;7
+2006;De 20 a 49;Transporte, armazenagem e correio;13
+2006;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2006;De 250 a 499;Administração pública, defesa e seguridade social;1
+2006;De 250 a 499;Alojamento e alimentação;1
+2006;De 250 a 499;Atividades administrativas e serviços complementares;3
+2006;De 250 a 499;Atividades profissionais, científicas e técnicas;2
+2006;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";6
+2006;De 250 a 499;Construção;1
+2006;De 250 a 499;Educação;2
+2006;De 250 a 499;Indústrias de transformação;17
+2006;De 250 a 499;Informação e comunicação;1
+2006;De 250 a 499;Saúde humana e serviços sociais;2
+2006;De 250 a 499;Transporte, armazenagem e correio;1
+2006;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2006;De 5 a 9;Alojamento e alimentação;8
+2006;De 5 a 9;Artes, cultura, esporte e recreação;4
+2006;De 5 a 9;Atividades administrativas e serviços complementares;20
+2006;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;10
+2006;De 5 a 9;Atividades imobiliárias;4
+2006;De 5 a 9;Atividades profissionais, científicas e técnicas;11
+2006;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";97
+2006;De 5 a 9;Construção;13
+2006;De 5 a 9;Educação;9
+2006;De 5 a 9;Indústrias de transformação;69
+2006;De 5 a 9;Informação e comunicação;8
+2006;De 5 a 9;Organismos internacionais e outras instituições extraterritoriais;1
+2006;De 5 a 9;Outras atividades de serviços;13
+2006;De 5 a 9;Saúde humana e serviços sociais;13
+2006;De 5 a 9;Serviços domésticos;1
+2006;De 5 a 9;Transporte, armazenagem e correio;13
+2006;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2006;De 50 a 99;Alojamento e alimentação;2
+2006;De 50 a 99;Artes, cultura, esporte e recreação;1
+2006;De 50 a 99;Atividades administrativas e serviços complementares;8
+2006;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;2
+2006;De 50 a 99;Atividades profissionais, científicas e técnicas;1
+2006;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";26
+2006;De 50 a 99;Construção;3
+2006;De 50 a 99;Educação;4
+2006;De 50 a 99;Indústrias de transformação;35
+2006;De 50 a 99;Indústrias extrativas;1
+2006;De 50 a 99;Informação e comunicação;3
+2006;De 50 a 99;Outras atividades de serviços;5
+2006;De 50 a 99;Saúde humana e serviços sociais;3
+2006;De 50 a 99;Transporte, armazenagem e correio;7
+2006;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2006;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;2
+2006;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";2
+2006;De 500 a 999;Construção;1
+2006;De 500 a 999;Educação;2
+2006;De 500 a 999;Indústrias de transformação;2
+2006;Zero;Administração pública, defesa e seguridade social;7
+2006;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;12
+2006;Zero;Alojamento e alimentação;10
+2006;Zero;Artes, cultura, esporte e recreação;15
+2006;Zero;Atividades administrativas e serviços complementares;40
+2006;Zero;Atividades financeiras, de seguros e serviços relacionados;26
+2006;Zero;Atividades imobiliárias;5
+2006;Zero;Atividades profissionais, científicas e técnicas;28
+2006;Zero;"Comércio; reparação de veículos automotores e motocicletas";172
+2006;Zero;Construção;33
+2006;Zero;Educação;22
+2006;Zero;Eletricidade e gás;1
+2006;Zero;Indústrias de transformação;174
+2006;Zero;Indústrias extrativas;7
+2006;Zero;Informação e comunicação;29
+2006;Zero;Organismos internacionais e outras instituições extraterritoriais;1
+2006;Zero;Outras atividades de serviços;24
+2006;Zero;Saúde e serviços sociais;1
+2006;Zero;Saúde humana e serviços sociais;27
+2006;Zero;Serviços domésticos;1
+2006;Zero;Transporte, armazenagem e correio;37
+2006;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;6
+2007;1000 ou mais;Administração pública, defesa e seguridade social;1
+2007;1000 ou mais;Alojamento e alimentação;1
+2007;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";2
+2007;1000 ou mais;Indústrias de transformação;2
+2007;1000 ou mais;Informação e comunicação;2
+2007;1000 ou mais;Intermediação financeira, seguros, previdência complementar e serviços relacionados;1
+2007;1000 ou mais;Transporte, armazenagem e correio;2
+2007;Ate 4;Administração pública, defesa e seguridade social;1
+2007;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;3
+2007;Ate 4;Alojamento e alimentação;9
+2007;Ate 4;Artes, cultura, esporte e recreação;7
+2007;Ate 4;Atividades administrativas e serviços complementares;31
+2007;Ate 4;Atividades financeiras, de seguros e serviços relacionados;12
+2007;Ate 4;Atividades imobiliárias;4
+2007;Ate 4;Atividades profissionais, científicas e técnicas;16
+2007;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";136
+2007;Ate 4;Construção;20
+2007;Ate 4;Educação;12
+2007;Ate 4;Eletricidade e gás;1
+2007;Ate 4;Indústrias de transformação;98
+2007;Ate 4;Informação e comunicação;15
+2007;Ate 4;Outras atividades de serviços;22
+2007;Ate 4;Saúde humana e serviços sociais;22
+2007;Ate 4;Serviços domésticos;1
+2007;Ate 4;Transporte, armazenagem e correio;23
+2007;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2007;De 10 a 19;Administração pública, defesa e seguridade social;1
+2007;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2007;De 10 a 19;Alojamento e alimentação;9
+2007;De 10 a 19;Artes, cultura, esporte e recreação;3
+2007;De 10 a 19;Atividades administrativas e serviços complementares;12
+2007;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;8
+2007;De 10 a 19;Atividades imobiliárias;1
+2007;De 10 a 19;Atividades profissionais, científicas e técnicas;5
+2007;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";89
+2007;De 10 a 19;Construção;8
+2007;De 10 a 19;Educação;10
+2007;De 10 a 19;Indústrias de transformação;60
+2007;De 10 a 19;Informação e comunicação;10
+2007;De 10 a 19;Outras atividades de serviços;12
+2007;De 10 a 19;Saúde humana e serviços sociais;10
+2007;De 10 a 19;Transporte, armazenagem e correio;12
+2007;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2007;De 100 a 249;Alojamento e alimentação;1
+2007;De 100 a 249;Atividades administrativas e serviços complementares;8
+2007;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;3
+2007;De 100 a 249;Atividades imobiliárias;1
+2007;De 100 a 249;Atividades profissionais, científicas e técnicas;2
+2007;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";18
+2007;De 100 a 249;Construção;3
+2007;De 100 a 249;Educação;4
+2007;De 100 a 249;Indústrias de transformação;27
+2007;De 100 a 249;Outras atividades de serviços;2
+2007;De 100 a 249;Saúde humana e serviços sociais;1
+2007;De 100 a 249;Transporte, armazenagem e correio;2
+2007;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2007;De 20 a 49;Administração pública, defesa e seguridade social;1
+2007;De 20 a 49;Alojamento e alimentação;6
+2007;De 20 a 49;Artes, cultura, esporte e recreação;3
+2007;De 20 a 49;Atividades administrativas e serviços complementares;15
+2007;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;6
+2007;De 20 a 49;Atividades imobiliárias;2
+2007;De 20 a 49;Atividades profissionais, científicas e técnicas;5
+2007;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";63
+2007;De 20 a 49;Construção;8
+2007;De 20 a 49;Educação;7
+2007;De 20 a 49;Indústrias de transformação;51
+2007;De 20 a 49;Informação e comunicação;8
+2007;De 20 a 49;Outras atividades de serviços;6
+2007;De 20 a 49;Saúde humana e serviços sociais;9
+2007;De 20 a 49;Transporte, armazenagem e correio;15
+2007;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2007;De 250 a 499;Administração pública, defesa e seguridade social;1
+2007;De 250 a 499;Alojamento e alimentação;1
+2007;De 250 a 499;Atividades administrativas e serviços complementares;5
+2007;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2007;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";7
+2007;De 250 a 499;Construção;2
+2007;De 250 a 499;Educação;2
+2007;De 250 a 499;Indústrias de transformação;14
+2007;De 250 a 499;Informação e comunicação;1
+2007;De 250 a 499;Saúde humana e serviços sociais;2
+2007;De 250 a 499;Transporte, armazenagem e correio;1
+2007;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2007;De 5 a 9;Administração pública, defesa e seguridade social;2
+2007;De 5 a 9;Alojamento e alimentação;9
+2007;De 5 a 9;Artes, cultura, esporte e recreação;5
+2007;De 5 a 9;Atividades administrativas e serviços complementares;23
+2007;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;6
+2007;De 5 a 9;Atividades imobiliárias;3
+2007;De 5 a 9;Atividades profissionais, científicas e técnicas;8
+2007;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";102
+2007;De 5 a 9;Construção;11
+2007;De 5 a 9;Educação;10
+2007;De 5 a 9;Indústrias de transformação;75
+2007;De 5 a 9;Informação e comunicação;7
+2007;De 5 a 9;Outras atividades de serviços;14
+2007;De 5 a 9;Saúde humana e serviços sociais;12
+2007;De 5 a 9;Serviços domésticos;1
+2007;De 5 a 9;Transporte, armazenagem e correio;16
+2007;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2007;De 50 a 99;Alojamento e alimentação;4
+2007;De 50 a 99;Atividades administrativas e serviços complementares;9
+2007;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;1
+2007;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";29
+2007;De 50 a 99;Construção;8
+2007;De 50 a 99;Educação;5
+2007;De 50 a 99;Indústrias de transformação;38
+2007;De 50 a 99;Informação e comunicação;2
+2007;De 50 a 99;Outras atividades de serviços;4
+2007;De 50 a 99;Saúde humana e serviços sociais;3
+2007;De 50 a 99;Transporte, armazenagem e correio;8
+2007;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2007;De 500 a 999;Atividades administrativas e serviços complementares;1
+2007;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2007;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";2
+2007;De 500 a 999;Construção;1
+2007;De 500 a 999;Educação;1
+2007;De 500 a 999;Indústrias de transformação;3
+2007;Zero;Administração pública, defesa e seguridade social;6
+2007;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;12
+2007;Zero;Alojamento e alimentação;10
+2007;Zero;Artes, cultura, esporte e recreação;21
+2007;Zero;Atividades administrativas e serviços complementares;42
+2007;Zero;Atividades financeiras, de seguros e serviços relacionados;27
+2007;Zero;Atividades imobiliárias;5
+2007;Zero;Atividades profissionais, científicas e técnicas;33
+2007;Zero;"Comércio; reparação de veículos automotores e motocicletas";173
+2007;Zero;Construção;34
+2007;Zero;Educação;19
+2007;Zero;Eletricidade e gás;3
+2007;Zero;Indústrias de transformação;176
+2007;Zero;Indústrias extrativas;2
+2007;Zero;Informação e comunicação;35
+2007;Zero;Outras atividades de serviços;26
+2007;Zero;Saúde humana e serviços sociais;31
+2007;Zero;Serviços domésticos;1
+2007;Zero;Transporte, armazenagem e correio;39
+2007;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;5
+2008;1000 ou mais;Administração pública, defesa e seguridade social;1
+2008;1000 ou mais;Alojamento e alimentação;1
+2008;1000 ou mais;Atividades administrativas e serviços complementares;1
+2008;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2008;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";2
+2008;1000 ou mais;Indústrias de transformação;3
+2008;1000 ou mais;Informação e comunicação;2
+2008;1000 ou mais;Transporte, armazenagem e correio;2
+2008;Ate 4;Administração pública, defesa e seguridade social;1
+2008;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;2
+2008;Ate 4;Alojamento e alimentação;10
+2008;Ate 4;Artes, cultura, esporte e recreação;7
+2008;Ate 4;Atividades administrativas e serviços complementares;31
+2008;Ate 4;Atividades financeiras, de seguros e serviços relacionados;15
+2008;Ate 4;Atividades imobiliárias;4
+2008;Ate 4;Atividades profissionais, científicas e técnicas;18
+2008;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";138
+2008;Ate 4;Construção;22
+2008;Ate 4;Educação;12
+2008;Ate 4;Eletricidade e gás;1
+2008;Ate 4;Indústrias de transformação;99
+2008;Ate 4;Informação e comunicação;14
+2008;Ate 4;Outras atividades de serviços;22
+2008;Ate 4;Saúde humana e serviços sociais;22
+2008;Ate 4;Serviços domésticos;1
+2008;Ate 4;Transporte, armazenagem e correio;23
+2008;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2008;De 10 a 19;Administração pública, defesa e seguridade social;1
+2008;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2008;De 10 a 19;Alojamento e alimentação;7
+2008;De 10 a 19;Artes, cultura, esporte e recreação;2
+2008;De 10 a 19;Atividades administrativas e serviços complementares;19
+2008;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;7
+2008;De 10 a 19;Atividades profissionais, científicas e técnicas;10
+2008;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";93
+2008;De 10 a 19;Construção;10
+2008;De 10 a 19;Educação;8
+2008;De 10 a 19;Indústrias de transformação;56
+2008;De 10 a 19;Informação e comunicação;9
+2008;De 10 a 19;Outras atividades de serviços;13
+2008;De 10 a 19;Saúde humana e serviços sociais;15
+2008;De 10 a 19;Transporte, armazenagem e correio;14
+2008;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2008;De 100 a 249;Alojamento e alimentação;1
+2008;De 100 a 249;Atividades administrativas e serviços complementares;10
+2008;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2008;De 100 a 249;Atividades imobiliárias;1
+2008;De 100 a 249;Atividades profissionais, científicas e técnicas;2
+2008;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";12
+2008;De 100 a 249;Construção;5
+2008;De 100 a 249;Educação;4
+2008;De 100 a 249;Indústrias de transformação;28
+2008;De 100 a 249;Informação e comunicação;1
+2008;De 100 a 249;Outras atividades de serviços;2
+2008;De 100 a 249;Transporte, armazenagem e correio;3
+2008;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2008;De 20 a 49;Administração pública, defesa e seguridade social;1
+2008;De 20 a 49;Alojamento e alimentação;6
+2008;De 20 a 49;Artes, cultura, esporte e recreação;3
+2008;De 20 a 49;Atividades administrativas e serviços complementares;16
+2008;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;5
+2008;De 20 a 49;Atividades imobiliárias;1
+2008;De 20 a 49;Atividades profissionais, científicas e técnicas;3
+2008;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";70
+2008;De 20 a 49;Construção;13
+2008;De 20 a 49;Educação;8
+2008;De 20 a 49;Indústrias de transformação;55
+2008;De 20 a 49;Informação e comunicação;8
+2008;De 20 a 49;Outras atividades de serviços;8
+2008;De 20 a 49;Saúde humana e serviços sociais;11
+2008;De 20 a 49;Transporte, armazenagem e correio;18
+2008;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2008;De 250 a 499;Administração pública, defesa e seguridade social;1
+2008;De 250 a 499;Alojamento e alimentação;1
+2008;De 250 a 499;Atividades administrativas e serviços complementares;3
+2008;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;2
+2008;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";8
+2008;De 250 a 499;Construção;1
+2008;De 250 a 499;Educação;2
+2008;De 250 a 499;Indústrias de transformação;13
+2008;De 250 a 499;Informação e comunicação;1
+2008;De 250 a 499;Saúde humana e serviços sociais;2
+2008;De 250 a 499;Transporte, armazenagem e correio;2
+2008;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2008;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2008;De 5 a 9;Alojamento e alimentação;8
+2008;De 5 a 9;Artes, cultura, esporte e recreação;4
+2008;De 5 a 9;Atividades administrativas e serviços complementares;24
+2008;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;7
+2008;De 5 a 9;Atividades imobiliárias;5
+2008;De 5 a 9;Atividades profissionais, científicas e técnicas;9
+2008;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";101
+2008;De 5 a 9;Construção;17
+2008;De 5 a 9;Educação;12
+2008;De 5 a 9;Indústrias de transformação;80
+2008;De 5 a 9;Informação e comunicação;9
+2008;De 5 a 9;Outras atividades de serviços;14
+2008;De 5 a 9;Saúde humana e serviços sociais;13
+2008;De 5 a 9;Transporte, armazenagem e correio;14
+2008;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2008;De 50 a 99;Alojamento e alimentação;3
+2008;De 50 a 99;Atividades administrativas e serviços complementares;11
+2008;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;1
+2008;De 50 a 99;Atividades imobiliárias;1
+2008;De 50 a 99;Atividades profissionais, científicas e técnicas;3
+2008;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";32
+2008;De 50 a 99;Construção;9
+2008;De 50 a 99;Educação;3
+2008;De 50 a 99;Indústrias de transformação;42
+2008;De 50 a 99;Informação e comunicação;6
+2008;De 50 a 99;Outras atividades de serviços;5
+2008;De 50 a 99;Saúde humana e serviços sociais;4
+2008;De 50 a 99;Transporte, armazenagem e correio;8
+2008;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2008;De 500 a 999;Atividades administrativas e serviços complementares;3
+2008;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2008;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";1
+2008;De 500 a 999;Construção;1
+2008;De 500 a 999;Educação;1
+2008;De 500 a 999;Indústrias de transformação;4
+2008;De 500 a 999;Informação e comunicação;1
+2008;Zero;Administração pública, defesa e seguridade social;5
+2008;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;14
+2008;Zero;Alojamento e alimentação;11
+2008;Zero;Artes, cultura, esporte e recreação;18
+2008;Zero;Atividades administrativas e serviços complementares;46
+2008;Zero;Atividades financeiras, de seguros e serviços relacionados;32
+2008;Zero;Atividades imobiliárias;5
+2008;Zero;Atividades profissionais, científicas e técnicas;33
+2008;Zero;"Comércio; reparação de veículos automotores e motocicletas";182
+2008;Zero;Construção;32
+2008;Zero;Educação;22
+2008;Zero;Eletricidade e gás;3
+2008;Zero;Indústrias de transformação;165
+2008;Zero;Indústrias extrativas;1
+2008;Zero;Informação e comunicação;31
+2008;Zero;Outras atividades de serviços;27
+2008;Zero;Saúde humana e serviços sociais;28
+2008;Zero;Serviços domésticos;1
+2008;Zero;Transporte, armazenagem e correio;38
+2008;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;7
+2009;1000 ou mais;Administração pública, defesa e seguridade social;1
+2009;1000 ou mais;Alojamento e alimentação;1
+2009;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2009;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";2
+2009;1000 ou mais;Informação e comunicação;2
+2009;1000 ou mais;Transporte, armazenagem e correio;2
+2009;Ate 4;Administração pública, defesa e seguridade social;1
+2009;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2009;Ate 4;Alojamento e alimentação;10
+2009;Ate 4;Artes, cultura, esporte e recreação;7
+2009;Ate 4;Atividades administrativas e serviços complementares;30
+2009;Ate 4;Atividades financeiras, de seguros e serviços relacionados;10
+2009;Ate 4;Atividades imobiliárias;5
+2009;Ate 4;Atividades profissionais, científicas e técnicas;18
+2009;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";138
+2009;Ate 4;Construção;26
+2009;Ate 4;Educação;12
+2009;Ate 4;Indústrias de transformação;95
+2009;Ate 4;Informação e comunicação;13
+2009;Ate 4;Outras atividades de serviços;22
+2009;Ate 4;Saúde humana e serviços sociais;23
+2009;Ate 4;Serviços domésticos;1
+2009;Ate 4;Transporte, armazenagem e correio;24
+2009;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2009;De 10 a 19;Administração pública, defesa e seguridade social;1
+2009;De 10 a 19;Alojamento e alimentação;8
+2009;De 10 a 19;Artes, cultura, esporte e recreação;6
+2009;De 10 a 19;Atividades administrativas e serviços complementares;18
+2009;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;10
+2009;De 10 a 19;Atividades imobiliárias;1
+2009;De 10 a 19;Atividades profissionais, científicas e técnicas;8
+2009;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";93
+2009;De 10 a 19;Construção;14
+2009;De 10 a 19;Educação;9
+2009;De 10 a 19;Indústrias de transformação;64
+2009;De 10 a 19;Informação e comunicação;9
+2009;De 10 a 19;Outras atividades de serviços;13
+2009;De 10 a 19;Saúde humana e serviços sociais;14
+2009;De 10 a 19;Serviços domésticos;1
+2009;De 10 a 19;Transporte, armazenagem e correio;14
+2009;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2009;De 100 a 249;Alojamento e alimentação;1
+2009;De 100 a 249;Atividades administrativas e serviços complementares;7
+2009;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2009;De 100 a 249;Atividades imobiliárias;1
+2009;De 100 a 249;Atividades profissionais, científicas e técnicas;1
+2009;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";18
+2009;De 100 a 249;Construção;7
+2009;De 100 a 249;Educação;4
+2009;De 100 a 249;Indústrias de transformação;36
+2009;De 100 a 249;Informação e comunicação;3
+2009;De 100 a 249;Organismos internacionais e outras instituições extraterritoriais;1
+2009;De 100 a 249;Outras atividades de serviços;2
+2009;De 100 a 249;Saúde humana e serviços sociais;1
+2009;De 100 a 249;Transporte, armazenagem e correio;3
+2009;De 20 a 49;Administração pública, defesa e seguridade social;1
+2009;De 20 a 49;Alojamento e alimentação;6
+2009;De 20 a 49;Artes, cultura, esporte e recreação;2
+2009;De 20 a 49;Atividades administrativas e serviços complementares;15
+2009;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;4
+2009;De 20 a 49;Atividades imobiliárias;2
+2009;De 20 a 49;Atividades profissionais, científicas e técnicas;6
+2009;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";72
+2009;De 20 a 49;Construção;12
+2009;De 20 a 49;Educação;9
+2009;De 20 a 49;Indústrias de transformação;52
+2009;De 20 a 49;Informação e comunicação;7
+2009;De 20 a 49;Outras atividades de serviços;8
+2009;De 20 a 49;Saúde humana e serviços sociais;12
+2009;De 20 a 49;Transporte, armazenagem e correio;15
+2009;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2009;De 250 a 499;Administração pública, defesa e seguridade social;2
+2009;De 250 a 499;Alojamento e alimentação;1
+2009;De 250 a 499;Atividades administrativas e serviços complementares;5
+2009;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2009;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2009;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";7
+2009;De 250 a 499;Construção;1
+2009;De 250 a 499;Educação;1
+2009;De 250 a 499;Indústrias de transformação;10
+2009;De 250 a 499;Informação e comunicação;2
+2009;De 250 a 499;Saúde humana e serviços sociais;3
+2009;De 250 a 499;Transporte, armazenagem e correio;2
+2009;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2009;De 5 a 9;Administração pública, defesa e seguridade social;1
+2009;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2009;De 5 a 9;Alojamento e alimentação;8
+2009;De 5 a 9;Artes, cultura, esporte e recreação;4
+2009;De 5 a 9;Atividades administrativas e serviços complementares;23
+2009;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;8
+2009;De 5 a 9;Atividades imobiliárias;4
+2009;De 5 a 9;Atividades profissionais, científicas e técnicas;15
+2009;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";108
+2009;De 5 a 9;Construção;12
+2009;De 5 a 9;Educação;13
+2009;De 5 a 9;Indústrias de transformação;75
+2009;De 5 a 9;Informação e comunicação;14
+2009;De 5 a 9;Outras atividades de serviços;16
+2009;De 5 a 9;Saúde humana e serviços sociais;13
+2009;De 5 a 9;Transporte, armazenagem e correio;19
+2009;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2009;De 50 a 99;Administração pública, defesa e seguridade social;1
+2009;De 50 a 99;Alojamento e alimentação;4
+2009;De 50 a 99;Atividades administrativas e serviços complementares;12
+2009;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;1
+2009;De 50 a 99;Atividades imobiliárias;1
+2009;De 50 a 99;Atividades profissionais, científicas e técnicas;1
+2009;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";31
+2009;De 50 a 99;Construção;7
+2009;De 50 a 99;Educação;3
+2009;De 50 a 99;Indústrias de transformação;45
+2009;De 50 a 99;Informação e comunicação;7
+2009;De 50 a 99;Outras atividades de serviços;6
+2009;De 50 a 99;Saúde humana e serviços sociais;5
+2009;De 50 a 99;Transporte, armazenagem e correio;9
+2009;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2009;De 500 a 999;Atividades administrativas e serviços complementares;4
+2009;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2009;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";2
+2009;De 500 a 999;Construção;1
+2009;De 500 a 999;Educação;1
+2009;De 500 a 999;Indústrias de transformação;4
+2009;De 500 a 999;Informação e comunicação;1
+2009;Zero;Administração pública, defesa e seguridade social;4
+2009;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;13
+2009;Zero;Alojamento e alimentação;10
+2009;Zero;Artes, cultura, esporte e recreação;19
+2009;Zero;Atividades administrativas e serviços complementares;44
+2009;Zero;Atividades financeiras, de seguros e serviços relacionados;29
+2009;Zero;Atividades imobiliárias;5
+2009;Zero;Atividades profissionais, científicas e técnicas;35
+2009;Zero;"Comércio; reparação de veículos automotores e motocicletas";185
+2009;Zero;Construção;30
+2009;Zero;Educação;22
+2009;Zero;Eletricidade e gás;3
+2009;Zero;Indústrias de transformação;162
+2009;Zero;Indústrias extrativas;1
+2009;Zero;Informação e comunicação;33
+2009;Zero;Outras atividades de serviços;27
+2009;Zero;Saúde humana e serviços sociais;30
+2009;Zero;Serviços domésticos;1
+2009;Zero;Transporte, armazenagem e correio;36
+2009;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;8
+2010;1000 ou mais;Administração pública, defesa e seguridade social;1
+2010;1000 ou mais;Alojamento e alimentação;1
+2010;1000 ou mais;Atividades administrativas e serviços complementares;2
+2010;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2010;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";2
+2010;1000 ou mais;Indústrias de transformação;2
+2010;1000 ou mais;Informação e comunicação;2
+2010;1000 ou mais;Transporte, armazenagem e correio;2
+2010;Ate 4;Administração pública, defesa e seguridade social;1
+2010;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2010;Ate 4;Alojamento e alimentação;10
+2010;Ate 4;Artes, cultura, esporte e recreação;6
+2010;Ate 4;Atividades administrativas e serviços complementares;34
+2010;Ate 4;Atividades financeiras, de seguros e serviços relacionados;12
+2010;Ate 4;Atividades imobiliárias;5
+2010;Ate 4;Atividades profissionais, científicas e técnicas;18
+2010;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";142
+2010;Ate 4;Construção;23
+2010;Ate 4;Educação;13
+2010;Ate 4;Eletricidade e gás;1
+2010;Ate 4;Indústrias de transformação;100
+2010;Ate 4;Informação e comunicação;18
+2010;Ate 4;Outras atividades de serviços;23
+2010;Ate 4;Saúde humana e serviços sociais;24
+2010;Ate 4;Serviços domésticos;1
+2010;Ate 4;Transporte, armazenagem e correio;24
+2010;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2010;De 10 a 19;Administração pública, defesa e seguridade social;1
+2010;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2010;De 10 a 19;Alojamento e alimentação;7
+2010;De 10 a 19;Artes, cultura, esporte e recreação;5
+2010;De 10 a 19;Atividades administrativas e serviços complementares;20
+2010;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;9
+2010;De 10 a 19;Atividades imobiliárias;1
+2010;De 10 a 19;Atividades profissionais, científicas e técnicas;9
+2010;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";92
+2010;De 10 a 19;Construção;12
+2010;De 10 a 19;Educação;8
+2010;De 10 a 19;Indústrias de transformação;67
+2010;De 10 a 19;Informação e comunicação;10
+2010;De 10 a 19;Outras atividades de serviços;12
+2010;De 10 a 19;Saúde humana e serviços sociais;15
+2010;De 10 a 19;Transporte, armazenagem e correio;20
+2010;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2010;De 100 a 249;Alojamento e alimentação;2
+2010;De 100 a 249;Atividades administrativas e serviços complementares;8
+2010;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2010;De 100 a 249;Atividades imobiliárias;1
+2010;De 100 a 249;Atividades profissionais, científicas e técnicas;2
+2010;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";19
+2010;De 100 a 249;Construção;5
+2010;De 100 a 249;Educação;4
+2010;De 100 a 249;Indústrias de transformação;38
+2010;De 100 a 249;Informação e comunicação;3
+2010;De 100 a 249;Outras atividades de serviços;2
+2010;De 100 a 249;Transporte, armazenagem e correio;5
+2010;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2010;De 20 a 49;Administração pública, defesa e seguridade social;1
+2010;De 20 a 49;Alojamento e alimentação;7
+2010;De 20 a 49;Artes, cultura, esporte e recreação;3
+2010;De 20 a 49;Atividades administrativas e serviços complementares;16
+2010;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;5
+2010;De 20 a 49;Atividades imobiliárias;2
+2010;De 20 a 49;Atividades profissionais, científicas e técnicas;7
+2010;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";72
+2010;De 20 a 49;Construção;13
+2010;De 20 a 49;Educação;10
+2010;De 20 a 49;Indústrias de transformação;51
+2010;De 20 a 49;Informação e comunicação;9
+2010;De 20 a 49;Outras atividades de serviços;9
+2010;De 20 a 49;Saúde humana e serviços sociais;13
+2010;De 20 a 49;Transporte, armazenagem e correio;16
+2010;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2010;De 250 a 499;Administração pública, defesa e seguridade social;2
+2010;De 250 a 499;Atividades administrativas e serviços complementares;5
+2010;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2010;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2010;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";6
+2010;De 250 a 499;Construção;1
+2010;De 250 a 499;Educação;1
+2010;De 250 a 499;Indústrias de transformação;9
+2010;De 250 a 499;Informação e comunicação;1
+2010;De 250 a 499;Saúde humana e serviços sociais;3
+2010;De 250 a 499;Transporte, armazenagem e correio;1
+2010;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2010;De 5 a 9;Administração pública, defesa e seguridade social;1
+2010;De 5 a 9;Alojamento e alimentação;9
+2010;De 5 a 9;Artes, cultura, esporte e recreação;4
+2010;De 5 a 9;Atividades administrativas e serviços complementares;20
+2010;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;10
+2010;De 5 a 9;Atividades imobiliárias;3
+2010;De 5 a 9;Atividades profissionais, científicas e técnicas;15
+2010;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";105
+2010;De 5 a 9;Construção;21
+2010;De 5 a 9;Educação;10
+2010;De 5 a 9;Indústrias de transformação;80
+2010;De 5 a 9;Informação e comunicação;14
+2010;De 5 a 9;Outras atividades de serviços;15
+2010;De 5 a 9;Saúde humana e serviços sociais;13
+2010;De 5 a 9;Serviços domésticos;1
+2010;De 5 a 9;Transporte, armazenagem e correio;17
+2010;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2010;De 50 a 99;Administração pública, defesa e seguridade social;1
+2010;De 50 a 99;Alojamento e alimentação;3
+2010;De 50 a 99;Atividades administrativas e serviços complementares;12
+2010;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;1
+2010;De 50 a 99;Atividades imobiliárias;1
+2010;De 50 a 99;Atividades profissionais, científicas e técnicas;1
+2010;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";33
+2010;De 50 a 99;Construção;11
+2010;De 50 a 99;Educação;5
+2010;De 50 a 99;Indústrias de transformação;35
+2010;De 50 a 99;Informação e comunicação;9
+2010;De 50 a 99;Outras atividades de serviços;5
+2010;De 50 a 99;Saúde humana e serviços sociais;7
+2010;De 50 a 99;Transporte, armazenagem e correio;8
+2010;De 500 a 999;Atividades administrativas e serviços complementares;4
+2010;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2010;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";4
+2010;De 500 a 999;Construção;1
+2010;De 500 a 999;Educação;1
+2010;De 500 a 999;Indústrias de transformação;7
+2010;De 500 a 999;Informação e comunicação;1
+2010;Zero;Administração pública, defesa e seguridade social;6
+2010;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;10
+2010;Zero;Alojamento e alimentação;11
+2010;Zero;Artes, cultura, esporte e recreação;19
+2010;Zero;Atividades administrativas e serviços complementares;43
+2010;Zero;Atividades financeiras, de seguros e serviços relacionados;30
+2010;Zero;Atividades imobiliárias;5
+2010;Zero;Atividades profissionais, científicas e técnicas;34
+2010;Zero;"Comércio; reparação de veículos automotores e motocicletas";177
+2010;Zero;Construção;36
+2010;Zero;Educação;22
+2010;Zero;Eletricidade e gás;1
+2010;Zero;Indústrias de transformação;155
+2010;Zero;Indústrias extrativas;2
+2010;Zero;Informação e comunicação;34
+2010;Zero;Outras atividades de serviços;25
+2010;Zero;Saúde humana e serviços sociais;28
+2010;Zero;Serviços domésticos;1
+2010;Zero;Transporte, armazenagem e correio;38
+2010;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;9
+2011;1000 ou mais;Administração pública, defesa e seguridade social;1
+2011;1000 ou mais;Alojamento e alimentação;1
+2011;1000 ou mais;Atividades administrativas e serviços complementares;3
+2011;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2011;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";2
+2011;1000 ou mais;Indústrias de transformação;2
+2011;1000 ou mais;Informação e comunicação;2
+2011;1000 ou mais;Transporte, armazenagem e correio;2
+2011;Ate 4;Administração pública, defesa e seguridade social;1
+2011;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;3
+2011;Ate 4;Alojamento e alimentação;10
+2011;Ate 4;Artes, cultura, esporte e recreação;9
+2011;Ate 4;Atividades administrativas e serviços complementares;33
+2011;Ate 4;Atividades financeiras, de seguros e serviços relacionados;14
+2011;Ate 4;Atividades imobiliárias;5
+2011;Ate 4;Atividades profissionais, científicas e técnicas;20
+2011;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";144
+2011;Ate 4;Construção;28
+2011;Ate 4;Educação;17
+2011;Ate 4;Indústrias de transformação;108
+2011;Ate 4;Informação e comunicação;20
+2011;Ate 4;Outras atividades de serviços;22
+2011;Ate 4;Saúde humana e serviços sociais;27
+2011;Ate 4;Serviços domésticos;1
+2011;Ate 4;Transporte, armazenagem e correio;24
+2011;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2011;De 10 a 19;Administração pública, defesa e seguridade social;1
+2011;De 10 a 19;Alojamento e alimentação;7
+2011;De 10 a 19;Artes, cultura, esporte e recreação;5
+2011;De 10 a 19;Atividades administrativas e serviços complementares;19
+2011;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;8
+2011;De 10 a 19;Atividades imobiliárias;1
+2011;De 10 a 19;Atividades profissionais, científicas e técnicas;10
+2011;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";87
+2011;De 10 a 19;Construção;13
+2011;De 10 a 19;Educação;8
+2011;De 10 a 19;Indústrias de transformação;71
+2011;De 10 a 19;Informação e comunicação;12
+2011;De 10 a 19;Outras atividades de serviços;13
+2011;De 10 a 19;Saúde humana e serviços sociais;13
+2011;De 10 a 19;Transporte, armazenagem e correio;18
+2011;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2011;De 100 a 249;Alojamento e alimentação;2
+2011;De 100 a 249;Atividades administrativas e serviços complementares;6
+2011;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2011;De 100 a 249;Atividades imobiliárias;1
+2011;De 100 a 249;Atividades profissionais, científicas e técnicas;1
+2011;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";21
+2011;De 100 a 249;Construção;7
+2011;De 100 a 249;Educação;4
+2011;De 100 a 249;Indústrias de transformação;37
+2011;De 100 a 249;Informação e comunicação;5
+2011;De 100 a 249;Outras atividades de serviços;2
+2011;De 100 a 249;Saúde humana e serviços sociais;1
+2011;De 100 a 249;Transporte, armazenagem e correio;5
+2011;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2011;De 20 a 49;Administração pública, defesa e seguridade social;1
+2011;De 20 a 49;Alojamento e alimentação;6
+2011;De 20 a 49;Artes, cultura, esporte e recreação;3
+2011;De 20 a 49;Atividades administrativas e serviços complementares;17
+2011;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;9
+2011;De 20 a 49;Atividades imobiliárias;2
+2011;De 20 a 49;Atividades profissionais, científicas e técnicas;7
+2011;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";75
+2011;De 20 a 49;Construção;12
+2011;De 20 a 49;Educação;7
+2011;De 20 a 49;Indústrias de transformação;59
+2011;De 20 a 49;Informação e comunicação;4
+2011;De 20 a 49;Outras atividades de serviços;9
+2011;De 20 a 49;Saúde humana e serviços sociais;14
+2011;De 20 a 49;Transporte, armazenagem e correio;16
+2011;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2011;De 250 a 499;Administração pública, defesa e seguridade social;1
+2011;De 250 a 499;Atividades administrativas e serviços complementares;4
+2011;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2011;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2011;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";6
+2011;De 250 a 499;Construção;1
+2011;De 250 a 499;Educação;1
+2011;De 250 a 499;Indústrias de transformação;9
+2011;De 250 a 499;Informação e comunicação;1
+2011;De 250 a 499;Saúde humana e serviços sociais;2
+2011;De 250 a 499;Transporte, armazenagem e correio;1
+2011;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2011;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2011;De 5 a 9;Alojamento e alimentação;9
+2011;De 5 a 9;Artes, cultura, esporte e recreação;5
+2011;De 5 a 9;Atividades administrativas e serviços complementares;27
+2011;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;11
+2011;De 5 a 9;Atividades imobiliárias;3
+2011;De 5 a 9;Atividades profissionais, científicas e técnicas;15
+2011;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";114
+2011;De 5 a 9;Construção;19
+2011;De 5 a 9;Educação;11
+2011;De 5 a 9;Indústrias de transformação;81
+2011;De 5 a 9;Informação e comunicação;14
+2011;De 5 a 9;Outras atividades de serviços;16
+2011;De 5 a 9;Saúde humana e serviços sociais;15
+2011;De 5 a 9;Serviços domésticos;1
+2011;De 5 a 9;Transporte, armazenagem e correio;18
+2011;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2011;De 50 a 99;Administração pública, defesa e seguridade social;1
+2011;De 50 a 99;Alojamento e alimentação;3
+2011;De 50 a 99;Atividades administrativas e serviços complementares;12
+2011;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;1
+2011;De 50 a 99;Atividades imobiliárias;2
+2011;De 50 a 99;Atividades profissionais, científicas e técnicas;3
+2011;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";37
+2011;De 50 a 99;Construção;9
+2011;De 50 a 99;Educação;6
+2011;De 50 a 99;Indústrias de transformação;36
+2011;De 50 a 99;Informação e comunicação;9
+2011;De 50 a 99;Outras atividades de serviços;5
+2011;De 50 a 99;Saúde humana e serviços sociais;5
+2011;De 50 a 99;Transporte, armazenagem e correio;11
+2011;De 500 a 999;Administração pública, defesa e seguridade social;1
+2011;De 500 a 999;Atividades administrativas e serviços complementares;2
+2011;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2011;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";7
+2011;De 500 a 999;Construção;2
+2011;De 500 a 999;Educação;1
+2011;De 500 a 999;Indústrias de transformação;6
+2011;De 500 a 999;Informação e comunicação;1
+2011;Zero;Administração pública, defesa e seguridade social;5
+2011;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;11
+2011;Zero;Alojamento e alimentação;11
+2011;Zero;Artes, cultura, esporte e recreação;21
+2011;Zero;Atividades administrativas e serviços complementares;45
+2011;Zero;Atividades financeiras, de seguros e serviços relacionados;31
+2011;Zero;Atividades imobiliárias;5
+2011;Zero;Atividades profissionais, científicas e técnicas;38
+2011;Zero;"Comércio; reparação de veículos automotores e motocicletas";184
+2011;Zero;Construção;36
+2011;Zero;Educação;21
+2011;Zero;Eletricidade e gás;1
+2011;Zero;Indústrias de transformação;167
+2011;Zero;Indústrias extrativas;1
+2011;Zero;Informação e comunicação;34
+2011;Zero;Organismos internacionais e outras instituições extraterritoriais;1
+2011;Zero;Outras atividades de serviços;27
+2011;Zero;Saúde humana e serviços sociais;31
+2011;Zero;Serviços domésticos;1
+2011;Zero;Transporte, armazenagem e correio;40
+2011;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;10
+2012;1000 ou mais;Administração pública, defesa e seguridade social;1
+2012;1000 ou mais;Alojamento e alimentação;1
+2012;1000 ou mais;Atividades administrativas e serviços complementares;4
+2012;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2012;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";2
+2012;1000 ou mais;Indústrias de transformação;1
+2012;1000 ou mais;Informação e comunicação;2
+2012;1000 ou mais;Transporte, armazenagem e correio;3
+2012;Ate 4;Administração pública, defesa e seguridade social;1
+2012;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;2
+2012;Ate 4;Alojamento e alimentação;10
+2012;Ate 4;Artes, cultura, esporte e recreação;12
+2012;Ate 4;Atividades administrativas e serviços complementares;30
+2012;Ate 4;Atividades financeiras, de seguros e serviços relacionados;15
+2012;Ate 4;Atividades imobiliárias;5
+2012;Ate 4;Atividades profissionais, científicas e técnicas;23
+2012;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";140
+2012;Ate 4;Construção;30
+2012;Ate 4;Educação;14
+2012;Ate 4;Indústrias de transformação;95
+2012;Ate 4;Informação e comunicação;18
+2012;Ate 4;Outras atividades de serviços;23
+2012;Ate 4;Saúde humana e serviços sociais;25
+2012;Ate 4;Serviços domésticos;1
+2012;Ate 4;Transporte, armazenagem e correio;26
+2012;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2012;De 10 a 19;Administração pública, defesa e seguridade social;1
+2012;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2012;De 10 a 19;Alojamento e alimentação;8
+2012;De 10 a 19;Artes, cultura, esporte e recreação;6
+2012;De 10 a 19;Atividades administrativas e serviços complementares;20
+2012;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;7
+2012;De 10 a 19;Atividades imobiliárias;2
+2012;De 10 a 19;Atividades profissionais, científicas e técnicas;11
+2012;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";89
+2012;De 10 a 19;Construção;18
+2012;De 10 a 19;Educação;11
+2012;De 10 a 19;Indústrias de transformação;73
+2012;De 10 a 19;Informação e comunicação;14
+2012;De 10 a 19;Outras atividades de serviços;13
+2012;De 10 a 19;Saúde humana e serviços sociais;11
+2012;De 10 a 19;Transporte, armazenagem e correio;16
+2012;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2012;De 100 a 249;Administração pública, defesa e seguridade social;1
+2012;De 100 a 249;Alojamento e alimentação;3
+2012;De 100 a 249;Atividades administrativas e serviços complementares;11
+2012;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2012;De 100 a 249;Atividades imobiliárias;1
+2012;De 100 a 249;Atividades profissionais, científicas e técnicas;1
+2012;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";22
+2012;De 100 a 249;Construção;8
+2012;De 100 a 249;Educação;3
+2012;De 100 a 249;Indústrias de transformação;34
+2012;De 100 a 249;Informação e comunicação;3
+2012;De 100 a 249;Outras atividades de serviços;3
+2012;De 100 a 249;Transporte, armazenagem e correio;5
+2012;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2012;De 20 a 49;Administração pública, defesa e seguridade social;1
+2012;De 20 a 49;Alojamento e alimentação;5
+2012;De 20 a 49;Artes, cultura, esporte e recreação;3
+2012;De 20 a 49;Atividades administrativas e serviços complementares;16
+2012;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;7
+2012;De 20 a 49;Atividades imobiliárias;2
+2012;De 20 a 49;Atividades profissionais, científicas e técnicas;6
+2012;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";73
+2012;De 20 a 49;Construção;10
+2012;De 20 a 49;Educação;7
+2012;De 20 a 49;Indústrias de transformação;55
+2012;De 20 a 49;Informação e comunicação;5
+2012;De 20 a 49;Outras atividades de serviços;11
+2012;De 20 a 49;Saúde humana e serviços sociais;14
+2012;De 20 a 49;Transporte, armazenagem e correio;17
+2012;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2012;De 250 a 499;Administração pública, defesa e seguridade social;1
+2012;De 250 a 499;Atividades administrativas e serviços complementares;3
+2012;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2012;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2012;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";5
+2012;De 250 a 499;Construção;1
+2012;De 250 a 499;Educação;3
+2012;De 250 a 499;Indústrias de transformação;9
+2012;De 250 a 499;Indústrias extrativas;1
+2012;De 250 a 499;Informação e comunicação;2
+2012;De 250 a 499;Saúde humana e serviços sociais;3
+2012;De 250 a 499;Transporte, armazenagem e correio;1
+2012;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2012;De 5 a 9;Alojamento e alimentação;10
+2012;De 5 a 9;Artes, cultura, esporte e recreação;3
+2012;De 5 a 9;Atividades administrativas e serviços complementares;26
+2012;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;10
+2012;De 5 a 9;Atividades imobiliárias;4
+2012;De 5 a 9;Atividades profissionais, científicas e técnicas;14
+2012;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";110
+2012;De 5 a 9;Construção;20
+2012;De 5 a 9;Educação;8
+2012;De 5 a 9;Indústrias de transformação;84
+2012;De 5 a 9;Indústrias extrativas;1
+2012;De 5 a 9;Informação e comunicação;15
+2012;De 5 a 9;Outras atividades de serviços;16
+2012;De 5 a 9;Saúde humana e serviços sociais;16
+2012;De 5 a 9;Transporte, armazenagem e correio;17
+2012;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2012;De 50 a 99;Alojamento e alimentação;4
+2012;De 50 a 99;Artes, cultura, esporte e recreação;1
+2012;De 50 a 99;Atividades administrativas e serviços complementares;12
+2012;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;3
+2012;De 50 a 99;Atividades imobiliárias;2
+2012;De 50 a 99;Atividades profissionais, científicas e técnicas;2
+2012;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";36
+2012;De 50 a 99;Construção;6
+2012;De 50 a 99;Educação;5
+2012;De 50 a 99;Indústrias de transformação;36
+2012;De 50 a 99;Informação e comunicação;10
+2012;De 50 a 99;Organismos internacionais e outras instituições extraterritoriais;1
+2012;De 50 a 99;Outras atividades de serviços;4
+2012;De 50 a 99;Saúde humana e serviços sociais;6
+2012;De 50 a 99;Transporte, armazenagem e correio;10
+2012;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2012;De 500 a 999;Administração pública, defesa e seguridade social;1
+2012;De 500 a 999;Atividades administrativas e serviços complementares;2
+2012;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2012;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";6
+2012;De 500 a 999;Construção;2
+2012;De 500 a 999;Indústrias de transformação;5
+2012;De 500 a 999;Informação e comunicação;1
+2012;De 500 a 999;Transporte, armazenagem e correio;1
+2012;Zero;Administração pública, defesa e seguridade social;5
+2012;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;9
+2012;Zero;Alojamento e alimentação;11
+2012;Zero;Artes, cultura, esporte e recreação;22
+2012;Zero;Atividades administrativas e serviços complementares;44
+2012;Zero;Atividades financeiras, de seguros e serviços relacionados;31
+2012;Zero;Atividades imobiliárias;6
+2012;Zero;Atividades profissionais, científicas e técnicas;36
+2012;Zero;"Comércio; reparação de veículos automotores e motocicletas";180
+2012;Zero;Construção;39
+2012;Zero;Educação;20
+2012;Zero;Eletricidade e gás;1
+2012;Zero;Indústrias de transformação;166
+2012;Zero;Indústrias extrativas;2
+2012;Zero;Informação e comunicação;34
+2012;Zero;Organismos internacionais e outras instituições extraterritoriais;1
+2012;Zero;Outras atividades de serviços;26
+2012;Zero;Saúde humana e serviços sociais;32
+2012;Zero;Serviços domésticos;1
+2012;Zero;Transporte, armazenagem e correio;37
+2012;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;8
+2013;1000 ou mais;Administração pública, defesa e seguridade social;1
+2013;1000 ou mais;Atividades administrativas e serviços complementares;3
+2013;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2013;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";3
+2013;1000 ou mais;Indústrias de transformação;1
+2013;1000 ou mais;Informação e comunicação;2
+2013;1000 ou mais;Transporte, armazenagem e correio;3
+2013;Ate 4;Administração pública, defesa e seguridade social;1
+2013;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;4
+2013;Ate 4;Alojamento e alimentação;10
+2013;Ate 4;Artes, cultura, esporte e recreação;13
+2013;Ate 4;Atividades administrativas e serviços complementares;35
+2013;Ate 4;Atividades financeiras, de seguros e serviços relacionados;12
+2013;Ate 4;Atividades imobiliárias;5
+2013;Ate 4;Atividades profissionais, científicas e técnicas;23
+2013;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";137
+2013;Ate 4;Construção;29
+2013;Ate 4;Educação;13
+2013;Ate 4;Eletricidade e gás;1
+2013;Ate 4;Indústrias de transformação;96
+2013;Ate 4;Informação e comunicação;20
+2013;Ate 4;Outras atividades de serviços;22
+2013;Ate 4;Saúde humana e serviços sociais;25
+2013;Ate 4;Serviços domésticos;1
+2013;Ate 4;Transporte, armazenagem e correio;23
+2013;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2013;De 10 a 19;Administração pública, defesa e seguridade social;1
+2013;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2013;De 10 a 19;Alojamento e alimentação;8
+2013;De 10 a 19;Artes, cultura, esporte e recreação;4
+2013;De 10 a 19;Atividades administrativas e serviços complementares;17
+2013;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;8
+2013;De 10 a 19;Atividades imobiliárias;2
+2013;De 10 a 19;Atividades profissionais, científicas e técnicas;11
+2013;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";95
+2013;De 10 a 19;Construção;15
+2013;De 10 a 19;Educação;11
+2013;De 10 a 19;Indústrias de transformação;61
+2013;De 10 a 19;Informação e comunicação;13
+2013;De 10 a 19;Outras atividades de serviços;12
+2013;De 10 a 19;Saúde humana e serviços sociais;14
+2013;De 10 a 19;Transporte, armazenagem e correio;16
+2013;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2013;De 100 a 249;Administração pública, defesa e seguridade social;1
+2013;De 100 a 249;Alojamento e alimentação;2
+2013;De 100 a 249;Atividades administrativas e serviços complementares;8
+2013;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2013;De 100 a 249;Atividades imobiliárias;1
+2013;De 100 a 249;Atividades profissionais, científicas e técnicas;1
+2013;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";22
+2013;De 100 a 249;Construção;9
+2013;De 100 a 249;Educação;3
+2013;De 100 a 249;Indústrias de transformação;31
+2013;De 100 a 249;Informação e comunicação;4
+2013;De 100 a 249;Outras atividades de serviços;4
+2013;De 100 a 249;Saúde humana e serviços sociais;1
+2013;De 100 a 249;Transporte, armazenagem e correio;6
+2013;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2013;De 20 a 49;Administração pública, defesa e seguridade social;1
+2013;De 20 a 49;Alojamento e alimentação;5
+2013;De 20 a 49;Artes, cultura, esporte e recreação;3
+2013;De 20 a 49;Atividades administrativas e serviços complementares;16
+2013;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;6
+2013;De 20 a 49;Atividades imobiliárias;3
+2013;De 20 a 49;Atividades profissionais, científicas e técnicas;7
+2013;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";76
+2013;De 20 a 49;Construção;10
+2013;De 20 a 49;Educação;7
+2013;De 20 a 49;Indústrias de transformação;60
+2013;De 20 a 49;Informação e comunicação;8
+2013;De 20 a 49;Outras atividades de serviços;10
+2013;De 20 a 49;Saúde humana e serviços sociais;10
+2013;De 20 a 49;Transporte, armazenagem e correio;20
+2013;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;5
+2013;De 250 a 499;Administração pública, defesa e seguridade social;2
+2013;De 250 a 499;Atividades administrativas e serviços complementares;3
+2013;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2013;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2013;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";7
+2013;De 250 a 499;Construção;2
+2013;De 250 a 499;Educação;2
+2013;De 250 a 499;Indústrias de transformação;8
+2013;De 250 a 499;Indústrias extrativas;1
+2013;De 250 a 499;Informação e comunicação;2
+2013;De 250 a 499;Outras atividades de serviços;1
+2013;De 250 a 499;Saúde humana e serviços sociais;2
+2013;De 250 a 499;Transporte, armazenagem e correio;1
+2013;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2013;De 5 a 9;Alojamento e alimentação;10
+2013;De 5 a 9;Artes, cultura, esporte e recreação;4
+2013;De 5 a 9;Atividades administrativas e serviços complementares;27
+2013;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;13
+2013;De 5 a 9;Atividades imobiliárias;4
+2013;De 5 a 9;Atividades profissionais, científicas e técnicas;14
+2013;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";114
+2013;De 5 a 9;Construção;19
+2013;De 5 a 9;Educação;11
+2013;De 5 a 9;Indústrias de transformação;81
+2013;De 5 a 9;Informação e comunicação;11
+2013;De 5 a 9;Outras atividades de serviços;19
+2013;De 5 a 9;Saúde humana e serviços sociais;15
+2013;De 5 a 9;Transporte, armazenagem e correio;18
+2013;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2013;De 50 a 99;Administração pública, defesa e seguridade social;1
+2013;De 50 a 99;Alojamento e alimentação;4
+2013;De 50 a 99;Artes, cultura, esporte e recreação;1
+2013;De 50 a 99;Atividades administrativas e serviços complementares;9
+2013;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;2
+2013;De 50 a 99;Atividades imobiliárias;2
+2013;De 50 a 99;Atividades profissionais, científicas e técnicas;3
+2013;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";34
+2013;De 50 a 99;Construção;8
+2013;De 50 a 99;Educação;5
+2013;De 50 a 99;Indústrias de transformação;32
+2013;De 50 a 99;Informação e comunicação;6
+2013;De 50 a 99;Outras atividades de serviços;3
+2013;De 50 a 99;Saúde humana e serviços sociais;8
+2013;De 50 a 99;Transporte, armazenagem e correio;9
+2013;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2013;De 500 a 999;Atividades administrativas e serviços complementares;3
+2013;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2013;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";6
+2013;De 500 a 999;Construção;1
+2013;De 500 a 999;Educação;2
+2013;De 500 a 999;Indústrias de transformação;4
+2013;De 500 a 999;Informação e comunicação;1
+2013;De 500 a 999;Transporte, armazenagem e correio;1
+2013;Zero;Administração pública, defesa e seguridade social;6
+2013;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;14
+2013;Zero;Alojamento e alimentação;10
+2013;Zero;Artes, cultura, esporte e recreação;19
+2013;Zero;Atividades administrativas e serviços complementares;41
+2013;Zero;Atividades financeiras, de seguros e serviços relacionados;31
+2013;Zero;Atividades imobiliárias;5
+2013;Zero;Atividades profissionais, científicas e técnicas;36
+2013;Zero;"Comércio; reparação de veículos automotores e motocicletas";182
+2013;Zero;Construção;38
+2013;Zero;Educação;21
+2013;Zero;Eletricidade e gás;1
+2013;Zero;Indústrias de transformação;150
+2013;Zero;Indústrias extrativas;2
+2013;Zero;Informação e comunicação;35
+2013;Zero;Organismos internacionais e outras instituições extraterritoriais;1
+2013;Zero;Outras atividades de serviços;25
+2013;Zero;Saúde humana e serviços sociais;29
+2013;Zero;Transporte, armazenagem e correio;37
+2013;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;9
+2014;1000 ou mais;Administração pública, defesa e seguridade social;1
+2014;1000 ou mais;Atividades administrativas e serviços complementares;3
+2014;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2014;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";3
+2014;1000 ou mais;Informação e comunicação;2
+2014;1000 ou mais;Transporte, armazenagem e correio;3
+2014;Ate 4;Administração pública, defesa e seguridade social;1
+2014;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;4
+2014;Ate 4;Alojamento e alimentação;9
+2014;Ate 4;Artes, cultura, esporte e recreação;11
+2014;Ate 4;Atividades administrativas e serviços complementares;33
+2014;Ate 4;Atividades financeiras, de seguros e serviços relacionados;12
+2014;Ate 4;Atividades imobiliárias;5
+2014;Ate 4;Atividades profissionais, científicas e técnicas;24
+2014;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";145
+2014;Ate 4;Construção;26
+2014;Ate 4;Educação;16
+2014;Ate 4;Eletricidade e gás;1
+2014;Ate 4;Indústrias de transformação;92
+2014;Ate 4;Informação e comunicação;19
+2014;Ate 4;Outras atividades de serviços;21
+2014;Ate 4;Saúde humana e serviços sociais;26
+2014;Ate 4;Serviços domésticos;1
+2014;Ate 4;Transporte, armazenagem e correio;25
+2014;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2014;De 10 a 19;Administração pública, defesa e seguridade social;1
+2014;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2014;De 10 a 19;Alojamento e alimentação;8
+2014;De 10 a 19;Artes, cultura, esporte e recreação;6
+2014;De 10 a 19;Atividades administrativas e serviços complementares;21
+2014;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;7
+2014;De 10 a 19;Atividades imobiliárias;2
+2014;De 10 a 19;Atividades profissionais, científicas e técnicas;11
+2014;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";90
+2014;De 10 a 19;Construção;17
+2014;De 10 a 19;Educação;10
+2014;De 10 a 19;Indústrias de transformação;59
+2014;De 10 a 19;Indústrias extrativas;1
+2014;De 10 a 19;Informação e comunicação;13
+2014;De 10 a 19;Outras atividades de serviços;12
+2014;De 10 a 19;Saúde humana e serviços sociais;14
+2014;De 10 a 19;Transporte, armazenagem e correio;20
+2014;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2014;De 100 a 249;Administração pública, defesa e seguridade social;1
+2014;De 100 a 249;Alojamento e alimentação;2
+2014;De 100 a 249;Atividades administrativas e serviços complementares;9
+2014;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2014;De 100 a 249;Atividades imobiliárias;1
+2014;De 100 a 249;Atividades profissionais, científicas e técnicas;1
+2014;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";25
+2014;De 100 a 249;Construção;6
+2014;De 100 a 249;Educação;4
+2014;De 100 a 249;Indústrias de transformação;34
+2014;De 100 a 249;Informação e comunicação;5
+2014;De 100 a 249;Outras atividades de serviços;2
+2014;De 100 a 249;Saúde humana e serviços sociais;2
+2014;De 100 a 249;Transporte, armazenagem e correio;5
+2014;De 20 a 49;Administração pública, defesa e seguridade social;1
+2014;De 20 a 49;Alojamento e alimentação;6
+2014;De 20 a 49;Artes, cultura, esporte e recreação;3
+2014;De 20 a 49;Atividades administrativas e serviços complementares;16
+2014;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;6
+2014;De 20 a 49;Atividades imobiliárias;2
+2014;De 20 a 49;Atividades profissionais, científicas e técnicas;7
+2014;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";73
+2014;De 20 a 49;Construção;14
+2014;De 20 a 49;Educação;8
+2014;De 20 a 49;Indústrias de transformação;52
+2014;De 20 a 49;Informação e comunicação;9
+2014;De 20 a 49;Outras atividades de serviços;10
+2014;De 20 a 49;Saúde humana e serviços sociais;11
+2014;De 20 a 49;Transporte, armazenagem e correio;18
+2014;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2014;De 250 a 499;Administração pública, defesa e seguridade social;1
+2014;De 250 a 499;Atividades administrativas e serviços complementares;2
+2014;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;2
+2014;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2014;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";4
+2014;De 250 a 499;Construção;2
+2014;De 250 a 499;Educação;3
+2014;De 250 a 499;Indústrias de transformação;9
+2014;De 250 a 499;Indústrias extrativas;1
+2014;De 250 a 499;Informação e comunicação;2
+2014;De 250 a 499;Saúde humana e serviços sociais;2
+2014;De 250 a 499;Transporte, armazenagem e correio;2
+2014;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2014;De 5 a 9;Administração pública, defesa e seguridade social;1
+2014;De 5 a 9;Alojamento e alimentação;10
+2014;De 5 a 9;Artes, cultura, esporte e recreação;4
+2014;De 5 a 9;Atividades administrativas e serviços complementares;28
+2014;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;11
+2014;De 5 a 9;Atividades imobiliárias;4
+2014;De 5 a 9;Atividades profissionais, científicas e técnicas;16
+2014;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";109
+2014;De 5 a 9;Construção;20
+2014;De 5 a 9;Educação;9
+2014;De 5 a 9;Indústrias de transformação;76
+2014;De 5 a 9;Indústrias extrativas;1
+2014;De 5 a 9;Informação e comunicação;14
+2014;De 5 a 9;Outras atividades de serviços;16
+2014;De 5 a 9;Saúde humana e serviços sociais;15
+2014;De 5 a 9;Transporte, armazenagem e correio;22
+2014;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2014;De 50 a 99;Administração pública, defesa e seguridade social;1
+2014;De 50 a 99;Alojamento e alimentação;5
+2014;De 50 a 99;Atividades administrativas e serviços complementares;12
+2014;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;4
+2014;De 50 a 99;Atividades imobiliárias;1
+2014;De 50 a 99;Atividades profissionais, científicas e técnicas;4
+2014;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";37
+2014;De 50 a 99;Construção;7
+2014;De 50 a 99;Educação;5
+2014;De 50 a 99;Indústrias de transformação;35
+2014;De 50 a 99;Informação e comunicação;4
+2014;De 50 a 99;Outras atividades de serviços;3
+2014;De 50 a 99;Saúde humana e serviços sociais;6
+2014;De 50 a 99;Transporte, armazenagem e correio;9
+2014;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2014;De 500 a 999;Administração pública, defesa e seguridade social;1
+2014;De 500 a 999;Atividades administrativas e serviços complementares;3
+2014;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";6
+2014;De 500 a 999;Construção;1
+2014;De 500 a 999;Educação;2
+2014;De 500 a 999;Indústrias de transformação;3
+2014;De 500 a 999;Informação e comunicação;2
+2014;De 500 a 999;Transporte, armazenagem e correio;1
+2014;Zero;Administração pública, defesa e seguridade social;3
+2014;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;14
+2014;Zero;Alojamento e alimentação;10
+2014;Zero;Artes, cultura, esporte e recreação;20
+2014;Zero;Atividades administrativas e serviços complementares;43
+2014;Zero;Atividades financeiras, de seguros e serviços relacionados;32
+2014;Zero;Atividades imobiliárias;6
+2014;Zero;Atividades profissionais, científicas e técnicas;34
+2014;Zero;"Comércio; reparação de veículos automotores e motocicletas";187
+2014;Zero;Construção;37
+2014;Zero;Educação;20
+2014;Zero;Eletricidade e gás;2
+2014;Zero;Indústrias de transformação;154
+2014;Zero;Indústrias extrativas;3
+2014;Zero;Informação e comunicação;35
+2014;Zero;Organismos internacionais e outras instituições extraterritoriais;1
+2014;Zero;Outras atividades de serviços;26
+2014;Zero;Saúde humana e serviços sociais;28
+2014;Zero;Serviços domésticos;1
+2014;Zero;Transporte, armazenagem e correio;38
+2014;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;9
+2015;1000 ou mais;Administração pública, defesa e seguridade social;1
+2015;1000 ou mais;Atividades administrativas e serviços complementares;2
+2015;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2015;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";5
+2015;1000 ou mais;Informação e comunicação;2
+2015;1000 ou mais;Transporte, armazenagem e correio;2
+2015;Ate 4;Administração pública, defesa e seguridade social;1
+2015;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;3
+2015;Ate 4;Alojamento e alimentação;10
+2015;Ate 4;Artes, cultura, esporte e recreação;11
+2015;Ate 4;Atividades administrativas e serviços complementares;37
+2015;Ate 4;Atividades financeiras, de seguros e serviços relacionados;13
+2015;Ate 4;Atividades imobiliárias;5
+2015;Ate 4;Atividades profissionais, científicas e técnicas;24
+2015;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";151
+2015;Ate 4;Construção;31
+2015;Ate 4;Educação;17
+2015;Ate 4;Eletricidade e gás;1
+2015;Ate 4;Indústrias de transformação;99
+2015;Ate 4;Indústrias extrativas;1
+2015;Ate 4;Informação e comunicação;17
+2015;Ate 4;Outras atividades de serviços;23
+2015;Ate 4;Saúde humana e serviços sociais;28
+2015;Ate 4;Serviços domésticos;1
+2015;Ate 4;Transporte, armazenagem e correio;26
+2015;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2015;De 10 a 19;Administração pública, defesa e seguridade social;1
+2015;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2015;De 10 a 19;Alojamento e alimentação;8
+2015;De 10 a 19;Artes, cultura, esporte e recreação;4
+2015;De 10 a 19;Atividades administrativas e serviços complementares;21
+2015;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;7
+2015;De 10 a 19;Atividades imobiliárias;4
+2015;De 10 a 19;Atividades profissionais, científicas e técnicas;10
+2015;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";85
+2015;De 10 a 19;Construção;21
+2015;De 10 a 19;Educação;11
+2015;De 10 a 19;Indústrias de transformação;67
+2015;De 10 a 19;Informação e comunicação;13
+2015;De 10 a 19;Outras atividades de serviços;12
+2015;De 10 a 19;Saúde humana e serviços sociais;16
+2015;De 10 a 19;Transporte, armazenagem e correio;21
+2015;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2015;De 100 a 249;Administração pública, defesa e seguridade social;1
+2015;De 100 a 249;Alojamento e alimentação;2
+2015;De 100 a 249;Atividades administrativas e serviços complementares;13
+2015;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;3
+2015;De 100 a 249;Atividades imobiliárias;1
+2015;De 100 a 249;Atividades profissionais, científicas e técnicas;2
+2015;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";24
+2015;De 100 a 249;Construção;5
+2015;De 100 a 249;Educação;5
+2015;De 100 a 249;Indústrias de transformação;27
+2015;De 100 a 249;Informação e comunicação;5
+2015;De 100 a 249;Outras atividades de serviços;2
+2015;De 100 a 249;Saúde humana e serviços sociais;2
+2015;De 100 a 249;Transporte, armazenagem e correio;5
+2015;De 100 a 249;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2015;De 20 a 49;Administração pública, defesa e seguridade social;1
+2015;De 20 a 49;Alojamento e alimentação;5
+2015;De 20 a 49;Artes, cultura, esporte e recreação;3
+2015;De 20 a 49;Atividades administrativas e serviços complementares;21
+2015;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;7
+2015;De 20 a 49;Atividades imobiliárias;1
+2015;De 20 a 49;Atividades profissionais, científicas e técnicas;7
+2015;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";77
+2015;De 20 a 49;Construção;17
+2015;De 20 a 49;Educação;8
+2015;De 20 a 49;Indústrias de transformação;57
+2015;De 20 a 49;Informação e comunicação;8
+2015;De 20 a 49;Outras atividades de serviços;8
+2015;De 20 a 49;Saúde humana e serviços sociais;11
+2015;De 20 a 49;Transporte, armazenagem e correio;16
+2015;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2015;De 250 a 499;Administração pública, defesa e seguridade social;2
+2015;De 250 a 499;Atividades administrativas e serviços complementares;1
+2015;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2015;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2015;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";4
+2015;De 250 a 499;Construção;3
+2015;De 250 a 499;Educação;2
+2015;De 250 a 499;Indústrias de transformação;8
+2015;De 250 a 499;Indústrias extrativas;1
+2015;De 250 a 499;Informação e comunicação;2
+2015;De 250 a 499;Saúde humana e serviços sociais;1
+2015;De 250 a 499;Transporte, armazenagem e correio;2
+2015;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2015;De 5 a 9;Administração pública, defesa e seguridade social;1
+2015;De 5 a 9;Alojamento e alimentação;9
+2015;De 5 a 9;Artes, cultura, esporte e recreação;4
+2015;De 5 a 9;Atividades administrativas e serviços complementares;25
+2015;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;9
+2015;De 5 a 9;Atividades imobiliárias;4
+2015;De 5 a 9;Atividades profissionais, científicas e técnicas;16
+2015;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";115
+2015;De 5 a 9;Construção;21
+2015;De 5 a 9;Educação;9
+2015;De 5 a 9;Indústrias de transformação;66
+2015;De 5 a 9;Informação e comunicação;15
+2015;De 5 a 9;Outras atividades de serviços;14
+2015;De 5 a 9;Saúde humana e serviços sociais;19
+2015;De 5 a 9;Transporte, armazenagem e correio;21
+2015;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2015;De 50 a 99;Administração pública, defesa e seguridade social;1
+2015;De 50 a 99;Alojamento e alimentação;4
+2015;De 50 a 99;Artes, cultura, esporte e recreação;1
+2015;De 50 a 99;Atividades administrativas e serviços complementares;11
+2015;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;2
+2015;De 50 a 99;Atividades imobiliárias;1
+2015;De 50 a 99;Atividades profissionais, científicas e técnicas;5
+2015;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";31
+2015;De 50 a 99;Construção;8
+2015;De 50 a 99;Educação;5
+2015;De 50 a 99;Indústrias de transformação;38
+2015;De 50 a 99;Informação e comunicação;5
+2015;De 50 a 99;Outras atividades de serviços;6
+2015;De 50 a 99;Saúde humana e serviços sociais;6
+2015;De 50 a 99;Transporte, armazenagem e correio;11
+2015;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2015;De 500 a 999;Atividades administrativas e serviços complementares;2
+2015;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2015;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";5
+2015;De 500 a 999;Construção;1
+2015;De 500 a 999;Educação;1
+2015;De 500 a 999;Indústrias de transformação;3
+2015;De 500 a 999;Informação e comunicação;3
+2015;De 500 a 999;Saúde humana e serviços sociais;1
+2015;De 500 a 999;Transporte, armazenagem e correio;1
+2015;Zero;Administração pública, defesa e seguridade social;4
+2015;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;14
+2015;Zero;Alojamento e alimentação;10
+2015;Zero;Artes, cultura, esporte e recreação;21
+2015;Zero;Atividades administrativas e serviços complementares;42
+2015;Zero;Atividades financeiras, de seguros e serviços relacionados;38
+2015;Zero;Atividades imobiliárias;6
+2015;Zero;Atividades profissionais, científicas e técnicas;35
+2015;Zero;"Comércio; reparação de veículos automotores e motocicletas";185
+2015;Zero;Construção;38
+2015;Zero;Educação;19
+2015;Zero;Eletricidade e gás;2
+2015;Zero;Indústrias de transformação;152
+2015;Zero;Indústrias extrativas;4
+2015;Zero;Informação e comunicação;37
+2015;Zero;Organismos internacionais e outras instituições extraterritoriais;1
+2015;Zero;Outras atividades de serviços;25
+2015;Zero;Saúde humana e serviços sociais;33
+2015;Zero;Transporte, armazenagem e correio;35
+2015;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;9
+2016;1000 ou mais;Administração pública, defesa e seguridade social;1
+2016;1000 ou mais;Atividades administrativas e serviços complementares;2
+2016;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2016;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";4
+2016;1000 ou mais;Construção;1
+2016;1000 ou mais;Informação e comunicação;2
+2016;1000 ou mais;Transporte, armazenagem e correio;2
+2016;Ate 4;Administração pública, defesa e seguridade social;1
+2016;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;2
+2016;Ate 4;Alojamento e alimentação;9
+2016;Ate 4;Artes, cultura, esporte e recreação;11
+2016;Ate 4;Atividades administrativas e serviços complementares;35
+2016;Ate 4;Atividades financeiras, de seguros e serviços relacionados;12
+2016;Ate 4;Atividades imobiliárias;5
+2016;Ate 4;Atividades profissionais, científicas e técnicas;27
+2016;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";141
+2016;Ate 4;Construção;29
+2016;Ate 4;Educação;15
+2016;Ate 4;Eletricidade e gás;1
+2016;Ate 4;Indústrias de transformação;92
+2016;Ate 4;Indústrias extrativas;2
+2016;Ate 4;Informação e comunicação;18
+2016;Ate 4;Outras atividades de serviços;21
+2016;Ate 4;Saúde humana e serviços sociais;27
+2016;Ate 4;Serviços domésticos;1
+2016;Ate 4;Transporte, armazenagem e correio;27
+2016;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2016;De 10 a 19;Administração pública, defesa e seguridade social;1
+2016;De 10 a 19;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2016;De 10 a 19;Alojamento e alimentação;8
+2016;De 10 a 19;Artes, cultura, esporte e recreação;4
+2016;De 10 a 19;Atividades administrativas e serviços complementares;18
+2016;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;7
+2016;De 10 a 19;Atividades imobiliárias;2
+2016;De 10 a 19;Atividades profissionais, científicas e técnicas;9
+2016;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";84
+2016;De 10 a 19;Construção;19
+2016;De 10 a 19;Educação;10
+2016;De 10 a 19;Indústrias de transformação;66
+2016;De 10 a 19;Informação e comunicação;14
+2016;De 10 a 19;Outras atividades de serviços;12
+2016;De 10 a 19;Saúde humana e serviços sociais;14
+2016;De 10 a 19;Transporte, armazenagem e correio;16
+2016;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2016;De 100 a 249;Administração pública, defesa e seguridade social;1
+2016;De 100 a 249;Alojamento e alimentação;1
+2016;De 100 a 249;Atividades administrativas e serviços complementares;10
+2016;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;3
+2016;De 100 a 249;Atividades imobiliárias;1
+2016;De 100 a 249;Atividades profissionais, científicas e técnicas;1
+2016;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";19
+2016;De 100 a 249;Construção;7
+2016;De 100 a 249;Educação;4
+2016;De 100 a 249;Indústrias de transformação;26
+2016;De 100 a 249;Informação e comunicação;5
+2016;De 100 a 249;Outras atividades de serviços;3
+2016;De 100 a 249;Saúde humana e serviços sociais;1
+2016;De 100 a 249;Transporte, armazenagem e correio;4
+2016;De 20 a 49;Alojamento e alimentação;6
+2016;De 20 a 49;Artes, cultura, esporte e recreação;3
+2016;De 20 a 49;Atividades administrativas e serviços complementares;14
+2016;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;7
+2016;De 20 a 49;Atividades imobiliárias;1
+2016;De 20 a 49;Atividades profissionais, científicas e técnicas;7
+2016;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";79
+2016;De 20 a 49;Construção;17
+2016;De 20 a 49;Educação;9
+2016;De 20 a 49;Indústrias de transformação;47
+2016;De 20 a 49;Informação e comunicação;9
+2016;De 20 a 49;Outras atividades de serviços;7
+2016;De 20 a 49;Saúde humana e serviços sociais;11
+2016;De 20 a 49;Transporte, armazenagem e correio;16
+2016;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2016;De 250 a 499;Administração pública, defesa e seguridade social;2
+2016;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2016;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2016;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";5
+2016;De 250 a 499;Construção;2
+2016;De 250 a 499;Educação;1
+2016;De 250 a 499;Indústrias de transformação;7
+2016;De 250 a 499;Informação e comunicação;1
+2016;De 250 a 499;Outras atividades de serviços;1
+2016;De 250 a 499;Saúde humana e serviços sociais;1
+2016;De 250 a 499;Transporte, armazenagem e correio;2
+2016;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2016;De 5 a 9;Administração pública, defesa e seguridade social;1
+2016;De 5 a 9;Alojamento e alimentação;9
+2016;De 5 a 9;Artes, cultura, esporte e recreação;5
+2016;De 5 a 9;Atividades administrativas e serviços complementares;28
+2016;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;8
+2016;De 5 a 9;Atividades imobiliárias;4
+2016;De 5 a 9;Atividades profissionais, científicas e técnicas;14
+2016;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";116
+2016;De 5 a 9;Construção;22
+2016;De 5 a 9;Educação;13
+2016;De 5 a 9;Indústrias de transformação;75
+2016;De 5 a 9;Informação e comunicação;11
+2016;De 5 a 9;Outras atividades de serviços;14
+2016;De 5 a 9;Saúde humana e serviços sociais;20
+2016;De 5 a 9;Transporte, armazenagem e correio;20
+2016;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2016;De 50 a 99;Administração pública, defesa e seguridade social;1
+2016;De 50 a 99;Alojamento e alimentação;4
+2016;De 50 a 99;Artes, cultura, esporte e recreação;2
+2016;De 50 a 99;Atividades administrativas e serviços complementares;13
+2016;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;1
+2016;De 50 a 99;Atividades imobiliárias;1
+2016;De 50 a 99;Atividades profissionais, científicas e técnicas;4
+2016;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";34
+2016;De 50 a 99;Construção;5
+2016;De 50 a 99;Educação;4
+2016;De 50 a 99;Indústrias de transformação;32
+2016;De 50 a 99;Informação e comunicação;5
+2016;De 50 a 99;Outras atividades de serviços;5
+2016;De 50 a 99;Saúde humana e serviços sociais;7
+2016;De 50 a 99;Transporte, armazenagem e correio;11
+2016;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2016;De 500 a 999;Atividades administrativas e serviços complementares;2
+2016;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2016;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";6
+2016;De 500 a 999;Educação;2
+2016;De 500 a 999;Indústrias de transformação;2
+2016;De 500 a 999;Informação e comunicação;2
+2016;De 500 a 999;Saúde humana e serviços sociais;1
+2016;De 500 a 999;Transporte, armazenagem e correio;1
+2016;Zero;Administração pública, defesa e seguridade social;3
+2016;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;10
+2016;Zero;Alojamento e alimentação;11
+2016;Zero;Artes, cultura, esporte e recreação;18
+2016;Zero;Atividades administrativas e serviços complementares;43
+2016;Zero;Atividades financeiras, de seguros e serviços relacionados;34
+2016;Zero;Atividades imobiliárias;6
+2016;Zero;Atividades profissionais, científicas e técnicas;37
+2016;Zero;"Comércio; reparação de veículos automotores e motocicletas";178
+2016;Zero;Construção;37
+2016;Zero;Educação;20
+2016;Zero;Indústrias de transformação;148
+2016;Zero;Indústrias extrativas;2
+2016;Zero;Informação e comunicação;38
+2016;Zero;Outras atividades de serviços;27
+2016;Zero;Saúde humana e serviços sociais;33
+2016;Zero;Serviços domésticos;1
+2016;Zero;Transporte, armazenagem e correio;39
+2016;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;7
+2017;1000 ou mais;Administração pública, defesa e seguridade social;1
+2017;1000 ou mais;Atividades administrativas e serviços complementares;2
+2017;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2017;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2017;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";4
+2017;1000 ou mais;Informação e comunicação;2
+2017;1000 ou mais;Transporte, armazenagem e correio;2
+2017;Ate 4;Administração pública, defesa e seguridade social;1
+2017;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;3
+2017;Ate 4;Alojamento e alimentação;10
+2017;Ate 4;Artes, cultura, esporte e recreação;12
+2017;Ate 4;Atividades administrativas e serviços complementares;35
+2017;Ate 4;Atividades financeiras, de seguros e serviços relacionados;13
+2017;Ate 4;Atividades imobiliárias;5
+2017;Ate 4;Atividades profissionais, científicas e técnicas;23
+2017;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";142
+2017;Ate 4;Construção;30
+2017;Ate 4;Educação;17
+2017;Ate 4;Indústrias de transformação;97
+2017;Ate 4;Indústrias extrativas;1
+2017;Ate 4;Informação e comunicação;16
+2017;Ate 4;Outras atividades de serviços;23
+2017;Ate 4;Saúde humana e serviços sociais;27
+2017;Ate 4;Serviços domésticos;1
+2017;Ate 4;Transporte, armazenagem e correio;27
+2017;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2017;De 10 a 19;Alojamento e alimentação;8
+2017;De 10 a 19;Artes, cultura, esporte e recreação;4
+2017;De 10 a 19;Atividades administrativas e serviços complementares;19
+2017;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;4
+2017;De 10 a 19;Atividades imobiliárias;2
+2017;De 10 a 19;Atividades profissionais, científicas e técnicas;9
+2017;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";86
+2017;De 10 a 19;Construção;16
+2017;De 10 a 19;Educação;11
+2017;De 10 a 19;Indústrias de transformação;57
+2017;De 10 a 19;Informação e comunicação;13
+2017;De 10 a 19;Outras atividades de serviços;12
+2017;De 10 a 19;Saúde humana e serviços sociais;13
+2017;De 10 a 19;Transporte, armazenagem e correio;14
+2017;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2017;De 100 a 249;Administração pública, defesa e seguridade social;2
+2017;De 100 a 249;Alojamento e alimentação;1
+2017;De 100 a 249;Atividades administrativas e serviços complementares;11
+2017;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;4
+2017;De 100 a 249;Atividades imobiliárias;1
+2017;De 100 a 249;Atividades profissionais, científicas e técnicas;4
+2017;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";15
+2017;De 100 a 249;Construção;7
+2017;De 100 a 249;Educação;3
+2017;De 100 a 249;Indústrias de transformação;18
+2017;De 100 a 249;Informação e comunicação;4
+2017;De 100 a 249;Outras atividades de serviços;2
+2017;De 100 a 249;Saúde humana e serviços sociais;2
+2017;De 100 a 249;Transporte, armazenagem e correio;5
+2017;De 20 a 49;Alojamento e alimentação;6
+2017;De 20 a 49;Artes, cultura, esporte e recreação;3
+2017;De 20 a 49;Atividades administrativas e serviços complementares;20
+2017;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;7
+2017;De 20 a 49;Atividades profissionais, científicas e técnicas;7
+2017;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";81
+2017;De 20 a 49;Construção;18
+2017;De 20 a 49;Educação;9
+2017;De 20 a 49;Indústrias de transformação;47
+2017;De 20 a 49;Informação e comunicação;9
+2017;De 20 a 49;Outras atividades de serviços;6
+2017;De 20 a 49;Saúde humana e serviços sociais;12
+2017;De 20 a 49;Transporte, armazenagem e correio;15
+2017;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2017;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";8
+2017;De 250 a 499;Construção;1
+2017;De 250 a 499;Educação;1
+2017;De 250 a 499;Indústrias de transformação;6
+2017;De 250 a 499;Informação e comunicação;2
+2017;De 250 a 499;Outras atividades de serviços;1
+2017;De 250 a 499;Saúde humana e serviços sociais;1
+2017;De 250 a 499;Transporte, armazenagem e correio;3
+2017;De 250 a 499;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2017;De 5 a 9;Administração pública, defesa e seguridade social;1
+2017;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2017;De 5 a 9;Alojamento e alimentação;9
+2017;De 5 a 9;Artes, cultura, esporte e recreação;5
+2017;De 5 a 9;Atividades administrativas e serviços complementares;25
+2017;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;9
+2017;De 5 a 9;Atividades imobiliárias;4
+2017;De 5 a 9;Atividades profissionais, científicas e técnicas;15
+2017;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";113
+2017;De 5 a 9;Construção;18
+2017;De 5 a 9;Educação;14
+2017;De 5 a 9;Indústrias de transformação;69
+2017;De 5 a 9;Informação e comunicação;12
+2017;De 5 a 9;Outras atividades de serviços;13
+2017;De 5 a 9;Saúde humana e serviços sociais;19
+2017;De 5 a 9;Transporte, armazenagem e correio;18
+2017;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2017;De 50 a 99;Administração pública, defesa e seguridade social;1
+2017;De 50 a 99;Alojamento e alimentação;5
+2017;De 50 a 99;Artes, cultura, esporte e recreação;2
+2017;De 50 a 99;Atividades administrativas e serviços complementares;12
+2017;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;1
+2017;De 50 a 99;Atividades imobiliárias;1
+2017;De 50 a 99;Atividades profissionais, científicas e técnicas;6
+2017;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";30
+2017;De 50 a 99;Construção;5
+2017;De 50 a 99;Educação;4
+2017;De 50 a 99;Indústrias de transformação;38
+2017;De 50 a 99;Informação e comunicação;6
+2017;De 50 a 99;Outras atividades de serviços;6
+2017;De 50 a 99;Saúde humana e serviços sociais;7
+2017;De 50 a 99;Transporte, armazenagem e correio;10
+2017;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2017;De 500 a 999;Atividades administrativas e serviços complementares;2
+2017;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2017;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";5
+2017;De 500 a 999;Educação;1
+2017;De 500 a 999;Indústrias de transformação;2
+2017;De 500 a 999;Informação e comunicação;2
+2017;De 500 a 999;Saúde humana e serviços sociais;2
+2017;De 500 a 999;Transporte, armazenagem e correio;1
+2017;Zero;Administração pública, defesa e seguridade social;3
+2017;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;10
+2017;Zero;Alojamento e alimentação;11
+2017;Zero;Artes, cultura, esporte e recreação;17
+2017;Zero;Atividades administrativas e serviços complementares;44
+2017;Zero;Atividades financeiras, de seguros e serviços relacionados;35
+2017;Zero;Atividades imobiliárias;6
+2017;Zero;Atividades profissionais, científicas e técnicas;35
+2017;Zero;"Comércio; reparação de veículos automotores e motocicletas";183
+2017;Zero;Construção;37
+2017;Zero;Educação;20
+2017;Zero;Eletricidade e gás;2
+2017;Zero;Indústrias de transformação;141
+2017;Zero;Indústrias extrativas;3
+2017;Zero;Informação e comunicação;38
+2017;Zero;Outras atividades de serviços;30
+2017;Zero;Saúde humana e serviços sociais;34
+2017;Zero;Serviços domésticos;1
+2017;Zero;Transporte, armazenagem e correio;37
+2017;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;10
+2018;1000 ou mais;Administração pública, defesa e seguridade social;1
+2018;1000 ou mais;Atividades administrativas e serviços complementares;2
+2018;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2018;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2018;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";5
+2018;1000 ou mais;Informação e comunicação;2
+2018;1000 ou mais;Transporte, armazenagem e correio;2
+2018;Ate 4;Administração pública, defesa e seguridade social;1
+2018;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;2
+2018;Ate 4;Alojamento e alimentação;10
+2018;Ate 4;Artes, cultura, esporte e recreação;10
+2018;Ate 4;Atividades administrativas e serviços complementares;31
+2018;Ate 4;Atividades financeiras, de seguros e serviços relacionados;14
+2018;Ate 4;Atividades imobiliárias;5
+2018;Ate 4;Atividades profissionais, científicas e técnicas;25
+2018;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";140
+2018;Ate 4;Construção;30
+2018;Ate 4;Educação;15
+2018;Ate 4;Eletricidade e gás;1
+2018;Ate 4;Indústrias de transformação;96
+2018;Ate 4;Indústrias extrativas;1
+2018;Ate 4;Informação e comunicação;18
+2018;Ate 4;Outras atividades de serviços;21
+2018;Ate 4;Saúde humana e serviços sociais;28
+2018;Ate 4;Serviços domésticos;1
+2018;Ate 4;Transporte, armazenagem e correio;25
+2018;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2018;De 10 a 19;Alojamento e alimentação;9
+2018;De 10 a 19;Artes, cultura, esporte e recreação;5
+2018;De 10 a 19;Atividades administrativas e serviços complementares;22
+2018;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;8
+2018;De 10 a 19;Atividades imobiliárias;3
+2018;De 10 a 19;Atividades profissionais, científicas e técnicas;11
+2018;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";88
+2018;De 10 a 19;Construção;20
+2018;De 10 a 19;Educação;10
+2018;De 10 a 19;Indústrias de transformação;55
+2018;De 10 a 19;Informação e comunicação;11
+2018;De 10 a 19;Outras atividades de serviços;14
+2018;De 10 a 19;Saúde humana e serviços sociais;15
+2018;De 10 a 19;Transporte, armazenagem e correio;13
+2018;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2018;De 100 a 249;Administração pública, defesa e seguridade social;2
+2018;De 100 a 249;Alojamento e alimentação;3
+2018;De 100 a 249;Atividades administrativas e serviços complementares;8
+2018;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;3
+2018;De 100 a 249;Atividades imobiliárias;1
+2018;De 100 a 249;Atividades profissionais, científicas e técnicas;4
+2018;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";15
+2018;De 100 a 249;Construção;6
+2018;De 100 a 249;Educação;3
+2018;De 100 a 249;Indústrias de transformação;16
+2018;De 100 a 249;Informação e comunicação;6
+2018;De 100 a 249;Outras atividades de serviços;3
+2018;De 100 a 249;Saúde humana e serviços sociais;4
+2018;De 100 a 249;Transporte, armazenagem e correio;5
+2018;De 20 a 49;Alojamento e alimentação;6
+2018;De 20 a 49;Artes, cultura, esporte e recreação;4
+2018;De 20 a 49;Atividades administrativas e serviços complementares;20
+2018;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;5
+2018;De 20 a 49;Atividades imobiliárias;1
+2018;De 20 a 49;Atividades profissionais, científicas e técnicas;9
+2018;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";75
+2018;De 20 a 49;Construção;16
+2018;De 20 a 49;Educação;8
+2018;De 20 a 49;Indústrias de transformação;50
+2018;De 20 a 49;Informação e comunicação;7
+2018;De 20 a 49;Outras atividades de serviços;6
+2018;De 20 a 49;Saúde humana e serviços sociais;10
+2018;De 20 a 49;Transporte, armazenagem e correio;12
+2018;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2018;De 250 a 499;Atividades administrativas e serviços complementares;1
+2018;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";10
+2018;De 250 a 499;Construção;2
+2018;De 250 a 499;Educação;1
+2018;De 250 a 499;Indústrias de transformação;7
+2018;De 250 a 499;Informação e comunicação;2
+2018;De 250 a 499;Outras atividades de serviços;2
+2018;De 250 a 499;Transporte, armazenagem e correio;2
+2018;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2018;De 5 a 9;Alojamento e alimentação;9
+2018;De 5 a 9;Artes, cultura, esporte e recreação;5
+2018;De 5 a 9;Atividades administrativas e serviços complementares;26
+2018;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;10
+2018;De 5 a 9;Atividades imobiliárias;4
+2018;De 5 a 9;Atividades profissionais, científicas e técnicas;12
+2018;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";111
+2018;De 5 a 9;Construção;21
+2018;De 5 a 9;Educação;13
+2018;De 5 a 9;Indústrias de transformação;72
+2018;De 5 a 9;Informação e comunicação;14
+2018;De 5 a 9;Outras atividades de serviços;14
+2018;De 5 a 9;Saúde humana e serviços sociais;19
+2018;De 5 a 9;Transporte, armazenagem e correio;15
+2018;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2018;De 50 a 99;Administração pública, defesa e seguridade social;1
+2018;De 50 a 99;Alojamento e alimentação;4
+2018;De 50 a 99;Artes, cultura, esporte e recreação;1
+2018;De 50 a 99;Atividades administrativas e serviços complementares;11
+2018;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;3
+2018;De 50 a 99;Atividades imobiliárias;1
+2018;De 50 a 99;Atividades profissionais, científicas e técnicas;7
+2018;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";34
+2018;De 50 a 99;Construção;6
+2018;De 50 a 99;Educação;4
+2018;De 50 a 99;Indústrias de transformação;38
+2018;De 50 a 99;Informação e comunicação;6
+2018;De 50 a 99;Outras atividades de serviços;6
+2018;De 50 a 99;Saúde humana e serviços sociais;9
+2018;De 50 a 99;Transporte, armazenagem e correio;9
+2018;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2018;De 500 a 999;Atividades administrativas e serviços complementares;2
+2018;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;2
+2018;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";2
+2018;De 500 a 999;Educação;1
+2018;De 500 a 999;Indústrias de transformação;3
+2018;De 500 a 999;Informação e comunicação;2
+2018;De 500 a 999;Saúde humana e serviços sociais;2
+2018;De 500 a 999;Transporte, armazenagem e correio;1
+2018;De 500 a 999;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2018;Zero;Administração pública, defesa e seguridade social;3
+2018;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;9
+2018;Zero;Alojamento e alimentação;12
+2018;Zero;Artes, cultura, esporte e recreação;17
+2018;Zero;Atividades administrativas e serviços complementares;42
+2018;Zero;Atividades financeiras, de seguros e serviços relacionados;34
+2018;Zero;Atividades imobiliárias;6
+2018;Zero;Atividades profissionais, científicas e técnicas;36
+2018;Zero;"Comércio; reparação de veículos automotores e motocicletas";183
+2018;Zero;Construção;38
+2018;Zero;Educação;20
+2018;Zero;Eletricidade e gás;3
+2018;Zero;Indústrias de transformação;139
+2018;Zero;Indústrias extrativas;1
+2018;Zero;Informação e comunicação;36
+2018;Zero;Outras atividades de serviços;27
+2018;Zero;Saúde humana e serviços sociais;36
+2018;Zero;Serviços domésticos;1
+2018;Zero;Transporte, armazenagem e correio;37
+2018;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;7
+2019;1000 ou mais;Administração pública, defesa e seguridade social;1
+2019;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2019;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2019;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";4
+2019;1000 ou mais;Informação e comunicação;2
+2019;1000 ou mais;Transporte, armazenagem e correio;1
+2019;Ate 4;Administração pública, defesa e seguridade social;1
+2019;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;3
+2019;Ate 4;Alojamento e alimentação;9
+2019;Ate 4;Artes, cultura, esporte e recreação;11
+2019;Ate 4;Atividades administrativas e serviços complementares;33
+2019;Ate 4;Atividades financeiras, de seguros e serviços relacionados;14
+2019;Ate 4;Atividades imobiliárias;5
+2019;Ate 4;Atividades profissionais, científicas e técnicas;25
+2019;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";144
+2019;Ate 4;Construção;30
+2019;Ate 4;Educação;16
+2019;Ate 4;Eletricidade e gás;1
+2019;Ate 4;Indústrias de transformação;96
+2019;Ate 4;Informação e comunicação;19
+2019;Ate 4;Outras atividades de serviços;22
+2019;Ate 4;Saúde humana e serviços sociais;25
+2019;Ate 4;Transporte, armazenagem e correio;23
+2019;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2019;De 10 a 19;Alojamento e alimentação;7
+2019;De 10 a 19;Artes, cultura, esporte e recreação;5
+2019;De 10 a 19;Atividades administrativas e serviços complementares;19
+2019;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;9
+2019;De 10 a 19;Atividades imobiliárias;3
+2019;De 10 a 19;Atividades profissionais, científicas e técnicas;11
+2019;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";92
+2019;De 10 a 19;Construção;19
+2019;De 10 a 19;Educação;9
+2019;De 10 a 19;Indústrias de transformação;57
+2019;De 10 a 19;Informação e comunicação;12
+2019;De 10 a 19;Outras atividades de serviços;13
+2019;De 10 a 19;Saúde humana e serviços sociais;13
+2019;De 10 a 19;Transporte, armazenagem e correio;15
+2019;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2019;De 100 a 249;Administração pública, defesa e seguridade social;2
+2019;De 100 a 249;Alojamento e alimentação;3
+2019;De 100 a 249;Artes, cultura, esporte e recreação;1
+2019;De 100 a 249;Atividades administrativas e serviços complementares;9
+2019;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2019;De 100 a 249;Atividades imobiliárias;1
+2019;De 100 a 249;Atividades profissionais, científicas e técnicas;7
+2019;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";12
+2019;De 100 a 249;Construção;5
+2019;De 100 a 249;Educação;4
+2019;De 100 a 249;Indústrias de transformação;14
+2019;De 100 a 249;Indústrias extrativas;1
+2019;De 100 a 249;Informação e comunicação;5
+2019;De 100 a 249;Outras atividades de serviços;3
+2019;De 100 a 249;Saúde humana e serviços sociais;2
+2019;De 100 a 249;Transporte, armazenagem e correio;3
+2019;De 20 a 49;Alojamento e alimentação;6
+2019;De 20 a 49;Artes, cultura, esporte e recreação;5
+2019;De 20 a 49;Atividades administrativas e serviços complementares;21
+2019;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;6
+2019;De 20 a 49;Atividades profissionais, científicas e técnicas;8
+2019;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";84
+2019;De 20 a 49;Construção;20
+2019;De 20 a 49;Educação;8
+2019;De 20 a 49;Indústrias de transformação;46
+2019;De 20 a 49;Informação e comunicação;6
+2019;De 20 a 49;Outras atividades de serviços;7
+2019;De 20 a 49;Saúde humana e serviços sociais;12
+2019;De 20 a 49;Transporte, armazenagem e correio;12
+2019;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2019;De 250 a 499;Administração pública, defesa e seguridade social;1
+2019;De 250 a 499;Atividades administrativas e serviços complementares;4
+2019;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2019;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";6
+2019;De 250 a 499;Construção;2
+2019;De 250 a 499;Educação;1
+2019;De 250 a 499;Indústrias de transformação;7
+2019;De 250 a 499;Informação e comunicação;1
+2019;De 250 a 499;Outras atividades de serviços;1
+2019;De 250 a 499;Saúde humana e serviços sociais;1
+2019;De 250 a 499;Transporte, armazenagem e correio;3
+2019;De 5 a 9;Administração pública, defesa e seguridade social;1
+2019;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2019;De 5 a 9;Alojamento e alimentação;10
+2019;De 5 a 9;Artes, cultura, esporte e recreação;4
+2019;De 5 a 9;Atividades administrativas e serviços complementares;24
+2019;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;10
+2019;De 5 a 9;Atividades imobiliárias;4
+2019;De 5 a 9;Atividades profissionais, científicas e técnicas;13
+2019;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";106
+2019;De 5 a 9;Construção;22
+2019;De 5 a 9;Educação;12
+2019;De 5 a 9;Indústrias de transformação;66
+2019;De 5 a 9;Informação e comunicação;12
+2019;De 5 a 9;Outras atividades de serviços;13
+2019;De 5 a 9;Saúde humana e serviços sociais;22
+2019;De 5 a 9;Transporte, armazenagem e correio;15
+2019;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2019;De 50 a 99;Administração pública, defesa e seguridade social;1
+2019;De 50 a 99;Alojamento e alimentação;6
+2019;De 50 a 99;Atividades administrativas e serviços complementares;11
+2019;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;4
+2019;De 50 a 99;Atividades imobiliárias;1
+2019;De 50 a 99;Atividades profissionais, científicas e técnicas;6
+2019;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";36
+2019;De 50 a 99;Construção;5
+2019;De 50 a 99;Educação;4
+2019;De 50 a 99;Indústrias de transformação;40
+2019;De 50 a 99;Informação e comunicação;4
+2019;De 50 a 99;Outras atividades de serviços;5
+2019;De 50 a 99;Saúde humana e serviços sociais;9
+2019;De 50 a 99;Transporte, armazenagem e correio;11
+2019;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2019;De 500 a 999;Atividades administrativas e serviços complementares;2
+2019;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;2
+2019;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";2
+2019;De 500 a 999;Educação;1
+2019;De 500 a 999;Indústrias de transformação;3
+2019;De 500 a 999;Informação e comunicação;2
+2019;De 500 a 999;Saúde humana e serviços sociais;1
+2019;De 500 a 999;Transporte, armazenagem e correio;1
+2019;De 500 a 999;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2019;Zero;Administração pública, defesa e seguridade social;4
+2019;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;8
+2019;Zero;Alojamento e alimentação;12
+2019;Zero;Artes, cultura, esporte e recreação;17
+2019;Zero;Atividades administrativas e serviços complementares;41
+2019;Zero;Atividades financeiras, de seguros e serviços relacionados;28
+2019;Zero;Atividades imobiliárias;6
+2019;Zero;Atividades profissionais, científicas e técnicas;35
+2019;Zero;"Comércio; reparação de veículos automotores e motocicletas";185
+2019;Zero;Construção;38
+2019;Zero;Educação;20
+2019;Zero;Eletricidade e gás;2
+2019;Zero;Indústrias de transformação;144
+2019;Zero;Indústrias extrativas;1
+2019;Zero;Informação e comunicação;38
+2019;Zero;Organismos internacionais e outras instituições extraterritoriais;1
+2019;Zero;Outras atividades de serviços;28
+2019;Zero;Saúde humana e serviços sociais;33
+2019;Zero;Serviços domésticos;1
+2019;Zero;Transporte, armazenagem e correio;33
+2019;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;9
+2020;1000 ou mais;Administração pública, defesa e seguridade social;1
+2020;1000 ou mais;Atividades administrativas e serviços complementares;3
+2020;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2020;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2020;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";4
+2020;1000 ou mais;Informação e comunicação;2
+2020;1000 ou mais;Transporte, armazenagem e correio;2
+2020;Ate 4;Administração pública, defesa e seguridade social;1
+2020;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;3
+2020;Ate 4;Alojamento e alimentação;10
+2020;Ate 4;Artes, cultura, esporte e recreação;6
+2020;Ate 4;Atividades administrativas e serviços complementares;32
+2020;Ate 4;Atividades financeiras, de seguros e serviços relacionados;16
+2020;Ate 4;Atividades imobiliárias;5
+2020;Ate 4;Atividades profissionais, científicas e técnicas;26
+2020;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";148
+2020;Ate 4;Construção;29
+2020;Ate 4;Educação;16
+2020;Ate 4;Indústrias de transformação;87
+2020;Ate 4;Indústrias extrativas;1
+2020;Ate 4;Informação e comunicação;22
+2020;Ate 4;Outras atividades de serviços;22
+2020;Ate 4;Saúde humana e serviços sociais;29
+2020;Ate 4;Transporte, armazenagem e correio;25
+2020;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;6
+2020;De 10 a 19;Alojamento e alimentação;8
+2020;De 10 a 19;Artes, cultura, esporte e recreação;3
+2020;De 10 a 19;Atividades administrativas e serviços complementares;21
+2020;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;9
+2020;De 10 a 19;Atividades imobiliárias;3
+2020;De 10 a 19;Atividades profissionais, científicas e técnicas;10
+2020;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";85
+2020;De 10 a 19;Construção;16
+2020;De 10 a 19;Educação;8
+2020;De 10 a 19;Indústrias de transformação;59
+2020;De 10 a 19;Informação e comunicação;10
+2020;De 10 a 19;Outras atividades de serviços;11
+2020;De 10 a 19;Saúde humana e serviços sociais;14
+2020;De 10 a 19;Transporte, armazenagem e correio;13
+2020;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2020;De 100 a 249;Administração pública, defesa e seguridade social;2
+2020;De 100 a 249;Alojamento e alimentação;3
+2020;De 100 a 249;Atividades administrativas e serviços complementares;9
+2020;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;2
+2020;De 100 a 249;Atividades profissionais, científicas e técnicas;6
+2020;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";14
+2020;De 100 a 249;Construção;4
+2020;De 100 a 249;Educação;3
+2020;De 100 a 249;Indústrias de transformação;16
+2020;De 100 a 249;Informação e comunicação;3
+2020;De 100 a 249;Outras atividades de serviços;3
+2020;De 100 a 249;Saúde humana e serviços sociais;1
+2020;De 100 a 249;Transporte, armazenagem e correio;4
+2020;De 20 a 49;Alojamento e alimentação;6
+2020;De 20 a 49;Artes, cultura, esporte e recreação;3
+2020;De 20 a 49;Atividades administrativas e serviços complementares;22
+2020;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;4
+2020;De 20 a 49;Atividades imobiliárias;1
+2020;De 20 a 49;Atividades profissionais, científicas e técnicas;10
+2020;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";78
+2020;De 20 a 49;Construção;15
+2020;De 20 a 49;Educação;6
+2020;De 20 a 49;Indústrias de transformação;48
+2020;De 20 a 49;Informação e comunicação;7
+2020;De 20 a 49;Outras atividades de serviços;6
+2020;De 20 a 49;Saúde humana e serviços sociais;12
+2020;De 20 a 49;Transporte, armazenagem e correio;10
+2020;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2020;De 250 a 499;Atividades administrativas e serviços complementares;5
+2020;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;2
+2020;De 250 a 499;Atividades profissionais, científicas e técnicas;1
+2020;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";7
+2020;De 250 a 499;Construção;3
+2020;De 250 a 499;Educação;1
+2020;De 250 a 499;Indústrias de transformação;7
+2020;De 250 a 499;Informação e comunicação;1
+2020;De 250 a 499;Outras atividades de serviços;1
+2020;De 250 a 499;Transporte, armazenagem e correio;2
+2020;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2020;De 5 a 9;Alojamento e alimentação;10
+2020;De 5 a 9;Artes, cultura, esporte e recreação;4
+2020;De 5 a 9;Atividades administrativas e serviços complementares;24
+2020;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;14
+2020;De 5 a 9;Atividades imobiliárias;4
+2020;De 5 a 9;Atividades profissionais, científicas e técnicas;12
+2020;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";111
+2020;De 5 a 9;Construção;23
+2020;De 5 a 9;Educação;12
+2020;De 5 a 9;Indústrias de transformação;62
+2020;De 5 a 9;Informação e comunicação;11
+2020;De 5 a 9;Outras atividades de serviços;14
+2020;De 5 a 9;Saúde humana e serviços sociais;21
+2020;De 5 a 9;Transporte, armazenagem e correio;15
+2020;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2020;De 50 a 99;Administração pública, defesa e seguridade social;1
+2020;De 50 a 99;Alojamento e alimentação;4
+2020;De 50 a 99;Artes, cultura, esporte e recreação;2
+2020;De 50 a 99;Atividades administrativas e serviços complementares;10
+2020;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;3
+2020;De 50 a 99;Atividades imobiliárias;1
+2020;De 50 a 99;Atividades profissionais, científicas e técnicas;7
+2020;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";33
+2020;De 50 a 99;Construção;7
+2020;De 50 a 99;Educação;7
+2020;De 50 a 99;Indústrias de transformação;36
+2020;De 50 a 99;Informação e comunicação;3
+2020;De 50 a 99;Outras atividades de serviços;5
+2020;De 50 a 99;Saúde humana e serviços sociais;8
+2020;De 50 a 99;Transporte, armazenagem e correio;12
+2020;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2020;De 500 a 999;Atividades administrativas e serviços complementares;1
+2020;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;2
+2020;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";4
+2020;De 500 a 999;Educação;1
+2020;De 500 a 999;Indústrias de transformação;2
+2020;De 500 a 999;Informação e comunicação;2
+2020;De 500 a 999;Saúde humana e serviços sociais;2
+2020;De 500 a 999;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2020;Zero;Administração pública, defesa e seguridade social;3
+2020;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;9
+2020;Zero;Alojamento e alimentação;12
+2020;Zero;Artes, cultura, esporte e recreação;21
+2020;Zero;Atividades administrativas e serviços complementares;43
+2020;Zero;Atividades financeiras, de seguros e serviços relacionados;28
+2020;Zero;Atividades imobiliárias;6
+2020;Zero;Atividades profissionais, científicas e técnicas;34
+2020;Zero;"Comércio; reparação de veículos automotores e motocicletas";182
+2020;Zero;Construção;37
+2020;Zero;Educação;21
+2020;Zero;Eletricidade e gás;4
+2020;Zero;Indústrias de transformação;159
+2020;Zero;Indústrias extrativas;1
+2020;Zero;Informação e comunicação;40
+2020;Zero;Outras atividades de serviços;27
+2020;Zero;Saúde humana e serviços sociais;33
+2020;Zero;Serviços domésticos;1
+2020;Zero;Transporte, armazenagem e correio;30
+2020;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;10
+2021;1000 ou mais;Administração pública, defesa e seguridade social;1
+2021;1000 ou mais;Atividades administrativas e serviços complementares;4
+2021;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;1
+2021;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2021;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";3
+2021;1000 ou mais;Informação e comunicação;2
+2021;1000 ou mais;Saúde humana e serviços sociais;1
+2021;1000 ou mais;Transporte, armazenagem e correio;3
+2021;Ate 4;Administração pública, defesa e seguridade social;1
+2021;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2021;Ate 4;Alojamento e alimentação;11
+2021;Ate 4;Artes, cultura, esporte e recreação;8
+2021;Ate 4;Atividades administrativas e serviços complementares;33
+2021;Ate 4;Atividades financeiras, de seguros e serviços relacionados;16
+2021;Ate 4;Atividades imobiliárias;5
+2021;Ate 4;Atividades profissionais, científicas e técnicas;22
+2021;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";143
+2021;Ate 4;Construção;29
+2021;Ate 4;Educação;14
+2021;Ate 4;Indústrias de transformação;96
+2021;Ate 4;Indústrias extrativas;1
+2021;Ate 4;Informação e comunicação;22
+2021;Ate 4;Outras atividades de serviços;22
+2021;Ate 4;Saúde humana e serviços sociais;28
+2021;Ate 4;Transporte, armazenagem e correio;23
+2021;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2021;De 10 a 19;Alojamento e alimentação;6
+2021;De 10 a 19;Artes, cultura, esporte e recreação;5
+2021;De 10 a 19;Atividades administrativas e serviços complementares;24
+2021;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;8
+2021;De 10 a 19;Atividades imobiliárias;3
+2021;De 10 a 19;Atividades profissionais, científicas e técnicas;12
+2021;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";90
+2021;De 10 a 19;Construção;18
+2021;De 10 a 19;Educação;9
+2021;De 10 a 19;Indústrias de transformação;64
+2021;De 10 a 19;Informação e comunicação;11
+2021;De 10 a 19;Outras atividades de serviços;13
+2021;De 10 a 19;Saúde humana e serviços sociais;16
+2021;De 10 a 19;Transporte, armazenagem e correio;13
+2021;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2021;De 100 a 249;Administração pública, defesa e seguridade social;1
+2021;De 100 a 249;Alojamento e alimentação;2
+2021;De 100 a 249;Atividades administrativas e serviços complementares;9
+2021;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;4
+2021;De 100 a 249;Atividades imobiliárias;1
+2021;De 100 a 249;Atividades profissionais, científicas e técnicas;6
+2021;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";21
+2021;De 100 a 249;Construção;3
+2021;De 100 a 249;Educação;5
+2021;De 100 a 249;Indústrias de transformação;19
+2021;De 100 a 249;Informação e comunicação;3
+2021;De 100 a 249;Outras atividades de serviços;1
+2021;De 100 a 249;Saúde humana e serviços sociais;2
+2021;De 100 a 249;Transporte, armazenagem e correio;5
+2021;De 20 a 49;Administração pública, defesa e seguridade social;1
+2021;De 20 a 49;Alojamento e alimentação;7
+2021;De 20 a 49;Artes, cultura, esporte e recreação;5
+2021;De 20 a 49;Atividades administrativas e serviços complementares;20
+2021;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;5
+2021;De 20 a 49;Atividades imobiliárias;1
+2021;De 20 a 49;Atividades profissionais, científicas e técnicas;9
+2021;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";79
+2021;De 20 a 49;Construção;19
+2021;De 20 a 49;Educação;5
+2021;De 20 a 49;Indústrias de transformação;49
+2021;De 20 a 49;Informação e comunicação;9
+2021;De 20 a 49;Outras atividades de serviços;5
+2021;De 20 a 49;Saúde humana e serviços sociais;12
+2021;De 20 a 49;Transporte, armazenagem e correio;13
+2021;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2021;De 250 a 499;Administração pública, defesa e seguridade social;1
+2021;De 250 a 499;Atividades administrativas e serviços complementares;4
+2021;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2021;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";8
+2021;De 250 a 499;Construção;4
+2021;De 250 a 499;Educação;1
+2021;De 250 a 499;Indústrias de transformação;7
+2021;De 250 a 499;Informação e comunicação;1
+2021;De 250 a 499;Outras atividades de serviços;2
+2021;De 250 a 499;Saúde humana e serviços sociais;1
+2021;De 250 a 499;Transporte, armazenagem e correio;2
+2021;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2021;De 5 a 9;Alojamento e alimentação;8
+2021;De 5 a 9;Artes, cultura, esporte e recreação;2
+2021;De 5 a 9;Atividades administrativas e serviços complementares;24
+2021;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;13
+2021;De 5 a 9;Atividades imobiliárias;4
+2021;De 5 a 9;Atividades profissionais, científicas e técnicas;16
+2021;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";109
+2021;De 5 a 9;Construção;23
+2021;De 5 a 9;Educação;12
+2021;De 5 a 9;Eletricidade e gás;1
+2021;De 5 a 9;Indústrias de transformação;63
+2021;De 5 a 9;Informação e comunicação;13
+2021;De 5 a 9;Outras atividades de serviços;15
+2021;De 5 a 9;Saúde humana e serviços sociais;17
+2021;De 5 a 9;Transporte, armazenagem e correio;15
+2021;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2021;De 50 a 99;Administração pública, defesa e seguridade social;1
+2021;De 50 a 99;Alojamento e alimentação;4
+2021;De 50 a 99;Artes, cultura, esporte e recreação;1
+2021;De 50 a 99;Atividades administrativas e serviços complementares;10
+2021;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;4
+2021;De 50 a 99;Atividades imobiliárias;1
+2021;De 50 a 99;Atividades profissionais, científicas e técnicas;7
+2021;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";35
+2021;De 50 a 99;Construção;11
+2021;De 50 a 99;Educação;6
+2021;De 50 a 99;Indústrias de transformação;36
+2021;De 50 a 99;Informação e comunicação;2
+2021;De 50 a 99;Outras atividades de serviços;5
+2021;De 50 a 99;Saúde humana e serviços sociais;10
+2021;De 50 a 99;Transporte, armazenagem e correio;10
+2021;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2021;De 500 a 999;Atividades administrativas e serviços complementares;2
+2021;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2021;De 500 a 999;Atividades profissionais, científicas e técnicas;1
+2021;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";5
+2021;De 500 a 999;Construção;1
+2021;De 500 a 999;Educação;1
+2021;De 500 a 999;Indústrias de transformação;3
+2021;De 500 a 999;Informação e comunicação;2
+2021;De 500 a 999;Transporte, armazenagem e correio;1
+2021;De 500 a 999;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2021;Zero;Administração pública, defesa e seguridade social;3
+2021;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;16
+2021;Zero;Alojamento e alimentação;12
+2021;Zero;Artes, cultura, esporte e recreação;16
+2021;Zero;Atividades administrativas e serviços complementares;44
+2021;Zero;Atividades financeiras, de seguros e serviços relacionados;29
+2021;Zero;Atividades imobiliárias;6
+2021;Zero;Atividades profissionais, científicas e técnicas;36
+2021;Zero;"Comércio; reparação de veículos automotores e motocicletas";183
+2021;Zero;Construção;38
+2021;Zero;Educação;19
+2021;Zero;Eletricidade e gás;2
+2021;Zero;Indústrias de transformação;156
+2021;Zero;Indústrias extrativas;2
+2021;Zero;Informação e comunicação;40
+2021;Zero;Outras atividades de serviços;29
+2021;Zero;Saúde humana e serviços sociais;35
+2021;Zero;Serviços domésticos;1
+2021;Zero;Transporte, armazenagem e correio;31
+2021;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;10
+2022;1000 ou mais;Administração pública, defesa e seguridade social;1
+2022;1000 ou mais;Atividades administrativas e serviços complementares;3
+2022;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;2
+2022;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2022;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";3
+2022;1000 ou mais;Informação e comunicação;2
+2022;1000 ou mais;Saúde humana e serviços sociais;1
+2022;1000 ou mais;Transporte, armazenagem e correio;3
+2022;Ate 4;Administração pública, defesa e seguridade social;1
+2022;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;4
+2022;Ate 4;Alojamento e alimentação;11
+2022;Ate 4;Artes, cultura, esporte e recreação;7
+2022;Ate 4;Atividades administrativas e serviços complementares;38
+2022;Ate 4;Atividades financeiras, de seguros e serviços relacionados;16
+2022;Ate 4;Atividades imobiliárias;6
+2022;Ate 4;Atividades profissionais, científicas e técnicas;27
+2022;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";147
+2022;Ate 4;Construção;35
+2022;Ate 4;Educação;14
+2022;Ate 4;Eletricidade e gás;1
+2022;Ate 4;Indústrias de transformação;101
+2022;Ate 4;Indústrias extrativas;1
+2022;Ate 4;Informação e comunicação;26
+2022;Ate 4;Outras atividades de serviços;23
+2022;Ate 4;Saúde e serviços sociais;1
+2022;Ate 4;Saúde humana e serviços sociais;29
+2022;Ate 4;Transporte, armazenagem e correio;23
+2022;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;6
+2022;De 10 a 19;Alojamento e alimentação;8
+2022;De 10 a 19;Artes, cultura, esporte e recreação;5
+2022;De 10 a 19;Atividades administrativas e serviços complementares;20
+2022;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;9
+2022;De 10 a 19;Atividades imobiliárias;2
+2022;De 10 a 19;Atividades profissionais, científicas e técnicas;7
+2022;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";92
+2022;De 10 a 19;Construção;19
+2022;De 10 a 19;Educação;11
+2022;De 10 a 19;Indústrias de transformação;61
+2022;De 10 a 19;Informação e comunicação;13
+2022;De 10 a 19;Outras atividades de serviços;12
+2022;De 10 a 19;Saúde humana e serviços sociais;14
+2022;De 10 a 19;Transporte, armazenagem e correio;14
+2022;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2022;De 100 a 249;Administração pública, defesa e seguridade social;2
+2022;De 100 a 249;Alojamento e alimentação;3
+2022;De 100 a 249;Artes, cultura, esporte e recreação;1
+2022;De 100 a 249;Atividades administrativas e serviços complementares;10
+2022;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;4
+2022;De 100 a 249;Atividades imobiliárias;1
+2022;De 100 a 249;Atividades profissionais, científicas e técnicas;7
+2022;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";17
+2022;De 100 a 249;Construção;3
+2022;De 100 a 249;Educação;4
+2022;De 100 a 249;Indústrias de transformação;19
+2022;De 100 a 249;Informação e comunicação;4
+2022;De 100 a 249;Outras atividades de serviços;1
+2022;De 100 a 249;Saúde humana e serviços sociais;2
+2022;De 100 a 249;Transporte, armazenagem e correio;6
+2022;De 20 a 49;Agricultura, pecuária, produção florestal, pesca e aquicultura;2
+2022;De 20 a 49;Alojamento e alimentação;7
+2022;De 20 a 49;Artes, cultura, esporte e recreação;3
+2022;De 20 a 49;Atividades administrativas e serviços complementares;22
+2022;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;5
+2022;De 20 a 49;Atividades imobiliárias;1
+2022;De 20 a 49;Atividades profissionais, científicas e técnicas;11
+2022;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";80
+2022;De 20 a 49;Construção;23
+2022;De 20 a 49;Educação;7
+2022;De 20 a 49;Indústrias de transformação;49
+2022;De 20 a 49;Informação e comunicação;10
+2022;De 20 a 49;Outras atividades de serviços;8
+2022;De 20 a 49;Saúde humana e serviços sociais;12
+2022;De 20 a 49;Transporte, armazenagem e correio;16
+2022;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2022;De 250 a 499;Administração pública, defesa e seguridade social;1
+2022;De 250 a 499;Atividades administrativas e serviços complementares;3
+2022;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2022;De 250 a 499;Atividades profissionais, científicas e técnicas;3
+2022;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";9
+2022;De 250 a 499;Construção;3
+2022;De 250 a 499;Educação;2
+2022;De 250 a 499;Indústrias de transformação;9
+2022;De 250 a 499;Informação e comunicação;2
+2022;De 250 a 499;Outras atividades de serviços;1
+2022;De 250 a 499;Transporte, armazenagem e correio;3
+2022;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2022;De 5 a 9;Alojamento e alimentação;10
+2022;De 5 a 9;Artes, cultura, esporte e recreação;3
+2022;De 5 a 9;Atividades administrativas e serviços complementares;28
+2022;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;12
+2022;De 5 a 9;Atividades imobiliárias;4
+2022;De 5 a 9;Atividades profissionais, científicas e técnicas;16
+2022;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";114
+2022;De 5 a 9;Construção;23
+2022;De 5 a 9;Educação;13
+2022;De 5 a 9;Indústrias de transformação;80
+2022;De 5 a 9;Informação e comunicação;14
+2022;De 5 a 9;Outras atividades de serviços;14
+2022;De 5 a 9;Saúde humana e serviços sociais;21
+2022;De 5 a 9;Transporte, armazenagem e correio;15
+2022;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2022;De 50 a 99;Alojamento e alimentação;3
+2022;De 50 a 99;Artes, cultura, esporte e recreação;1
+2022;De 50 a 99;Atividades administrativas e serviços complementares;14
+2022;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;3
+2022;De 50 a 99;Atividades imobiliárias;1
+2022;De 50 a 99;Atividades profissionais, científicas e técnicas;7
+2022;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";45
+2022;De 50 a 99;Construção;14
+2022;De 50 a 99;Educação;6
+2022;De 50 a 99;Indústrias de transformação;37
+2022;De 50 a 99;Informação e comunicação;4
+2022;De 50 a 99;Outras atividades de serviços;4
+2022;De 50 a 99;Saúde humana e serviços sociais;10
+2022;De 50 a 99;Transporte, armazenagem e correio;12
+2022;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2022;De 500 a 999;Atividades administrativas e serviços complementares;2
+2022;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2022;De 500 a 999;Atividades profissionais, científicas e técnicas;1
+2022;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";5
+2022;De 500 a 999;Construção;1
+2022;De 500 a 999;Educação;2
+2022;De 500 a 999;Indústrias de transformação;3
+2022;De 500 a 999;Informação e comunicação;1
+2022;De 500 a 999;Saúde humana e serviços sociais;2
+2022;De 500 a 999;Transporte, armazenagem e correio;2
+2022;De 500 a 999;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2022;Zero;Administração pública, defesa e seguridade social;2
+2022;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;10
+2022;Zero;Alojamento e alimentação;12
+2022;Zero;Artes, cultura, esporte e recreação;15
+2022;Zero;Atividades administrativas e serviços complementares;40
+2022;Zero;Atividades financeiras, de seguros e serviços relacionados;23
+2022;Zero;Atividades imobiliárias;6
+2022;Zero;Atividades profissionais, científicas e técnicas;34
+2022;Zero;"Comércio; reparação de veículos automotores e motocicletas";169
+2022;Zero;Construção;38
+2022;Zero;Educação;20
+2022;Zero;Eletricidade e gás;2
+2022;Zero;Indústrias de transformação;127
+2022;Zero;Informação e comunicação;37
+2022;Zero;Outras atividades de serviços;25
+2022;Zero;Saúde humana e serviços sociais;33
+2022;Zero;Serviços domésticos;1
+2022;Zero;Transporte, armazenagem e correio;27
+2022;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;8
+2023;1000 ou mais;Administração pública, defesa e seguridade social;1
+2023;1000 ou mais;Atividades administrativas e serviços complementares;3
+2023;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;2
+2023;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2023;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";4
+2023;1000 ou mais;Educação;1
+2023;1000 ou mais;Informação e comunicação;2
+2023;1000 ou mais;Saúde humana e serviços sociais;1
+2023;1000 ou mais;Transporte, armazenagem e correio;3
+2023;Ate 4;Administração pública, defesa e seguridade social;2
+2023;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;5
+2023;Ate 4;Alojamento e alimentação;11
+2023;Ate 4;Artes, cultura, esporte e recreação;6
+2023;Ate 4;Atividades administrativas e serviços complementares;40
+2023;Ate 4;Atividades financeiras, de seguros e serviços relacionados;18
+2023;Ate 4;Atividades imobiliárias;5
+2023;Ate 4;Atividades profissionais, científicas e técnicas;25
+2023;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";152
+2023;Ate 4;Construção;30
+2023;Ate 4;Educação;14
+2023;Ate 4;Indústrias de transformação;99
+2023;Ate 4;Indústrias extrativas;1
+2023;Ate 4;Informação e comunicação;27
+2023;Ate 4;Outras atividades de serviços;22
+2023;Ate 4;Saúde e serviços sociais;1
+2023;Ate 4;Saúde humana e serviços sociais;29
+2023;Ate 4;Transporte, armazenagem e correio;23
+2023;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;6
+2023;De 10 a 19;Administração pública, defesa e seguridade social;1
+2023;De 10 a 19;Alojamento e alimentação;9
+2023;De 10 a 19;Artes, cultura, esporte e recreação;4
+2023;De 10 a 19;Atividades administrativas e serviços complementares;23
+2023;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;7
+2023;De 10 a 19;Atividades imobiliárias;3
+2023;De 10 a 19;Atividades profissionais, científicas e técnicas;10
+2023;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";101
+2023;De 10 a 19;Construção;22
+2023;De 10 a 19;Educação;9
+2023;De 10 a 19;Indústrias de transformação;66
+2023;De 10 a 19;Informação e comunicação;17
+2023;De 10 a 19;Outras atividades de serviços;12
+2023;De 10 a 19;Saúde humana e serviços sociais;15
+2023;De 10 a 19;Transporte, armazenagem e correio;16
+2023;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2023;De 100 a 249;Administração pública, defesa e seguridade social;3
+2023;De 100 a 249;Alojamento e alimentação;3
+2023;De 100 a 249;Atividades administrativas e serviços complementares;8
+2023;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;5
+2023;De 100 a 249;Atividades imobiliárias;1
+2023;De 100 a 249;Atividades profissionais, científicas e técnicas;7
+2023;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";18
+2023;De 100 a 249;Construção;6
+2023;De 100 a 249;Educação;6
+2023;De 100 a 249;Indústrias de transformação;17
+2023;De 100 a 249;Informação e comunicação;2
+2023;De 100 a 249;Outras atividades de serviços;1
+2023;De 100 a 249;Saúde humana e serviços sociais;3
+2023;De 100 a 249;Transporte, armazenagem e correio;6
+2023;De 20 a 49;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2023;De 20 a 49;Alojamento e alimentação;8
+2023;De 20 a 49;Artes, cultura, esporte e recreação;3
+2023;De 20 a 49;Atividades administrativas e serviços complementares;22
+2023;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;8
+2023;De 20 a 49;Atividades imobiliárias;1
+2023;De 20 a 49;Atividades profissionais, científicas e técnicas;11
+2023;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";79
+2023;De 20 a 49;Construção;19
+2023;De 20 a 49;Educação;9
+2023;De 20 a 49;Indústrias de transformação;51
+2023;De 20 a 49;Informação e comunicação;9
+2023;De 20 a 49;Outras atividades de serviços;8
+2023;De 20 a 49;Saúde humana e serviços sociais;14
+2023;De 20 a 49;Transporte, armazenagem e correio;12
+2023;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2023;De 250 a 499;Administração pública, defesa e seguridade social;1
+2023;De 250 a 499;Atividades administrativas e serviços complementares;4
+2023;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2023;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";9
+2023;De 250 a 499;Construção;2
+2023;De 250 a 499;Educação;2
+2023;De 250 a 499;Indústrias de transformação;10
+2023;De 250 a 499;Informação e comunicação;4
+2023;De 250 a 499;Outras atividades de serviços;1
+2023;De 250 a 499;Saúde humana e serviços sociais;1
+2023;De 250 a 499;Transporte, armazenagem e correio;3
+2023;De 5 a 9;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2023;De 5 a 9;Alojamento e alimentação;9
+2023;De 5 a 9;Artes, cultura, esporte e recreação;4
+2023;De 5 a 9;Atividades administrativas e serviços complementares;28
+2023;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;13
+2023;De 5 a 9;Atividades imobiliárias;4
+2023;De 5 a 9;Atividades profissionais, científicas e técnicas;14
+2023;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";112
+2023;De 5 a 9;Construção;25
+2023;De 5 a 9;Educação;13
+2023;De 5 a 9;Indústrias de transformação;80
+2023;De 5 a 9;Informação e comunicação;14
+2023;De 5 a 9;Outras atividades de serviços;15
+2023;De 5 a 9;Saúde humana e serviços sociais;17
+2023;De 5 a 9;Transporte, armazenagem e correio;18
+2023;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2023;De 50 a 99;Alojamento e alimentação;4
+2023;De 50 a 99;Artes, cultura, esporte e recreação;2
+2023;De 50 a 99;Atividades administrativas e serviços complementares;15
+2023;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;3
+2023;De 50 a 99;Atividades imobiliárias;1
+2023;De 50 a 99;Atividades profissionais, científicas e técnicas;6
+2023;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";43
+2023;De 50 a 99;Construção;10
+2023;De 50 a 99;Educação;6
+2023;De 50 a 99;Indústrias de transformação;36
+2023;De 50 a 99;Informação e comunicação;5
+2023;De 50 a 99;Outras atividades de serviços;6
+2023;De 50 a 99;Saúde humana e serviços sociais;13
+2023;De 50 a 99;Transporte, armazenagem e correio;9
+2023;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2023;De 500 a 999;Atividades administrativas e serviços complementares;3
+2023;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2023;De 500 a 999;Atividades profissionais, científicas e técnicas;1
+2023;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";3
+2023;De 500 a 999;Construção;1
+2023;De 500 a 999;Educação;1
+2023;De 500 a 999;Indústrias de transformação;2
+2023;De 500 a 999;Informação e comunicação;1
+2023;De 500 a 999;Saúde humana e serviços sociais;3
+2023;De 500 a 999;Transporte, armazenagem e correio;2
+2023;De 500 a 999;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2023;Zero;Administração pública, defesa e seguridade social;2
+2023;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;14
+2023;Zero;Alojamento e alimentação;12
+2023;Zero;Artes, cultura, esporte e recreação;17
+2023;Zero;Atividades administrativas e serviços complementares;43
+2023;Zero;Atividades financeiras, de seguros e serviços relacionados;25
+2023;Zero;Atividades imobiliárias;6
+2023;Zero;Atividades profissionais, científicas e técnicas;37
+2023;Zero;"Comércio; reparação de veículos automotores e motocicletas";178
+2023;Zero;Construção;40
+2023;Zero;Educação;20
+2023;Zero;Eletricidade e gás;2
+2023;Zero;Indústrias de transformação;151
+2023;Zero;Indústrias extrativas;1
+2023;Zero;Informação e comunicação;33
+2023;Zero;Outras atividades de serviços;27
+2023;Zero;Saúde e serviços sociais;1
+2023;Zero;Saúde humana e serviços sociais;35
+2023;Zero;Serviços domésticos;1
+2023;Zero;Transporte, armazenagem e correio;31
+2023;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;10
+2024;1000 ou mais;Atividades administrativas e serviços complementares;2
+2024;1000 ou mais;Atividades financeiras, de seguros e serviços relacionados;2
+2024;1000 ou mais;Atividades profissionais, científicas e técnicas;1
+2024;1000 ou mais;"Comércio; reparação de veículos automotores e motocicletas";4
+2024;1000 ou mais;Informação e comunicação;2
+2024;1000 ou mais;Saúde humana e serviços sociais;2
+2024;1000 ou mais;Transporte, armazenagem e correio;3
+2024;Ate 4;Agricultura, pecuária, produção florestal, pesca e aquicultura;5
+2024;Ate 4;Alojamento e alimentação;10
+2024;Ate 4;Artes, cultura, esporte e recreação;8
+2024;Ate 4;Atividades administrativas e serviços complementares;40
+2024;Ate 4;Atividades financeiras, de seguros e serviços relacionados;18
+2024;Ate 4;Atividades imobiliárias;6
+2024;Ate 4;Atividades profissionais, científicas e técnicas;27
+2024;Ate 4;"Comércio; reparação de veículos automotores e motocicletas";161
+2024;Ate 4;Construção;33
+2024;Ate 4;Educação;16
+2024;Ate 4;Indústrias de transformação;104
+2024;Ate 4;Indústrias extrativas;1
+2024;Ate 4;Informação e comunicação;26
+2024;Ate 4;Outras atividades de serviços;23
+2024;Ate 4;Saúde humana e serviços sociais;32
+2024;Ate 4;Transporte, armazenagem e correio;25
+2024;Ate 4;Água, esgoto, atividades de gestão de resíduos e descontaminação;9
+2024;De 10 a 19;Alojamento e alimentação;8
+2024;De 10 a 19;Artes, cultura, esporte e recreação;4
+2024;De 10 a 19;Atividades administrativas e serviços complementares;26
+2024;De 10 a 19;Atividades financeiras, de seguros e serviços relacionados;8
+2024;De 10 a 19;Atividades imobiliárias;2
+2024;De 10 a 19;Atividades profissionais, científicas e técnicas;12
+2024;De 10 a 19;"Comércio; reparação de veículos automotores e motocicletas";92
+2024;De 10 a 19;Construção;29
+2024;De 10 a 19;Educação;10
+2024;De 10 a 19;Indústrias de transformação;64
+2024;De 10 a 19;Informação e comunicação;12
+2024;De 10 a 19;Outras atividades de serviços;8
+2024;De 10 a 19;Saúde humana e serviços sociais;16
+2024;De 10 a 19;Transporte, armazenagem e correio;13
+2024;De 10 a 19;Água, esgoto, atividades de gestão de resíduos e descontaminação;3
+2024;De 100 a 249;Alojamento e alimentação;3
+2024;De 100 a 249;Atividades administrativas e serviços complementares;10
+2024;De 100 a 249;Atividades financeiras, de seguros e serviços relacionados;5
+2024;De 100 a 249;Atividades imobiliárias;1
+2024;De 100 a 249;Atividades profissionais, científicas e técnicas;6
+2024;De 100 a 249;"Comércio; reparação de veículos automotores e motocicletas";18
+2024;De 100 a 249;Construção;8
+2024;De 100 a 249;Educação;6
+2024;De 100 a 249;Indústrias de transformação;19
+2024;De 100 a 249;Informação e comunicação;2
+2024;De 100 a 249;Outras atividades de serviços;3
+2024;De 100 a 249;Saúde humana e serviços sociais;4
+2024;De 100 a 249;Transporte, armazenagem e correio;6
+2024;De 20 a 49;Agricultura, pecuária, produção florestal, pesca e aquicultura;1
+2024;De 20 a 49;Alojamento e alimentação;7
+2024;De 20 a 49;Artes, cultura, esporte e recreação;3
+2024;De 20 a 49;Atividades administrativas e serviços complementares;23
+2024;De 20 a 49;Atividades financeiras, de seguros e serviços relacionados;10
+2024;De 20 a 49;Atividades imobiliárias;2
+2024;De 20 a 49;Atividades profissionais, científicas e técnicas;9
+2024;De 20 a 49;"Comércio; reparação de veículos automotores e motocicletas";80
+2024;De 20 a 49;Construção;21
+2024;De 20 a 49;Educação;8
+2024;De 20 a 49;Indústrias de transformação;52
+2024;De 20 a 49;Informação e comunicação;11
+2024;De 20 a 49;Outras atividades de serviços;8
+2024;De 20 a 49;Saúde humana e serviços sociais;13
+2024;De 20 a 49;Transporte, armazenagem e correio;14
+2024;De 20 a 49;Água, esgoto, atividades de gestão de resíduos e descontaminação;4
+2024;De 250 a 499;Atividades administrativas e serviços complementares;4
+2024;De 250 a 499;Atividades financeiras, de seguros e serviços relacionados;1
+2024;De 250 a 499;"Comércio; reparação de veículos automotores e motocicletas";11
+2024;De 250 a 499;Construção;1
+2024;De 250 a 499;Educação;1
+2024;De 250 a 499;Indústrias de transformação;10
+2024;De 250 a 499;Informação e comunicação;2
+2024;De 250 a 499;Outras atividades de serviços;1
+2024;De 250 a 499;Saúde humana e serviços sociais;1
+2024;De 250 a 499;Transporte, armazenagem e correio;3
+2024;De 5 a 9;Alojamento e alimentação;8
+2024;De 5 a 9;Artes, cultura, esporte e recreação;4
+2024;De 5 a 9;Atividades administrativas e serviços complementares;28
+2024;De 5 a 9;Atividades financeiras, de seguros e serviços relacionados;10
+2024;De 5 a 9;Atividades imobiliárias;4
+2024;De 5 a 9;Atividades profissionais, científicas e técnicas;14
+2024;De 5 a 9;"Comércio; reparação de veículos automotores e motocicletas";118
+2024;De 5 a 9;Construção;20
+2024;De 5 a 9;Educação;11
+2024;De 5 a 9;Indústrias de transformação;79
+2024;De 5 a 9;Informação e comunicação;16
+2024;De 5 a 9;Outras atividades de serviços;17
+2024;De 5 a 9;Saúde humana e serviços sociais;19
+2024;De 5 a 9;Transporte, armazenagem e correio;17
+2024;De 5 a 9;Água, esgoto, atividades de gestão de resíduos e descontaminação;2
+2024;De 50 a 99;Alojamento e alimentação;5
+2024;De 50 a 99;Artes, cultura, esporte e recreação;1
+2024;De 50 a 99;Atividades administrativas e serviços complementares;16
+2024;De 50 a 99;Atividades financeiras, de seguros e serviços relacionados;3
+2024;De 50 a 99;Atividades imobiliárias;1
+2024;De 50 a 99;Atividades profissionais, científicas e técnicas;6
+2024;De 50 a 99;"Comércio; reparação de veículos automotores e motocicletas";44
+2024;De 50 a 99;Construção;11
+2024;De 50 a 99;Educação;4
+2024;De 50 a 99;Indústrias de transformação;35
+2024;De 50 a 99;Informação e comunicação;7
+2024;De 50 a 99;Outras atividades de serviços;7
+2024;De 50 a 99;Saúde humana e serviços sociais;13
+2024;De 50 a 99;Transporte, armazenagem e correio;11
+2024;De 50 a 99;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2024;De 500 a 999;Alojamento e alimentação;1
+2024;De 500 a 999;Atividades administrativas e serviços complementares;2
+2024;De 500 a 999;Atividades financeiras, de seguros e serviços relacionados;1
+2024;De 500 a 999;Atividades profissionais, científicas e técnicas;1
+2024;De 500 a 999;"Comércio; reparação de veículos automotores e motocicletas";1
+2024;De 500 a 999;Construção;2
+2024;De 500 a 999;Educação;1
+2024;De 500 a 999;Indústrias de transformação;3
+2024;De 500 a 999;Informação e comunicação;3
+2024;De 500 a 999;Saúde humana e serviços sociais;1
+2024;De 500 a 999;Transporte, armazenagem e correio;1
+2024;De 500 a 999;Água, esgoto, atividades de gestão de resíduos e descontaminação;1
+2024;Zero;Administração pública, defesa e seguridade social;1
+2024;Zero;Agricultura, pecuária, produção florestal, pesca e aquicultura;12
+2024;Zero;Alojamento e alimentação;12
+2024;Zero;Artes, cultura, esporte e recreação;16
+2024;Zero;Atividades administrativas e serviços complementares;40
+2024;Zero;Atividades financeiras, de seguros e serviços relacionados;22
+2024;Zero;Atividades imobiliárias;6
+2024;Zero;Atividades profissionais, científicas e técnicas;39
+2024;Zero;"Comércio; reparação de veículos automotores e motocicletas";183
+2024;Zero;Construção;40
+2024;Zero;Educação;20
+2024;Zero;Eletricidade e gás;2
+2024;Zero;Indústrias de transformação;151
+2024;Zero;Indústrias extrativas;1
+2024;Zero;Informação e comunicação;34
+2024;Zero;Outras atividades de serviços;27
+2024;Zero;Saúde humana e serviços sociais;38
+2024;Zero;Serviços domésticos;1
+2024;Zero;Transporte, armazenagem e correio;33
+2024;Zero;Água, esgoto, atividades de gestão de resíduos e descontaminação;10

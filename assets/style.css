@@ -1,0 +1,132 @@
+.custom-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    /* padding: 2px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* margin-bottom: 1px; */
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #213953 !important;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.card-value-container {
+    text-align: center;
+}
+
+.currency-symbol {
+    font-size: 0.8rem;
+}
+
+.card-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-content-row {
+    margin-top: 20px;
+}
+
+.card-content {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.hover-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.content-wrapper {
+    flex: 1 0 auto;
+    padding-bottom: 2rem;
+}
+
+.rc-slider-track {
+    background-color: #3670AA !important;
+}
+
+.rc-slider-handle {
+    background-color: #3670AA !important;
+    border-color: #3670AA !important;
+}
+
+.rc-slider-dot-active {
+    border-color: #3670AA !important;
+}
+
+.section-container {
+    width: 100%;
+    overflow-x: hidden;  /* Prevent horizontal scroll */
+}
+
+/* Make sure plots respect container width */
+.js-plotly-plot {
+    width: 100% !important;
+}
+
+/* Ensure responsive behavior for plot containers */
+.plot-container {
+    width: 100% !important;
+}
+
+.breadcrumb {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    height: 32px !important;      /* Altura mais fina, igual ou próxima ao input */
+    min-height: 0 !important;
+    display: flex;
+    align-items: center;
+    font-size: 12px !important;   /* Fonte um pouco menor, se quiser */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+    padding: 20px 0;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #0d3c78; /* cor do fundo da barra */
+    padding: 20px 0;
+}
+
+.sidebar-link:hover {
+    background: #184e77 !important;
+    text-decoration: none !important;
+    color: #fff !important;
+}
