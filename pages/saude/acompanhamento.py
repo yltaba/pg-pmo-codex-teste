@@ -11,7 +11,6 @@ dash.register_page(__name__, path="/saude/acompanhamento", name="Acompanhamento"
 GOLD_PATH = Path().resolve() / "data"
 tb_acompanhamento = pd.read_csv(GOLD_PATH / "tb_acompanhamento_vacina.csv", sep=";")
 
-#
 COLUMN_MAPPING = {
     # Colunas de identificação
     "aluno_bd_alunos": "Nome do Aluno",
@@ -32,6 +31,19 @@ COLUMN_MAPPING = {
     "Meningo C Dose 2 - Analise": "Meningo C Dose 2",
     "Meningo C Dose 3 - Analise": "Meningo C Dose 3",
     "BCG Dose 1 - Analise": "BCG Dose 1",
+    "Hepatite B Dose 1 - Analise": "Hepatite B Dose 1",
+    "Hepatite B Dose 2 - Analise": "Hepatite B Dose 2",
+    "Hepatite B Dose 3 - Analise": "Hepatite B Dose 3",
+    "Hepatite B Dose 4 - Analise": "Hepatite B Dose 4",
+    "Pneumo 10 Dose 1 - Analise": "Pneumo 10 Dose 1",
+    "Pneumo 10 Dose 2 - Analise": "Pneumo 10 Dose 2",
+    "Pneumo 10 Dose 3 - Analise": "Pneumo 10 Dose 3",
+    "Sarampo Dose 1 - Analise": "Sarampo Dose 1",
+    "Sarampo Dose 2 - Analise": "Sarampo Dose 2",
+    "Penta Dose 1 - Analise": "Penta Dose 1",
+    "Penta Dose 2 - Analise": "Penta Dose 2",
+    "Penta Dose 3 - Analise": "Penta Dose 3",
+    "Varicela Dose 1 - Analise": "Varicela Dose 1",
 }
 
 
@@ -65,8 +77,40 @@ colunas_identificacao = [
             "ubs_referencia",
         ]
     )
+    and not any(
+        termo in col.lower()
+        for termo in [
+            "dose",
+            "analise",
+            "bcg",
+            "febre amarela",
+            "meningo",
+            "hepatite",
+            "pneumo",
+            "sarampo",
+        ]
+    )
 ]
-colunas_vacinas = [col for col in todas_colunas if col not in colunas_identificacao]
+
+# Colunas de vacinas são todas as que contêm termos relacionados a vacinas
+colunas_vacinas = [
+    col
+    for col in todas_colunas
+    if any(
+        termo in col.lower()
+        for termo in [
+            "dose",
+            "analise",
+            "bcg",
+            "febre amarela",
+            "meningo",
+            "hepatite",
+            "pneumo",
+            "sarampo",
+        ]
+    )
+]
+
 
 # Layout da página
 layout = dbc.Container(
@@ -86,30 +130,50 @@ layout = dbc.Container(
                                         dbc.CardBody(
                                             [
                                                 # Filtro por unidade
-                                                html.Strong("Filtrar por Unidade Escolar:"),
+                                                html.Strong(
+                                                    "Filtrar por Unidade Escolar:"
+                                                ),
                                                 dcc.Dropdown(
                                                     id="filtro-unidade",
                                                     options=[
-                                                        {"label": "Todas", "value": "Todas"}
+                                                        {
+                                                            "label": "Todas",
+                                                            "value": "Todas",
+                                                        }
                                                     ]
                                                     + [
-                                                        {"label": unidade, "value": unidade}
+                                                        {
+                                                            "label": unidade,
+                                                            "value": unidade,
+                                                        }
                                                         for unidade in sorted(
                                                             tb_acompanhamento.get(
-                                                                "nome_unidade_bd_alunos", []
+                                                                "nome_unidade_bd_alunos",
+                                                                [],
                                                             ).unique()
                                                         )
                                                     ],
                                                     value="Todas",
                                                     clearable=False,
-                                                    style={"marginBottom": "1rem"},
+                                                    style={
+                                                        "marginBottom": "1rem",
+                                                        "width": "100%",
+                                                        "fontSize": "14px",
+                                                        "lineHeight": "1.2",
+                                                    },
+                                                    optionHeight=50,
                                                 ),
                                                 # Filtro por série
-                                                html.Strong("Filtrar por série do aluno:"),
+                                                html.Strong(
+                                                    "Filtrar por série do aluno:"
+                                                ),
                                                 dcc.Dropdown(
                                                     id="filtro-serie",
                                                     options=[
-                                                        {"label": "Todas", "value": "Todas"}
+                                                        {
+                                                            "label": "Todas",
+                                                            "value": "Todas",
+                                                        }
                                                     ]
                                                     + [
                                                         {"label": serie, "value": serie}
@@ -124,12 +188,16 @@ layout = dbc.Container(
                                                     style={"marginBottom": "1rem"},
                                                 ),
                                                 # Seleção de colunas de identificação
-                                                html.Strong("Colunas de Identificação:"),
+                                                html.Strong(
+                                                    "Colunas de Identificação:"
+                                                ),
                                                 dcc.Checklist(
                                                     id="colunas-identificacao",
                                                     options=[
                                                         {
-                                                            "label": get_display_name(col),
+                                                            "label": get_display_name(
+                                                                col
+                                                            ),
                                                             "value": col,
                                                         }
                                                         for col in colunas_identificacao
@@ -145,7 +213,9 @@ layout = dbc.Container(
                                                     id="colunas-vacinas",
                                                     options=[
                                                         {
-                                                            "label": get_display_name(col),
+                                                            "label": get_display_name(
+                                                                col
+                                                            ),
                                                             "value": col,
                                                         }
                                                         for col in colunas_vacinas
@@ -174,11 +244,14 @@ layout = dbc.Container(
                                             ]
                                         ),
                                     ],
-                                    style={"height": "100%", "display": "flex", "flexDirection": "column"}
+                                    style={
+                                        "height": "100%",
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                    },
                                 )
                             ],
                             width=3,
-                            style={"display": "flex"}
                         ),
                         # Tabela de dados
                         dbc.Col(
@@ -194,7 +267,7 @@ layout = dbc.Container(
                                                 html.Small(
                                                     f"Total de registros: {len(tb_acompanhamento)}",
                                                     id="total-registros",
-                                                    className="text-muted"
+                                                    className="text-muted",
                                                 ),
                                             ]
                                         ),
@@ -208,10 +281,11 @@ layout = dbc.Container(
                                                     style_table={
                                                         "overflowX": "auto",
                                                         "overflowY": "auto",
-                                                        "maxHeight": "500px",
+                                                        "height": "100%",
                                                         "border": "thin lightgrey solid",
                                                         "borderRadius": "8px",
                                                         "boxShadow": "0 4px 6px rgba(0, 0, 0, 0.1)",
+                                                        "marginTop": "1rem",
                                                     },
                                                     style_cell={
                                                         "fontFamily": 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
@@ -243,37 +317,64 @@ layout = dbc.Container(
                                                         "padding": "8px 15px",
                                                     },
                                                     filter_action="native",
-                                                    export_format="csv",
+                                                    export_format="xlsx",
                                                     export_headers="display",
                                                     tooltip_delay=0,
                                                     tooltip_duration=None,
                                                     editable=False,
                                                     row_selectable=False,
                                                     row_deletable=False,
+                                                    page_action="native",
+                                                    page_current=0,
+                                                    page_size=50,
                                                     css=[
                                                         {
                                                             "selector": ".dash-table-tooltip",
                                                             "rule": "background-color: white; font-family: system-ui; padding: 8px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);",
-                                                        }
+                                                        },
+                                                        # {
+                                                        #     "selector": ".dash-table-container",
+                                                        #     "rule": "height: 900px !important; max-height: 900px !important;",
+                                                        # },
+                                                        # {
+                                                        #     "selector": ".dash-spreadsheet-container",
+                                                        #     "rule": "height: 900px !important; max-height: 900px !important;",
+                                                        # },
+                                                        {
+                                                            "selector": ".export::after",
+                                                            "rule": "content: 'Exportar Excel'; font-size: 12px;",
+                                                        },
+                                                        {
+                                                            "selector": ".export",
+                                                            "rule": "font-size: 0;",
+                                                        },
                                                     ],
                                                 )
                                             ],
+                                            style={
+                                                "padding": "1rem",
+                                                "height": "100%",
+                                                "display": "flex",
+                                                "flexDirection": "column",
+                                            },
                                         ),
                                     ],
-
+                                    style={
+                                        "height": "100%",
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                    },
                                 )
                             ],
                             width=9,
                         ),
                     ],
-                    style={"alignItems": "stretch", "minHeight": "calc(100vh - 200px)"}
+                    style={"height": "100%"},
                 ),
             ],
-            style={"height": "100%"}
         ),
     ],
     fluid=True,
-    style={"height": "100vh", "display": "flex", "flexDirection": "column"}
 )
 
 
@@ -322,37 +423,40 @@ def atualizar_tabela(unidade, serie, col_id, col_vac):
 
     # Gerar estilização condicional dinamicamente para colunas de vacinas
     style_conditional = []
-    
+
     # Adicionar estilização para linhas ímpares
-    style_conditional.append({
-        "if": {"row_index": "odd"},
-        "backgroundColor": "#fcfcfc",
-    })
-    
+    style_conditional.append(
+        {
+            "if": {"row_index": "odd"},
+            "backgroundColor": "#fcfcfc",
+        }
+    )
+
     # Adicionar estilização para colunas de vacinas
     for col in col_vac:
         if col in colunas_existentes:
             # Estilização para "Atrasada" - vermelho
-            style_conditional.append({
-                "if": {
-                    "filter_query": f'{{{col}}} = "Atrasada"',
-                    "column_id": col
-                },
-                "backgroundColor": "#ffebee",
-                "color": "#c62828",
-                "fontWeight": "bold"
-            })
-            
+            style_conditional.append(
+                {
+                    "if": {"filter_query": f'{{{col}}} = "Atrasada"', "column_id": col},
+                    "backgroundColor": "#ffebee",
+                    "color": "#c62828",
+                    "fontWeight": "bold",
+                }
+            )
+
             # Estilização para "Programada" - amarelo
-            style_conditional.append({
-                "if": {
-                    "filter_query": f'{{{col}}} = "Programada"',
-                    "column_id": col
-                },
-                "backgroundColor": "#fff3e0",
-                "color": "#ef6c00",
-                "fontWeight": "bold"
-            })
+            style_conditional.append(
+                {
+                    "if": {
+                        "filter_query": f'{{{col}}} = "Programada"',
+                        "column_id": col,
+                    },
+                    "backgroundColor": "#fff3e0",
+                    "color": "#ef6c00",
+                    "fontWeight": "bold",
+                }
+            )
 
     return columns, data, style_conditional
 
@@ -408,5 +512,5 @@ def atualizar_total_registros(unidade, serie, col_id, col_vac):
         return f"Total de registros: 0"
 
     df_final = df_filtrado[colunas_existentes]
-    
+
     return f"Total de registros: {len(df_final)}"

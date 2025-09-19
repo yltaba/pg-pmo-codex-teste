@@ -15,6 +15,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "Evolução do PIB por categoria econômica ao longo dos anos",
+                    "metodo_calculo": "Valor adicionado bruto a preços de mercado",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -23,6 +24,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "Evolução do PIB per capita de Osasco comparado com outros municípios",
+                    "metodo_calculo": "PIB do município dividido pela população residente no mesmo ano",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -31,6 +33,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "Participação percentual de Osasco no PIB do Estado de São Paulo",
+                    "metodo_calculo": "PIB do município dividido pelo PIB total do Estado de São Paulo",
                     "periodicidade_atualizacao": "Anual",
                 },
             ],
@@ -41,6 +44,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "Valor do PIB em 2021",
+                    "metodo_calculo": "Valor adicionado bruto a preços de mercado",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -49,6 +53,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "Variação percentual do PIB entre períodos",
+                    "metodo_calculo": "Variação % do PIB do município comparado com o período anterior",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -57,6 +62,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "Valor do PIB per capita em 2021",
+                    "metodo_calculo": "PIB do município dividido pela sua população total",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -65,6 +71,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "População estimada em 2021",
+                    "metodo_calculo": "População residente estimada pelo IBGE",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -73,6 +80,7 @@ DADOS_VISUAIS = {
                     "fonte": "IBGE",
                     "status": "Ativo",
                     "descricao": "Proporção do PIB de Osasco sobre o PIB do Estado de São Paulo em 2021",
+                    "metodo_calculo": "PIB do município dividido pelo PIB total do Estado de São Paulo",
                     "periodicidade_atualizacao": "Anual",
                 },
             ],
@@ -85,6 +93,7 @@ DADOS_VISUAIS = {
                     "fonte": "SIGT - Prefeitura de Osasco",
                     "status": "Ativo",
                     "descricao": "Evolução da abertura e encerramento de empresas por atividade econômica",
+                    "metodo_calculo": "Contagem de eventos de abertura e encerramento de empresas registradas no SIGT",
                     "periodicidade_atualizacao": "Semanal",
                 },
                 {
@@ -93,6 +102,7 @@ DADOS_VISUAIS = {
                     "fonte": "RAIS - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Distribuição de estabelecimentos por tamanho e seção CNAE",
+                    "metodo_calculo": "Contagem de estabelecimentos ativos no município, classificados por porte, de acordo com a RAIS Estabelecimentos",
                     "periodicidade_atualizacao": "Semanal",
                 },
             ],
@@ -103,6 +113,7 @@ DADOS_VISUAIS = {
                     "fonte": "SIGT - Prefeitura de Osasco",
                     "status": "Ativo",
                     "descricao": "Diferença entre empresas abertas e encerradas",
+                    "metodo_calculo": "Subtração entre o número de empresas abertas e o número de empresas encerradas em determinado período",
                     "periodicidade_atualizacao": "Semanal",
                 }
             ],
@@ -117,6 +128,7 @@ DADOS_VISUAIS = {
                     "fonte": "RAIS - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Evolução dos vínculos empregatícios ativos por seção CNAE",
+                    "metodo_calculo": "Contagem de vínculos empregatícios ativos, conforme registros da RAIS",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -125,6 +137,7 @@ DADOS_VISUAIS = {
                     "fonte": "CAGED - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Admissões, desligamentos e saldo de movimentações por seção CNAE",
+                    "metodo_calculo": "Total de admissões menos total de desligamentos",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -133,6 +146,7 @@ DADOS_VISUAIS = {
                     "fonte": "CAGED - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Distribuição dos empregados por Seção da CNAE",
+                    "metodo_calculo": "Total de admissões menos total de desligamentos, agregados por seção da CNAE",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -141,6 +155,7 @@ DADOS_VISUAIS = {
                     "fonte": "CAGED - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Saldo de postos de trabalho por idade desde 2007.",
+                    "metodo_calculo": "Total de admissões menos total de desligamentos, agregados por faixa etária",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -149,6 +164,7 @@ DADOS_VISUAIS = {
                     "fonte": "CAGED - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Evolução da média/mediana salarial de admissões e demissões por seção da CNAE",
+                    "metodo_calculo": "Soma dos salários registrados dividida pelo número total de vínculos",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -157,6 +173,7 @@ DADOS_VISUAIS = {
                     "fonte": "CAGED - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Evolução da média/mediana de idade das admissões e demissões por seção da CNAE",
+                    "metodo_calculo": "Soma das idades registradas dividida pelo número total de vínculos",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ],
@@ -167,6 +184,7 @@ DADOS_VISUAIS = {
                     "fonte": "RAIS - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Total de postos de trabalho em 2024",
+                    "metodo_calculo": "Contagem de vínculos empregatícios ativos, conforme registros da RAIS",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -175,6 +193,7 @@ DADOS_VISUAIS = {
                     "fonte": "RAIS - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Variação percentual do estoque de postos de trabalho entre 2023 e 2024",
+                    "metodo_calculo": "Variação % do estoque de postos de trabalho do município comparado com o período anterior",
                     "periodicidade_atualizacao": "Anual",
                 },
                 {
@@ -183,6 +202,7 @@ DADOS_VISUAIS = {
                     "fonte": "CAGED - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Saldo de admissões menos desligamentos em 2025",
+                    "metodo_calculo": "Total de admissões menos total de desligamentos",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -191,6 +211,7 @@ DADOS_VISUAIS = {
                     "fonte": "CAGED - Ministério do Trabalho",
                     "status": "Ativo",
                     "descricao": "Variação percentual do saldo de movimentações entre 2024 e 2025",
+                    "metodo_calculo": "Variação % do saldo de movimentações do município comparado com o período anterior",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ],
@@ -205,6 +226,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Distribuição acumulada da renda per capita familiar",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -213,6 +235,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Evolução de cadastros no CadÚnico por ano e forma de coleta",
+                    "metodo_calculo": "Contagem dos cadastros registrados no CadÚnico, organizados por ano e por forma de coleta",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -221,6 +244,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Pessoas cadastradas no CadÚnico por sexo biológico",
+                    "metodo_calculo": "Contagem de pessoas cadastradas no CadÚnico, agrupadas por sexo biológico",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -229,6 +253,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Pessoas cadastradas no CadÚnico por parentesco",
+                    "metodo_calculo": "Contagem de pessoas cadastradas no CadÚnico, agrupadas por grau de parentesco.",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -237,6 +262,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Visão geral dos bairros de Osasco no CadÚnico",
+                    "metodo_calculo": "Contagem de pessoas cadastradas no CadÚnico por bairro.",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ],
@@ -247,6 +273,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Total de famílias com cadastro ativo e atualizado",
+                    "metodo_calculo": "Contagem de famílias cadastradas no CadÚnico",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -255,6 +282,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Famílias cadastradas em 2025",
+                    "metodo_calculo": "Contagem de famílias cadastradas no CadÚnico no ano de 2025",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -263,6 +291,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Média da renda per capita das famílias cadastradas",
+                    "metodo_calculo": "Soma das rendas per capita de todas as famílias cadastradas no CadÚnico, dividida pelo número total de famílias cadastradas",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -271,6 +300,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Média de pessoas por família cadastrada",
+                    "metodo_calculo": "Soma das pessoas de todas as famílias cadastradas no CadÚnico, dividida pelo número total de famílias cadastradas",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -279,6 +309,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Média de pessoas por domicílio",
+                    "metodo_calculo": "Soma das pessoas de todas as famílias cadastradas no CadÚnico, dividida pelo número total de domicílios cadastrados",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -287,6 +318,7 @@ DADOS_VISUAIS = {
                     "fonte": "CadÚnico",
                     "status": "Ativo",
                     "descricao": "Média de cômodos por domicílio",
+                    "metodo_calculo": "Soma dos cômodos de todos os domicílios cadastrados no CadÚnico, dividida pelo número total de domicílios cadastrados",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -294,7 +326,8 @@ DADOS_VISUAIS = {
                     "tipo": "Card",
                     "fonte": "CadÚnico",
                     "status": "Ativo",
-                    "descricao": "Média de domicílios sem água canalizada",
+                    "descricao": "Contagem de domicílios sem água canalizada",
+                    "metodo_calculo": "Contagem de domicílios sem água canalizada",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -302,7 +335,8 @@ DADOS_VISUAIS = {
                     "tipo": "Card",
                     "fonte": "CadÚnico",
                     "status": "Ativo",
-                    "descricao": "Média de domicílios sem rede de esgoto",
+                    "descricao": "Contagem de domicílios sem rede de esgoto",
+                    "metodo_calculo": "Contagem de domicílios sem rede de esgoto",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ],
@@ -315,6 +349,7 @@ DADOS_VISUAIS = {
                     "fonte": "Portal da Transparência - CGU",
                     "status": "Ativo",
                     "descricao": "Evolução do número de famílias beneficiadas pelo PBF",
+                    "metodo_calculo": "Contagem de responsáveis familiares (RF) beneficiados pelo PBF no município",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -323,6 +358,7 @@ DADOS_VISUAIS = {
                     "fonte": "Portal da Transparência - CGU",
                     "status": "Ativo",
                     "descricao": "Evolução do valor total dos repasses do PBF",
+                    "metodo_calculo": "Soma de todos os valores repassados pelo PBF a beneficiários do município no mês de referência",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -331,6 +367,7 @@ DADOS_VISUAIS = {
                     "fonte": "Portal da Transparência - CGU",
                     "status": "Ativo",
                     "descricao": "Evolução da média dos valores dos repasses do PBF",
+                    "metodo_calculo": "Soma de todos os valores repassados pelo PBF no município, em reais, dividida pelo número de famílias beneficiadas no mesmo mês",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ]
@@ -343,6 +380,7 @@ DADOS_VISUAIS = {
                     "fonte": "OzMundi",
                     "status": "Ativo",
                     "descricao": "Proporção de pessoas cadastradas no CadÚnico na população dos distritos",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -351,6 +389,7 @@ DADOS_VISUAIS = {
                     "fonte": "OzMundi",
                     "status": "Ativo",
                     "descricao": "Proporção de pessoas cadastradas no CadÚnico em situação de pobreza na população dos distritos",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -359,6 +398,7 @@ DADOS_VISUAIS = {
                     "fonte": "OzMundi",
                     "status": "Ativo",
                     "descricao": "Proporção de pessoas beneficiárias do Bolsa Família na população dos distritos",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -367,6 +407,7 @@ DADOS_VISUAIS = {
                     "fonte": "OzMundi",
                     "status": "Ativo",
                     "descricao": "Índice de vulnerabilidade nos diversos distritos do município de Osasco",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -375,6 +416,7 @@ DADOS_VISUAIS = {
                     "fonte": "OzMundi",
                     "status": "Ativo",
                     "descricao": "Índice de vulnerabilidade por território de abrangência dos CRAS",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ],
@@ -389,6 +431,7 @@ DADOS_VISUAIS = {
                     "fonte": "SiSS",
                     "status": "Ativo",
                     "descricao": "Mapa de imunização",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ],
@@ -401,6 +444,7 @@ DADOS_VISUAIS = {
                     "fonte": "SiSS",
                     "status": "Ativo",
                     "descricao": "Acompanhamento de imunizações",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
                 {
@@ -409,6 +453,7 @@ DADOS_VISUAIS = {
                     "fonte": "SiSS",
                     "status": "Ativo",
                     "descricao": "Cobertura vacinal",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Mensal",
                 },
             ]
@@ -423,6 +468,7 @@ DADOS_VISUAIS = {
                     "fonte": "SIGT - Prefeitura de Osasco",
                     "status": "Ativo",
                     "descricao": "Receita total arrecadada por ano",
+                    "metodo_calculo": "Soma de todos os valores pagos referentes a IPTU, ISS, ITBI e demais tributos municipais",
                     "periodicidade_atualizacao": "Semanal",
                 },
                 {
@@ -431,6 +477,7 @@ DADOS_VISUAIS = {
                     "fonte": "SIGT - Prefeitura de Osasco",
                     "status": "Ativo",
                     "descricao": "Receita tributária por categoria",
+                    "metodo_calculo": "Soma de todos os valores pagos referentes a IPTU, ISS, ITBI e demais tributos municipais, organizados por categoria tributária",
                     "periodicidade_atualizacao": "Semanal",
                 },
                 {
@@ -439,6 +486,7 @@ DADOS_VISUAIS = {
                     "fonte": "SIGT - Prefeitura de Osasco",
                     "status": "Ativo",
                     "descricao": "Receita tributária por subcategoria",
+                    "metodo_calculo": "Soma de todos os valores pagos referentes a IPTU, ISS, ITBI e demais tributos municipais, organizados por subcategoria tributária",
                     "periodicidade_atualizacao": "Semanal",
                 },
                 {
@@ -447,6 +495,7 @@ DADOS_VISUAIS = {
                     "fonte": "SIGT - Prefeitura de Osasco",
                     "status": "Ativo",
                     "descricao": "Inscrições imobiliárias, valor venal e incidência de tributo por ano",
+                    "metodo_calculo": "Soma total das inscrições imobiliárias, do valor venal e da incidência tributária, agregadas por ano",
                     "periodicidade_atualizacao": "Semanal",
                 },
             ]
@@ -461,6 +510,7 @@ DADOS_VISUAIS = {
                     "fonte": "OzMundi",
                     "status": "Ativo",
                     "descricao": "Mapa interativo do zoneamento urbano de Osasco",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Anual",
                 }
             ],
@@ -473,6 +523,7 @@ DADOS_VISUAIS = {
                     "fonte": "OzMundi",
                     "status": "Ativo",
                     "descricao": "Mapa interativo dos loteamentos aprovados",
+                    "metodo_calculo": "",
                     "periodicidade_atualizacao": "Anual",
                 }
             ],
@@ -501,6 +552,7 @@ def criar_tabela_visuais():
                             "Status": visual["status"],
                             "Periodicidade de atualização": visual["periodicidade_atualizacao"],
                             "Descrição": visual["descricao"],
+                            "Método de cálculo": visual["metodo_calculo"],
                         }
                     )
 
@@ -518,6 +570,7 @@ def criar_tabela_visuais():
                             "Status": indicador["status"],
                             "Periodicidade de atualização": indicador["periodicidade_atualizacao"],
                             "Descrição": indicador["descricao"],
+                            "Método de cálculo": indicador["metodo_calculo"],
                         }
                     )
 
@@ -567,7 +620,6 @@ dados_tabela = criar_tabela_visuais()
 resumo_eixos = criar_resumo_por_eixo()
 
 # Criar tabela
-# Criar tabela
 tabela_visuais = dash_table.DataTable(
     id="tabela-visuais",
     columns=[
@@ -578,11 +630,17 @@ tabela_visuais = dash_table.DataTable(
         {"name": "Categoria", "id": "Categoria", "type": "text"},
         {"name": "Fonte", "id": "Fonte", "type": "text"},
         {"name": "Descrição", "id": "Descrição", "type": "text"},
+        {"name": "Método de cálculo", "id": "Método de cálculo", "type": "text"},
         {"name": "Periodicidade de atualização", "id": "Periodicidade de atualização", "type": "text"},
         {"name": "Status", "id": "Status", "type": "text"},
     ],
     data=dados_tabela,
     filter_action="native",
+    export_format="xlsx",
+    export_headers="display",
+    page_action="native",
+    page_current=0,
+    page_size=50,
     style_table={
         "overflowX": "auto",
         "overflowY": "auto",
@@ -634,9 +692,20 @@ tabela_visuais = dash_table.DataTable(
         "Status": "Status atual (Ativo ou Em Desenvolvimento)",
         "Descrição": "Descrição detalhada do visual/indicador",
         "Periodicidade de atualização": "Periodicidade de atualização dos dados",
+        "Método de cálculo": "Método de cálculo dos dados",
     },
     tooltip_delay=0,
     tooltip_duration=-1,
+    css=[
+        {
+            "selector": ".export::after",
+            "rule": "content: 'Exportar Excel'; font-size: 12px;",
+        },
+        {
+            "selector": ".export",
+            "rule": "font-size: 0;",
+        },
+    ],
 )
 
 

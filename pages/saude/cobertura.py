@@ -443,7 +443,7 @@ modal_febre_amarela = dbc.Modal(
                                                         ),
                                                         html.H4(
                                                             f"{len(df_febre_amarela.loc[df_febre_amarela['cpf_bd_imunizacao'].notna()]):,}",
-                                                            className="text-success",
+                                                            className="text-primary",
                                                         ),
                                                     ]
                                                 )
@@ -1014,7 +1014,6 @@ card_meningoc1 = [
         ]
     ),
 ]
-
 
 modal_meningoc_reforco = dbc.Modal(
     [ 

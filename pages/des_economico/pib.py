@@ -21,6 +21,14 @@ register_page(
 # CARREGAR DADOS
 all_data = load_data()
 
+mapa_cores = {
+    "Osasco (SP)": "#1F77B4",
+    "São José dos Campos (SP)": "#AF8DCD",
+    "Sorocaba (SP)": "#FF9F4A",
+    "São Bernardo do Campo (SP)": "#E05D5E",
+    "Ribeirão Preto (SP)": "#61B861",
+    "Santo André (SP)": "#A98078",
+}
 
 # GRÁFICOS PIB
 def get_pib_plots(all_data):
@@ -50,7 +58,7 @@ def get_pib_plots(all_data):
         },
         template=TEMPLATE,
     )
-    fig_pib_categorias.update_xaxes(tickmode="linear", tickangle=45)
+    # fig_pib_categorias.update_xaxes(tickmode="linear", tickangle=45)
     fig_pib_categorias.update_layout(
         legend=dict(
             yanchor="top",
@@ -61,14 +69,42 @@ def get_pib_plots(all_data):
             bordercolor="lightgray",
         ),
     )
-    
-    # Configuração personalizada do tooltip para mostrar todas as categorias
+
+    fig_pib_categorias.update_yaxes(
+        showgrid=True,
+        gridcolor="rgba(0,0,0,0.08)",
+        zeroline=False,
+        ticks="outside", 
+        automargin=True
+    )
+    fig_pib_categorias.update_xaxes(
+        zeroline=False,
+        ticks="outside", 
+        tickmode="linear", 
+        tickangle=45
+    )
     fig_pib_categorias.update_traces(
-        hovertemplate="<b>%{fullData.name}</b><br>Ano: %{x}<br>PIB: R$ %{y:,.2f}<extra></extra>"
+        cliponaxis=False,
+        marker_line_color="black",
+        marker_line_width=1,
+        hovertemplate="<b>%{fullData.name}</b><br>Ano: %{x}<br>PIB: R$ %{y:,.2f}<extra></extra>",
+    )
+    fig_pib_categorias.update_layout(
+        bargap=0.25,
+        showlegend=True,
+        margin=dict(l=40, r=40, t=30, b=80),
+        plot_bgcolor="white",
+        legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=0.01,
+            bgcolor="white",
+            bordercolor="lightgray",
+        ),
     )
     
     # Adicionar tooltip personalizado que mostra todas as categorias
-    # Primeiro, vamos agrupar os dados por ano para criar tooltips completos
     anos_unicos = df_pib_categorias['ano'].unique()
     
     # Criar um dicionário com os tooltips por ano
@@ -143,6 +179,7 @@ def get_pib_plots(all_data):
             "municipio": "Município",
         },
         template="none",
+        color_discrete_map=mapa_cores,
     )
 
     fig_pib_per_capita.update_layout(
@@ -154,6 +191,7 @@ def get_pib_plots(all_data):
         legend=dict(
             orientation="h", yanchor="bottom", y=-0.35, xanchor="center", x=0.5
         ),
+        hovermode="x unified"
     )
 
     fig_pib_per_capita.for_each_trace(
@@ -184,6 +222,7 @@ def get_pib_plots(all_data):
             "municipio": "Município",
         },
         template="none",
+        color_discrete_map=mapa_cores,
     )
     fig_pib_sp.for_each_trace(
         lambda trace: trace.update(
@@ -208,6 +247,7 @@ def get_pib_plots(all_data):
         legend=dict(
             orientation="h", yanchor="bottom", y=-0.35, xanchor="center", x=0.5
         ),
+        hovermode="x unified"
     )
     fig_pib_sp.update_traces(
         hovertemplate="<b>%{fullData.name}</b><br>Ano: %{x}<br>Participação: %{y:,.2%}<extra></extra>"
@@ -333,6 +373,7 @@ cartoes_pib_categorias = dbc.Row(
                 id="pib-graph",
                 figure=fig_pib_categorias,
                 config={"displayModeBar": False},
+                style={"height": "500px"}
             ),
             width=10,
         ),

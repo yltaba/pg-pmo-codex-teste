@@ -165,7 +165,7 @@ layout = html.Div(
         # ABERTURA E ENCERRAMENTO DE EMPRESAS
         html.Div(
             [
-                html.H4("Abertura e encerramento de empresas computadas pelo SIGT."),
+                html.H4("Abertura e encerramento de empresas computadas pelo SIGT"),
                 create_info_popover(
                     "info-abertura-encerramento",
                     "economico_abertura_encerramento_empresas",

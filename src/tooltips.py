@@ -7,9 +7,9 @@ Este arquivo contém todos os textos explicativos usados nos info_popovers.
 
 HUMANO_FAVORECIDOS_PBF = """Nome: Número de famílias beneficiadas pelo PBF no município
 
-Conceito: Número de famílias beneficiadas pelo PBF no município.
+Conceito: Total de responsáveis familiares (RF) contemplados pelo PBF em um município, considerando o mês de referência.
 
-Método de cálculo: Contagem de famílias beneficiadas pelo PBF no município.
+Método de cálculo: Contagem de responsáveis familiares (RF) beneficiados pelo PBF no município.
 
 Periodicidade de atualização: Mensal.
 
@@ -19,9 +19,9 @@ Fonte: Portal da Transparência da CGU (Controladoria-Geral da União)."""
 
 HUMANO_REPASSES_PBF = """Nome: Valor total dos repasses do PBF no município
 
-Conceito: Valor total dos repasses do PBF no município, em reais.
+Conceito: Montante total, em reais, repassado pelo PBF a beneficiários de um município no mês de referência.
 
-Método de cálculo: Soma de todos os repasses do PBF no município, em reais.
+Método de cálculo: Soma de todos os valores repassados pelo PBF a beneficiários do município no mês de referência.
 
 Periodicidade de atualização: Mensal.
 
@@ -31,9 +31,9 @@ Fonte: Portal da Transparência da CGU (Controladoria-Geral da União)."""
 
 HUMANO_MEDIA_REPASSES_PBF = """Nome: Média do valor dos repasses do PBF no município
 
-Conceito: Média do valor dos repasses do PBF no município, em reais.
+Conceito: Valor médio, em reais, recebido por família beneficiada pelo PBF em um município no mês de referência.
 
-Método de cálculo: Soma de todos os repasses do PBF no município, em reais / Número de famílias beneficiadas pelo PBF no município.
+Método de cálculo: Soma de todos os valores repassados pelo PBF no município, em reais, dividida pelo número de famílias beneficiadas no mesmo mês.
 
 Periodicidade de atualização: Mensal.
 
@@ -43,9 +43,9 @@ Fonte: Portal da Transparência da CGU (Controladoria-Geral da União)."""
 
 HUMANO_CAD_UNICO_CADASTROS = """Nome: Evolução de cadastros no CadÚnico por ano e forma de coleta
 
-Conceito: Evolução de cadastros no CadÚnico por ano e forma de coleta.
+Conceito: Quantidade de cadastros realizados no CadÚnico, agrupados por ano e por forma de coleta, permitindo acompanhar sua evolução ao longo do tempo.
 
-Método de cálculo: Contagem de cadastros no CadÚnico por ano e forma de coleta.
+Método de cálculo: Contagem dos cadastros registrados no CadÚnico, organizados por ano e por forma de coleta.
 
 Periodicidade de atualização: Mensal.
 
@@ -55,45 +55,42 @@ Fonte: Caixa Econômica Federal."""
 
 HUMANO_CAD_UNICO_SEXO = """Nome: Pessoas cadastradas no CadÚnico por sexo biológico
 
-Conceito: Pessoas cadastradas no CadÚnico por sexo biológico.
+Conceito: Quantidade de pessoas registradas no CadÚnico, classificadas segundo o sexo biológico informado no cadastro.
 
-Método de cálculo: Contagem de pessoas cadastradas no CadÚnico por sexo biológico.
-
-Periodicidade de atualização: Mensal.
-
-Fonte: Caixa Econômica Federal."""
-
-
-
-HUMANO_APRESENTACAO_CAD_UNICO = """Nome: O Cadastro Único proporciona uma visão abrangente da parcela mais vulnerável da população brasileira, permitindo que os governos em todos os níveis saibam quem são essas famílias, onde vivem, suas condições de vida e suas necessidades.
-
-Conceito: Apresentação do CadÚnico.
-
-Método de cálculo: Contagem de pessoas cadastradas no CadÚnico.
+Método de cálculo: Contagem de pessoas cadastradas no CadÚnico, agrupadas por sexo biológico.
 
 Periodicidade de atualização: Mensal.
 
 Fonte: Caixa Econômica Federal."""
 
 
+HUMANO_APRESENTACAO_CAD_UNICO = """Nome: O Cadastro Único oferece uma visão abrangente sobre a parcela mais vulnerável da população brasileira, permitindo que governos em todos os níveis identifiquem quem são essas famílias, onde vivem, suas condições de vida e suas necessidades.
 
-HUMANO_CAD_UNICO_PARENTESCO = """Nome: Pessoas cadastradas no CadÚnico por parentesco.
+Conceito: Descrição geral do Cadastro Único e de sua função como base de informações socioeconômicas.
 
-Conceito: Parentesco com relação ao RF (Pessoa responsável pela Unidade Familiar).
-
-Método de cálculo: Contagem de pessoas cadastradas no CadÚnico por parentesco.
+Método de cálculo: Contagem total de pessoas cadastradas no CadÚnico.
 
 Periodicidade de atualização: Mensal.
 
 Fonte: Caixa Econômica Federal."""
 
 
+HUMANO_CAD_UNICO_PARENTESCO = """Nome: Pessoas cadastradas no CadÚnico por parentesco
 
-HUMANO_CAD_UNICO_BAIRROS = """Nome: Visão geral dos dados do Cadastro Único agregados pelos bairros de Osasco.
+Conceito: Classificação das pessoas cadastradas no CadÚnico conforme o grau de parentesco com o Responsável Familiar (RF) da unidade familiar.
 
-Conceito: Visão geral dos dados do Cadastro Único agregados pelos bairros de Osasco.
+Método de cálculo: Contagem de pessoas cadastradas no CadÚnico, agrupadas por grau de parentesco.
 
-Método de cálculo: Contagem de pessoas cadastradas no CadÚnico por bairro de Osasco.
+Periodicidade de atualização: Mensal.
+
+Fonte: Caixa Econômica Federal."""
+
+
+HUMANO_CAD_UNICO_BAIRROS = """Nome: Pessoas cadastradas no CadÚnico por bairro de Osasco
+
+Conceito: Quantidade de pessoas registradas no CadÚnico, agrupadas por bairro do município de Osasco.
+
+Método de cálculo: Contagem de pessoas cadastradas no CadÚnico por bairro.
 
 Periodicidade de atualização: Mensal.
 
@@ -105,7 +102,7 @@ Fonte: Caixa Econômica Federal."""
 # DESENVOLVIMENTO ECONÔMICO
 ECONOMICO_PIB_CATEGORIAS = """Nome: Produto Interno Bruto (PIB)
 
-Conceito: Soma de todos os bens e serviços finais produzidos no município.
+Conceito: Valor total de todos os bens e serviços finais produzidos no município, refletindo a atividade econômica local.
 
 Método de cálculo: Valor adicionado bruto a preços de mercado.
 
@@ -116,9 +113,9 @@ Fonte: IBGE."""
 
 ECONOMICO_PIB_PER_CAPITA = """Nome: Produto Interno Bruto per capita
 
-Conceito: Total do produto interno bruto ponderado pela população do município.
+Conceito: Valor médio do PIB correspondente a cada habitante do município, no ano de referência.
 
-Método de cálculo: PIB do município / População do município.
+Método de cálculo: PIB do município dividido pela população residente no mesmo ano.
 
 Periodicidade de atualização: Anual.
 
@@ -127,9 +124,9 @@ Fonte: IBGE."""
 
 ECONOMICO_ABERTURA_ENCERRAMENTO_EMPRESAS = """Nome: Abertura e encerramento de empresas em Osasco
 
-Conceito: Abertura e encerramento de empresas registradas pelo SIGT.
+Conceito: Quantidade de empresas abertas e encerradas no município, conforme registros do SIGT.
 
-Método de cálculo: Contagem de abertura e encerramento de empresas registradas pelo SIGT.
+Método de cálculo: Contagem de eventos de abertura e encerramento de empresas registradas no SIGT.
 
 Periodicidade de atualização: Mensal.
 
@@ -138,9 +135,9 @@ Fonte: Secretaria de Finanças de Osasco."""
 
 ECONOMICO_PIB_PARTICIPACAO_SP = """Nome: Participação do PIB de municípios selecionados no Estado de São Paulo
 
-Conceito: Participação do PIB de municípios selecionados no Estado de São Paulo.
+Conceito: Proporção do PIB de um município em relação ao PIB total do Estado de São Paulo, no ano de referência.
 
-Método de cálculo: PIB do município / PIB do Estado de São Paulo.
+Método de cálculo: PIB do município dividido pelo PIB total do Estado de São Paulo.
 
 Periodicidade de atualização: Anual.
 
@@ -149,33 +146,34 @@ Fonte: IBGE."""
 
 ECONOMICO_PORTE_EMPRESAS = """Nome: Porte das empresas de Osasco
 
-Conceito: Porte das empresas de Osasco registrado pela RAIS Estabelecimentos.
+Conceito: Distribuição das empresas do município por porte, conforme registros da RAIS Estabelecimentos.
 
-Método de cálculo: Contagem de estabelecimentos ativos na RAIS Estabelecimentos.
+Método de cálculo: Contagem de estabelecimentos ativos no município, classificados por porte, de acordo com a RAIS Estabelecimentos.
 
-Periodicidade de atualização: Divulgação anual.
+Periodicidade de atualização: Anual.
 
 Fonte: Relação Anual de Informações Sociais (RAIS)."""
+
+
 
 # DESENVOLVIMENTO URBANO
 
 URBANO_ZONEAMENTO = """Nome: Zoneamento urbano de Osasco
 
-Conceito: Classificação do uso do solo urbano conforme legislação municipal. O zoneamento de Osasco é um plano de uso do solo que define as áreas destinadas a diferentes atividades econômicas e de ocupação do solo.
+Conceito: Classificação do uso do solo urbano do município, conforme definido pela legislação municipal e pelo Plano Diretor, indicando áreas destinadas a diferentes tipos de atividades econômicas e de ocupação.
 
-Método de cálculo: Mapeamento das zonas conforme Plano Diretor.
+Método de cálculo: Mapeamento das zonas de uso do solo conforme o Plano Diretor.
 
-Periodicidade de atualização: Atualização conforme revisão do Plano Diretor.
+Periodicidade de atualização: Conforme revisão do Plano Diretor.
 
 Fonte: Secretaria de Planejamento Urbano."""
 
 
-
 URBANO_LOTEAMENTO = """Nome: Loteamentos de Osasco
 
-Conceito: Loteamentos aprovados para urbanização no município.
+Conceito: Conjunto de loteamentos aprovados para urbanização no município.
 
-Método de cálculo: Apresentação em mapa de loteamentos aprovados para urbanização no município.
+Método de cálculo: Mapeamento e apresentação em formato georreferenciado dos loteamentos aprovados para urbanização.
 
 Periodicidade de atualização: Anual.
 
@@ -185,122 +183,112 @@ Fonte: OzMundi."""
 
 
 # TRABALHO E RENDA
+TRABALHO_ESTOQUE_EMPREGOS = """Nome: Estoque de postos de trabalho
 
-TRABALHO_ESTOQUE_EMPREGOS = """Nome: Estoque de Postos de Trabalho
+Conceito: Quantidade total de vínculos empregatícios formais ativos no município no ano de referência.
 
-Conceito: Total de vínculos empregatícios formais no município.
-
-Método de cálculo: Contagem de vínculos ativos na RAIS.
+Método de cálculo: Contagem de vínculos empregatícios ativos, conforme registros da RAIS.
 
 Periodicidade de atualização: Anual.
 
 Fonte: Relação Anual de Informações Sociais (RAIS)."""
 
 
+TRABALHO_SALDO_MOVIMENTACAO = """Nome: Saldo de movimentação de empregos
 
+Conceito: Diferença entre o número de admissões e o número de desligamentos de vínculos formais no período.
 
-TRABALHO_SALDO_MOVIMENTACAO = """Nome: Saldo de Movimentação de Empregos
-
-Conceito: Diferença entre admissões e demissões no período.
-
-Método de cálculo: Admissões - Demissões.
+Método de cálculo: Total de admissões menos total de desligamentos.
 
 Periodicidade de atualização: Mensal.
 
 Fonte: Cadastro Geral de Empregados e Desempregados (CAGED)."""
 
 
+TRABALHO_SALDO_CNAE = """Nome: Saldo de postos de trabalho por seção da CNAE
 
-TRABALHO_SALDO_CNAE = """Nome: Saldo de postos de trabalho por Seção da CNAE
+Conceito: Diferença entre admissões e desligamentos de vínculos formais, agrupada por seção da CNAE.
 
-Conceito: Diferença entre admissões e demissões no período.
-
-Método de cálculo: Admissões - Demissões.
-
-Periodicidade de atualização: Mensal.
-
-Fonte: Cadastro Geral de Empregados e Desempregados (CAGED)."""
-
-
-
-TRABALHO_SALDO_IDADE = """Nome: Saldo de postos de trabalho por idade
-
-Conceito: Diferença entre admissões e demissões no período.
-
-Método de cálculo: Admissões - Demissões.
+Método de cálculo: Total de admissões menos total de desligamentos, agregados por seção da CNAE.
 
 Periodicidade de atualização: Mensal.
 
 Fonte: Cadastro Geral de Empregados e Desempregados (CAGED)."""
 
 
+TRABALHO_SALDO_IDADE = """Nome: Saldo de postos de trabalho por faixa etária
 
-TRABALHO_MEDIA_SALARIAL = """Nome: Média salarial das admissões e demissões
+Conceito: Diferença entre admissões e desligamentos de vínculos formais, agrupada por faixa etária dos trabalhadores.
 
-Conceito: Valor médio dos salários pagos aos trabalhadores formais.
-
-Método de cálculo: Soma dos salários / Número de vínculos.
-
-Periodicidade de atualização: Mensal.
-
-Fonte: Relação Anual de Informações Sociais (RAIS)."""
-
-
-
-TRABALHO_MEDIA_IDADE = """Nome: Média de idade das admissões e demissões
-
-Conceito: Valor médio da idade dos trabalhadores formais.
-
-Método de cálculo: Soma das idades / Número de vínculos.
+Método de cálculo: Total de admissões menos total de desligamentos, agregados por faixa etária.
 
 Periodicidade de atualização: Mensal.
 
-Fonte: Relação Anual de Informações Sociais (RAIS)."""
+Fonte: Cadastro Geral de Empregados e Desempregados (CAGED)."""
+
+
+TRABALHO_MEDIA_SALARIAL = """Nome: Média salarial das admissões e desligamentos
+
+Conceito: Valor médio dos salários associados às admissões e desligamentos de vínculos formais no período.
+
+Método de cálculo: Soma dos salários registrados dividida pelo número total de vínculos.
+
+Periodicidade de atualização: Mensal.
+
+Fonte: Cadastro Geral de Empregados e Desempregados (CAGED)."""
+
+
+TRABALHO_MEDIA_IDADE = """Nome: Média de idade das admissões e desligamentos
+
+Conceito: Idade média dos trabalhadores formais admitidos ou desligados no período.
+
+Método de cálculo: Soma das idades registradas dividida pelo número total de vínculos.
+
+Periodicidade de atualização: Mensal.
+
+Fonte: Cadastro Geral de Empregados e Desempregados (CAGED)."""
 
 
 # RECEITA PRÓPRIA
 
 RECEITA_TOTAL = """Nome: Receita total arrecadada
 
-Conceito: Valor total arrecadado com tributos municipais (IPTU, ISS, ITBI, etc.) no município.
+Conceito: Montante total arrecadado pelo município com tributos municipais, como IPTU, ISS, ITBI e outros, no período de referência.
 
-Método de cálculo: Soma de todas as guias de IPTU, ISS, ITBI, etc. pagas.
+Método de cálculo: Soma de todos os valores pagos referentes a IPTU, ISS, ITBI e demais tributos municipais.
 
 Periodicidade de atualização: Mensal.
 
 Fonte: Secretaria de Finanças de Osasco (SIGT)."""
-
 
 
 RECEITA_CATEG_TRIBUTO = """Nome: Receita anual por categoria tributária (2023-2025)
 
-Conceito: Valor total arrecadado com tributos municipais (IPTU, ISS, ITBI, etc.) no município.
+Conceito: Valor total arrecadado pelo município com tributos municipais, como IPTU, ISS, ITBI e outros, agrupado por categoria tributária.
 
-Método de cálculo: Soma de todas as guias de IPTU, ISS, ITBI, etc. pagas.
+Método de cálculo: Soma de todos os valores pagos referentes a IPTU, ISS, ITBI e demais tributos municipais, organizados por categoria tributária.
 
 Periodicidade de atualização: Mensal.
 
 Fonte: Secretaria de Finanças de Osasco (SIGT)."""
-
 
 
 RECEITA_SUBC_TRIBUTO = """Nome: Receita anual por subcategoria tributária (2023-2025)
 
-Conceito: Valor total arrecadado com tributos municipais (IPTU, ISS, ITBI, etc.) no município.
+Conceito: Valor total arrecadado pelo município com tributos municipais, como IPTU, ISS, ITBI e outros, agrupado por subcategoria tributária.
 
-Método de cálculo: Soma de todas as guias de IPTU, ISS, ITBI, etc. pagas.
+Método de cálculo: Soma de todos os valores pagos referentes a IPTU, ISS, ITBI e demais tributos municipais, organizados por subcategoria tributária.
 
 Periodicidade de atualização: Mensal.
 
 Fonte: Secretaria de Finanças de Osasco (SIGT)."""
 
 
-
 RECEITA_VALOR_IMOVEL = """Nome: Inscrições imobiliárias, valor venal e incidência tributária por ano (2023-2025)
 
-Conceito: Inscrições imobiliárias, valor venal e incidência tributária por ano.
+Conceito: Informações sobre inscrições imobiliárias, valor venal e incidência tributária no município, por ano de referência.
 
-Método de cálculo: Soma de todas as inscrições imobiliárias, valor venal e incidência tributária por ano.
+Método de cálculo: Soma total das inscrições imobiliárias, do valor venal e da incidência tributária, agregadas por ano.
 
 Periodicidade de atualização: Mensal.
 

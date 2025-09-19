@@ -205,7 +205,8 @@ pct_domicilios_sem_rede_esgoto = format_decimal(
     escoa_sanitario_fam.loc[
         escoa_sanitario_fam["desc_cod_escoa_sanitario_domic_fam"]
         != "Rede coletora de esgoto ou pluvial"
-    ]["cod_familiar_fam"].nunique() / escoa_sanitario_fam["cod_familiar_fam"].nunique(),
+    ]["cod_familiar_fam"].nunique()
+    / escoa_sanitario_fam["cod_familiar_fam"].nunique(),
     format="#,##0.00%",
     locale="pt_BR",
 )
@@ -223,7 +224,7 @@ card_n_domicilios_sem_rede_esgoto = html.Div(
                     className="card-value-container",
                 ),
                 html.P(
-                    f"{pct_domicilios_sem_rede_esgoto} do total de domicílios",
+                    f"{pct_domicilios_sem_rede_esgoto} do total",
                     className="card-subtitle",
                     style={
                         "fontSize": "12px",
@@ -273,7 +274,7 @@ card_n_domicilios_sem_agua_canalizada = html.Div(
                     className="card-value-container",
                 ),
                 html.P(
-                    f"{pct_domicilios_sem_agua_canalizada} do total de domicílios",
+                    f"{pct_domicilios_sem_agua_canalizada} do total",
                     className="card-subtitle",
                     style={
                         "fontSize": "12px",
@@ -345,7 +346,9 @@ def gerar_grafico_renda_per_capita():
         x=218,
         line_dash="dot",
         line_color="darkred",
-        annotation_text=f" Extrema pobreza (< R$ 218): {prob_extrema_pobreza:.1%} das famílias",
+        annotation_text=f" Extrema pobreza (< R$ 218): {prob_extrema_pobreza:.1%} das famílias".replace(
+            ".", ","
+        ),
         annotation_position="top right",
         annotation_font_color="darkred",
         annotation_font_size=12,
@@ -354,20 +357,23 @@ def gerar_grafico_renda_per_capita():
         x=660,
         line_dash="dot",
         line_color="darkorange",
-        annotation_text=f" Pobreza (< R$ 660): {prob_pobreza:.1%} das famílias",
+        annotation_text=f" Pobreza (< R$ 660): {prob_pobreza:.1%} das famílias".replace(
+            ".", ","
+        ),
         annotation_position="bottom right",
         annotation_font_color="darkorange",
         annotation_font_size=12,
     )
 
     # Melhorar visualização do eixo x
-    fig_renda_per_capita.update_xaxes(range=[0, 5000])
+    fig_renda_per_capita.update_xaxes(range=[0, 5000], showgrid=False)
 
     # Layout
     fig_renda_per_capita.update_layout(
         xaxis_title="Renda per capita (R$)",
         yaxis_title="Probabilidade acumulada",
         template="plotly_white",
+        separators=",.",
     )
 
     fig_renda_per_capita.update_traces(hoverinfo="none")
@@ -441,146 +447,170 @@ cards_domicilio = dbc.Row(
     className="mb-4",
 )
 
+
 # GRÁFICOS
+def gerar_grafico_sexo_biologico():
+    sex_colors = {"Masculino": "#368CE7", "Feminino": "#073C73"}
+    fig_sexo_biologico = px.pie(
+        df_sexo_biologico,
+        values="count",
+        hole=0.5,
+        names="desc_cod_sexo_pessoa",
+        template=TEMPLATE,
+        labels={
+            "desc_cod_sexo_pessoa": "Sexo biológico",
+            "count": "Número de pessoas",
+        },
+    )
 
-alfabet_colors = {"Masculino": "#89CFF0", "Feminino": "#FFB6C1"}
-fig_sabe_ler_escrever = px.pie(
-    df_sabe_ler_escrever,
-    values="count",
-    hole=0.5,
-    names="desc_cod_sabe_ler_escrever_memb",
-    color_discrete_map=alfabet_colors,
-    template=TEMPLATE,
-)
-fig_sabe_ler_escrever.update_traces(textposition="outside", textinfo="percent+label")
-fig_sabe_ler_escrever.update_layout(
-    showlegend=True,
-    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-)
+    fig_sexo_biologico.update_traces(
+        textposition="outside",
+        textinfo="percent+label",
+        marker=dict(
+            colors=[
+                sex_colors[name] for name in df_sexo_biologico["desc_cod_sexo_pessoa"]
+            ]
+        ),
+    )
+    fig_sexo_biologico.update_layout(
+        showlegend=True,
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        separators=",.",
+    )
+    return fig_sexo_biologico
 
-sex_colors = {"Masculino": "#89CFF0", "Feminino": "#FFB6C1"}
-fig_sexo_biologico = px.pie(
-    df_sexo_biologico,
-    values="count",
-    hole=0.5,
-    names="desc_cod_sexo_pessoa",
-    color_discrete_map=sex_colors,
-    template=TEMPLATE,
-    labels={
-        "desc_cod_sexo_pessoa": "Sexo biológico",
-        "count": "Número de pessoas",
-    },
-)
-fig_sexo_biologico.update_traces(textposition="outside", textinfo="percent+label")
-fig_sexo_biologico.update_layout(
-    showlegend=True,
-    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-)
+
+fig_sexo_biologico = gerar_grafico_sexo_biologico()
 
 
 # figura de cadastros por ano e forma de coleta
-forma_coleta_colors = {
-    "Com visita domiciliar": "#073c73",
-    "Sem visita domiciliar": "#368ce7",
-    "Não informado": "#7ab3ef",
-}
+def gerar_grafico_forma_coleta():
+    forma_coleta_colors = {
+        "Com visita domiciliar": "#073c73",
+        "Sem visita domiciliar": "#368ce7",
+        "Não informado": "#7ab3ef",
+    }
 
-fig_cadastro_forma_coleta = px.bar(
-    df_forma_coleta,
-    x="ano_cadastramento",
-    y="n_familias",
-    color="desc_cod_forma_coleta_fam",
-    labels={
-        "desc_cod_forma_coleta_fam": "Forma de coleta",
-        "ano_cadastramento": "Ano de cadastro",
-        "n_familias": "Número de famílias",
-    },
-    template=TEMPLATE,
-    color_discrete_map=forma_coleta_colors,
-)
-fig_cadastro_forma_coleta.update_layout(
-    yaxis=dict(tickformat=",.0f", gridcolor="lightgray", zeroline=False),
-    xaxis=dict(tickmode="linear", tickangle=45),
-)
-fig_cadastro_forma_coleta.update_layout(
-    legend=dict(
-        yanchor="top",
-        y=0.99,
-        xanchor="left",
-        x=0.01,
-        bgcolor="white",
-        bordercolor="lightgray",
-    ),
-)
+    fig_cadastro_forma_coleta = px.bar(
+        df_forma_coleta,
+        x="ano_cadastramento",
+        y="n_familias",
+        color="desc_cod_forma_coleta_fam",
+        labels={
+            "desc_cod_forma_coleta_fam": "Forma de coleta",
+            "ano_cadastramento": "Ano de cadastro",
+            "n_familias": "Número de famílias",
+        },
+        template=TEMPLATE,
+        color_discrete_map=forma_coleta_colors,
+    )
 
-# Configuração personalizada do tooltip para mostrar todas as categorias
-fig_cadastro_forma_coleta.update_traces(
-    hovertemplate="<b>%{fullData.name}</b><br>Ano: %{x}<br>Famílias: %{y:,.0f}<extra></extra>"
-)
+    fig_cadastro_forma_coleta.update_yaxes(
+        showgrid=True,
+        gridcolor="rgba(0,0,0,0.08)",
+        zeroline=False,
+        ticks="outside",
+        tickformat=",",
+        automargin=True,
+    )
+    fig_cadastro_forma_coleta.update_xaxes(
+        zeroline=False, ticks="outside", tickmode="linear", dtick="M1", tickangle=45
+    )
+    fig_cadastro_forma_coleta.update_traces(
+        cliponaxis=False,
+        marker_line_color="black",
+        marker_line_width=1,
+        hovertemplate="<b>%{fullData.name}</b><br>Ano: %{x}<br>Famílias: %{y:,.0f}<extra></extra>",
+    )
 
-# Adicionar tooltip personalizado que mostra todas as categorias
-# Primeiro, vamos agrupar os dados por ano para criar tooltips completos
-anos_unicos = df_forma_coleta['ano_cadastramento'].unique()
+    fig_cadastro_forma_coleta.update_layout(
+        margin=dict(l=40, r=40, t=30, b=80),
+        yaxis=dict(tickformat=",.0f", gridcolor="lightgray", zeroline=False),
+        xaxis=dict(tickmode="linear", tickangle=45),
+        bargap=0.25,
+        plot_bgcolor="white",
+        showlegend=True,
+        legend=dict(
+            yanchor="top",
+            y=0.99,
+            xanchor="left",
+            x=0.01,
+            bgcolor="white",
+            bordercolor="lightgray",
+        ),
+        separators=",.",
+    )
 
-# Criar um dicionário com os tooltips por ano
-tooltips_por_ano = {}
+    # Adicionar tooltip personalizado que mostra todas as categorias
+    anos_unicos = df_forma_coleta["ano_cadastramento"].unique()
 
-for ano in anos_unicos:
-    dados_ano = df_forma_coleta[df_forma_coleta['ano_cadastramento'] == ano]
-    total_ano = dados_ano['n_familias'].sum()
-    
-    # Criar texto do tooltip com todas as categorias
-    tooltip_text = f"<b>Ano: {ano}</b><br><br>"
-    tooltip_text += "<b>Famílias por Forma de Coleta:</b><br>"
-    
-    for _, row in dados_ano.iterrows():
-        categoria = row['desc_cod_forma_coleta_fam']
-        valor = row['n_familias']
-        percentual = (valor / total_ano) * 100
-        
-        # Formatar o valor para milhares quando apropriado
-        if valor >= 1_000_000:
-            valor_formatado = f"{valor/1_000_000:.1f}M"
-        elif valor >= 1_000:
-            valor_formatado = f"{valor/1_000:.1f}K"
-        else:
-            valor_formatado = f"{valor:,.0f}"
-        
-        tooltip_text += f"<b>{categoria}:</b> {valor_formatado} ({percentual:.1f}%)<br>"
-    
-    # Formatar o total também
-    if total_ano >= 1_000_000:
-        total_formatado = f"{total_ano/1_000_000:.1f}M"
-    elif total_ano >= 1_000:
-        total_formatado = f"{total_ano/1_000:.1f}K"
-    else:
-        total_formatado = f"{total_ano:,.0f}"
-    
-    tooltip_text += f"<br><b>Total: {total_formatado} famílias</b>"
-    tooltips_por_ano[ano] = tooltip_text
+    # Criar um dicionário com os tooltips por ano
+    tooltips_por_ano = {}
 
-# Aplicar o tooltip personalizado para cada trace
-for trace in fig_cadastro_forma_coleta.data:
-    # Criar uma lista de tooltips para este trace
-    tooltips_trace = []
-    
-    for i, x_val in enumerate(trace.x):
-        if x_val in tooltips_por_ano:
-            tooltips_trace.append(tooltips_por_ano[x_val] + "<extra></extra>")
-        else:
-            # Fallback para tooltip padrão se não encontrar o ano
-            valor = trace.y[i]
+    for ano in anos_unicos:
+        dados_ano = df_forma_coleta[df_forma_coleta["ano_cadastramento"] == ano]
+        total_ano = dados_ano["n_familias"].sum()
+
+        # Criar texto do tooltip com todas as categorias
+        tooltip_text = f"<b>Ano: {ano}</b><br><br>"
+        tooltip_text += "<b>Famílias por Forma de Coleta:</b><br>"
+
+        for _, row in dados_ano.iterrows():
+            categoria = row["desc_cod_forma_coleta_fam"]
+            valor = row["n_familias"]
+            percentual = (valor / total_ano) * 100
+
+            # Formatar o valor para milhares quando apropriado
             if valor >= 1_000_000:
                 valor_formatado = f"{valor/1_000_000:.1f}M"
             elif valor >= 1_000:
                 valor_formatado = f"{valor/1_000:.1f}K"
             else:
                 valor_formatado = f"{valor:,.0f}"
-            tooltips_trace.append(f"<b>{trace.name}</b><br>Ano: {x_val}<br>Famílias: {valor_formatado}<extra></extra>")
-    
-    # Atualizar o hovertemplate do trace
-    trace.hovertemplate = tooltips_trace
 
+            tooltip_text += (
+                f"<b>{categoria}:</b> {valor_formatado} ({percentual:.1f}%)<br>"
+            )
+
+        # Formatar o total também
+        if total_ano >= 1_000_000:
+            total_formatado = f"{total_ano/1_000_000:.1f}M"
+        elif total_ano >= 1_000:
+            total_formatado = f"{total_ano/1_000:.1f}K"
+        else:
+            total_formatado = f"{total_ano:,.0f}"
+
+        tooltip_text += f"<br><b>Total: {total_formatado} famílias</b>"
+        tooltips_por_ano[ano] = tooltip_text
+
+    # Aplicar o tooltip personalizado para cada trace
+    for trace in fig_cadastro_forma_coleta.data:
+        # Criar uma lista de tooltips para este trace
+        tooltips_trace = []
+
+        for i, x_val in enumerate(trace.x):
+            if x_val in tooltips_por_ano:
+                tooltips_trace.append(tooltips_por_ano[x_val] + "<extra></extra>")
+            else:
+                # Fallback para tooltip padrão se não encontrar o ano
+                valor = trace.y[i]
+                if valor >= 1_000_000:
+                    valor_formatado = f"{valor/1_000_000:.1f}M"
+                elif valor >= 1_000:
+                    valor_formatado = f"{valor/1_000:.1f}K"
+                else:
+                    valor_formatado = f"{valor:,.0f}"
+                tooltips_trace.append(
+                    f"<b>{trace.name}</b><br>Ano: {x_val}<br>Famílias: {valor_formatado}<extra></extra>"
+                )
+
+        # Atualizar o hovertemplate do trace
+        trace.hovertemplate = tooltips_trace
+
+    return fig_cadastro_forma_coleta
+
+
+fig_cadastro_forma_coleta = gerar_grafico_forma_coleta()
 
 row_graficos_cadastro_sexo = dbc.Row(
     [
@@ -596,6 +626,8 @@ row_graficos_cadastro_sexo = dbc.Row(
                 dcc.Graph(
                     figure=fig_cadastro_forma_coleta,
                     id="evolucao_cadastros",
+                    config={"displayModeBar": False, "responsive": True},
+                    style={"width": "100%", "height": "420px"},
                 ),
             ],
             width=8,
@@ -603,33 +635,75 @@ row_graficos_cadastro_sexo = dbc.Row(
         dbc.Col(
             [
                 html.H4(
-                    "Pessoas cadastradas no CadÚnico por sexo biológico:",
+                    "Pessoas cadastradas no CadÚnico por sexo biológico",
                 ),
                 create_info_popover(
                     "info-cadastramento-cadunico-sexo",
                     "humano_cad_unico_sexo",
                 ),
-                dcc.Graph(figure=fig_sexo_biologico, id="sexo_biologico"),
+                dcc.Graph(
+                    figure=fig_sexo_biologico,
+                    id="sexo_biologico",
+                    config={"displayModeBar": False, "responsive": True},
+                    style={"width": "100%", "height": "420px"},
+                ),
             ],
             width=4,
         ),
-    ]
+    ],
+    className="g-3 align-items-start",
 )
 
 
-fig_parentesco = px.bar(
-    df_parentesco,
-    x="count",
-    y="desc_cod_parentesco_rf_pessoa",
-    orientation="h",
-    template=TEMPLATE,
-    color_discrete_sequence=["#1666ba"],
-    labels={
-        "desc_cod_parentesco_rf_pessoa": "Parentesco",
-        "count": "Número de pessoas",
-    },
-)
-fig_parentesco.update_layout(xaxis=dict(tickformat=",.0f"))
+def gerar_grafico_parentesco():
+    fig_parentesco = px.bar(
+        df_parentesco,
+        x="count",
+        y="desc_cod_parentesco_rf_pessoa",
+        orientation="h",
+        template=TEMPLATE,
+        color_discrete_sequence=["#75BAFF"],
+        labels={
+            "desc_cod_parentesco_rf_pessoa": "Parentesco",
+            "count": "Número de pessoas",
+        },
+    )
+
+    fig_parentesco.update_yaxes(
+        showgrid=True,
+        gridcolor="rgba(0,0,0,0.08)",
+        zeroline=False,
+        ticks="outside",
+        tickformat=",",
+        automargin=True,
+    )
+
+    fig_parentesco.update_xaxes(
+        zeroline=False,
+        tickformat=",",
+    )
+    fig_parentesco.update_traces(
+        text=df_parentesco["count"],
+        texttemplate="%{x:,.0f}",
+        textposition="outside",
+        cliponaxis=False,
+        marker_line_color="black",
+        marker_line_width=1,
+        hovertemplate="<b>%{y}</b><br>Total: %{x:,.0f}<extra></extra>",
+    )
+    fig_parentesco.update_layout(
+        bargap=0.25,
+        showlegend=False,
+        margin=dict(l=40, r=40, t=30, b=80),
+        plot_bgcolor="white",
+        separators=",.",
+    )
+
+    return fig_parentesco
+
+
+fig_parentesco = gerar_grafico_parentesco()
+
 
 indicadores_bairros = all_data["indicadores_bairros"].copy()
 column_names = {

@@ -74,4 +74,7 @@ def load_data():
         "rais_tamanho_estabelecimento": pd.read_csv(
             DATA_PATH / "gold_rais_tamanho_estabelecimento.csv", sep=";"
         ),
+        "populacao_densidade": pd.read_csv(
+            DATA_PATH / "densidade_pop_munic_selecionados.csv", sep=";", encoding="latin1"
+        ),
     }

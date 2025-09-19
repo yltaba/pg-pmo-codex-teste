@@ -118,6 +118,13 @@ NAV_BUTTONS = [
         "href": "/saude",
         "preview": True,
     },
+    {
+        "icon": "account_box",
+        "text": "Demografia",
+        "color": "#1e6091",
+        "href": "/demografia",
+        "preview": True,
+    }
 ]
 
 # Cria a linha de botões de navegação

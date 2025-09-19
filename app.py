@@ -1,6 +1,7 @@
 from dash import Dash, dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 import dash
+import os
 
 from src.config import DATA_PATH
 from src.load_data import load_data
@@ -277,5 +278,6 @@ init_callbacks(app, all_data)
 
 server = app.server
 if __name__ == "__main__":
-    # app.run(host="0.0.0.0")
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", os.environ.get("WEBSITES_PORT", "8050")))
+    app.run(host="0.0.0.0", port=port)
+    # app.run(debug=False)

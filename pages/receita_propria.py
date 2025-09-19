@@ -98,6 +98,8 @@ receita_categ_tributo = gerar_gold_receita_tributo_categoria(
 receita_categ_tributo = receita_categ_tributo.sort_values(
     by=["ANO", "TOTAL_RECEITA_MILHOES"], ascending=True
 )
+
+# Figura horizontal por categoria
 fig_categ_tributo = px.bar(
     receita_categ_tributo,
     y="CATEGORIA_TRIBUTO",
@@ -107,28 +109,48 @@ fig_categ_tributo = px.bar(
     barmode="group",
     labels={
         "CATEGORIA_TRIBUTO": "Categoria Tributária",
-        "TOTAL_RECEITA_MILHOES": "Receita (Milhões)",
+        "TOTAL_RECEITA_MILHOES": "Receita (Milhões R$)",
         "ANO": "Ano",
     },
     hover_data={"PERCENTUAL"},
     template=TEMPLATE,
     orientation="h",
 )
+fig_categ_tributo.update_yaxes(
+    showgrid=True,
+    gridcolor="rgba(0,0,0,0.08)",
+    zeroline=False,
+    ticks="outside",
+    tickformat=",",
+    automargin=True,
+)
+fig_categ_tributo.update_xaxes(
+    zeroline=False,
+    tickformat=",",
+)
 fig_categ_tributo.update_traces(
-    hovertemplate="<b>%{y}</b><br>Ano: %{fullData.name}<br>Receita: %{x:,.2f} mi<br>Percentual: %{customdata[0]:.2f}%",
+    text=receita_categ_tributo["TOTAL_RECEITA_MILHOES"],
+    texttemplate="%{x:,.0f}",
+    textposition="outside",
+    cliponaxis=False,
     marker_line_color="black",
     marker_line_width=1,
-    width=0.2,
+    hovertemplate="<b>%{y}</b><br>Ano: %{fullData.name}<br>Receita: %{x:,.2f} mi<br>Percentual: %{customdata[0]:.2f}%",
 )
 fig_categ_tributo.update_layout(
-    xaxis_tickangle=-45,
-    showlegend=True,
-    legend_title="Ano",
-    bargap=0.5,
-    margin=dict(t=20, b=40, l=40, r=20),
+    bargap=0.25,
+    showlegend=False,
+    margin=dict(l=40, r=40, t=30, b=80),
+    plot_bgcolor="white",
+    separators=",.",
 )
 
+# Ajuste de altura e range para não esticar
+max_x = float(receita_categ_tributo["TOTAL_RECEITA_MILHOES"].max())
+fig_categ_tributo.update_layout(height=420, uniformtext_minsize=11, uniformtext_mode="hide")
+fig_categ_tributo.update_xaxes(range=[0, max_x * 1.12])
 
+# Figura total por ano
 receita_categ_tributo_total = receita_categ_tributo.groupby(
     "ANO", as_index=False, observed=True
 ).agg({"TOTAL_RECEITA_MILHOES": "sum"})
@@ -146,24 +168,44 @@ fig_ano_tributo = px.bar(
         "ANO": "Ano",
         "TOTAL_RECEITA_MILHOES": "Receita (Milhões R$)",
     },
-    color="ANO",  # Cores diferentes por ano
+    color="ANO",
     color_discrete_sequence=["#1f77b4", "#123E5C", "#2ca02c"],
 )
-# Rótulo fora da barra e com formato ajustado
+
+fig_ano_tributo.update_yaxes(
+    showgrid=True,
+    gridcolor="rgba(0,0,0,0.08)",
+    zeroline=False,
+    ticks="outside",
+    tickformat=",",
+    automargin=True,
+)
+fig_ano_tributo.update_xaxes(
+    zeroline=False,
+    tickformat=",",
+)
 fig_ano_tributo.update_traces(
+    text=receita_categ_tributo_total["TOTAL_RECEITA_MILHOES"],
+    texttemplate="%{y:,.0f}",
     textposition="outside",
-    texttemplate="%{text:.1f}",
+    cliponaxis=False,
     marker_line_color="black",
     marker_line_width=1,
-    width=0.5,
 )
-# Ajustes de layout
 fig_ano_tributo.update_layout(
-    margin=dict(t=20, b=40, l=40, r=20),
+    bargap=0.3,
     showlegend=False,
+    margin=dict(l=40, r=40, t=30, b=80),
+    plot_bgcolor="white",
+    separators=",.",
 )
 
+# Ajuste de altura e range
+max_y = float(receita_categ_tributo_total["TOTAL_RECEITA_MILHOES"].max())
+fig_ano_tributo.update_layout(height=420)
+fig_ano_tributo.update_yaxes(range=[0, max_y * 1.15])
 
+# Linha com dois gráficos lado a lado (sem esticar)
 coluna_receita_categ_tributo = dbc.Row(
     [
         dbc.Col(
@@ -173,7 +215,11 @@ coluna_receita_categ_tributo = dbc.Row(
                     "info-receita-anual",
                     "receita_total",
                 ),
-                dcc.Graph(figure=fig_ano_tributo, config={"displayModeBar": False}),
+                dcc.Graph(
+                    figure=fig_ano_tributo,
+                    config={"displayModeBar": False, "responsive": True},
+                    style={"width": "100%", "height": "420px"},
+                ),
             ],
             width=4,
         ),
@@ -184,13 +230,17 @@ coluna_receita_categ_tributo = dbc.Row(
                     "info-receita-categ-tributo",
                     "receita_categ_tributo",
                 ),
-                dcc.Graph(figure=fig_categ_tributo),
+                dcc.Graph(
+                    figure=fig_categ_tributo,
+                    config={"displayModeBar": False, "responsive": True},
+                    style={"width": "100%", "height": "420px"},
+                ),
             ],
             width=8,
         ),
-    ]
+    ],
+    className="g-3 align-items-start",
 )
-
 
 opcoes_categ_tributo = get_options_dropdown(
     all_data, "tb_sigt_receita_categ_tributo", "CATEGORIA_TRIBUTO"
@@ -336,7 +386,7 @@ layout = html.Div(
             "receita_subcateg_tributo",
         ),
         dropdown_categ_tributo,
-        dcc.Graph(id="fig-subcateg-tributo"),
+        dcc.Graph(id="fig-subcateg-tributo", style={"width": "100%", "height": "480px"}),
         html.H4("Inscrições imobiliárias, valor venal e incidência de tributo por ano"),
         create_info_popover(
             "info-valor-imovel-tributo",

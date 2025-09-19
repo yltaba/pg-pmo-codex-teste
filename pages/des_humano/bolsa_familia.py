@@ -51,6 +51,8 @@ def get_pbf_plots(pbf):
         legend_title_text="Município",
         legend=dict(orientation="h", yanchor="bottom", y=-0.6, xanchor="center", x=0.5),
         margin=dict(b=120),
+        separators=",.",
+        hovermode="x unified"
     )
     fig_n_favorecidos.update_traces(
         hovertemplate="<b>%{fullData.name}</b><br>Mês/Ano: %{x}<br>Número de favorecidos PBF: %{y:,.0f}<extra></extra>"
@@ -88,6 +90,7 @@ def get_pbf_plots(pbf):
         legend_title_text="Município",
         legend=dict(orientation="h", yanchor="bottom", y=-0.6, xanchor="center", x=0.5),
         margin=dict(b=120),
+        hovermode="x unified"
     )
     fig_total_repasses.update_traces(
         hovertemplate="<b>%{fullData.name}</b><br>Mês/Ano: %{x}<br>Valor total de repasses PBF: %{y:,.0f}<extra></extra>"
@@ -125,6 +128,7 @@ def get_pbf_plots(pbf):
         legend_title_text="Município",
         legend=dict(orientation="h", yanchor="bottom", y=-0.6, xanchor="center", x=0.5),
         margin=dict(b=120),
+        hovermode="x unified"
     )
     fig_media_repasses.update_traces(
         hovertemplate="<b>%{fullData.name}</b><br>Mês/Ano: %{x}<br>Média do valor dos repasses PBF: %{y:,.0f}<extra></extra>"

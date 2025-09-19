@@ -47,8 +47,40 @@ def init_callbacks(app, all_data):
             font=dict(size=12),
             clicktoshow=False,
         )
-        fig.update_xaxes(tickmode="linear", dtick="M1", tickangle=45)
-        fig.update_yaxes(tickformat=",")
+
+        fig.update_yaxes(
+            showgrid=True,
+            tickformat=",",
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside", 
+            automargin=True,
+        )
+
+        fig.update_xaxes(
+            showgrid=False,
+            zeroline=False,
+            ticks="outside", 
+            tickmode="linear", 
+            dtick="M1", 
+            tickangle=45
+        )
+
+        fig.update_traces(
+            cliponaxis=False,
+            marker_line_color="black",
+            marker_line_width=1,
+        )
+
+        fig.update_layout(
+            bargap=0.25,
+            showlegend=False,
+            margin=dict(l=40, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
+        )
+
+
         return fig
 
     @app.callback(
@@ -102,101 +134,251 @@ def init_callbacks(app, all_data):
             arrow_style,
         )
 
-    @app.callback(
-        Output("fig-saldo-anual", "figure"), Input("filtro-cnae-caged-saldo", "value")
-    )
-    def atualizar_grafico_caged(filtro_cnae):
-
-        if filtro_cnae == "Todos":
-            df_filtrado = all_data["caged_saldo_anual"]
-        else:
-            df_filtrado = all_data["caged_saldo_anual"][
-                all_data["caged_saldo_anual"]["cnae_2_descricao_secao"] == filtro_cnae
-            ]
-
-        caged_ano = df_filtrado.groupby("ano", as_index=False).agg(
-            {"saldo_movimentacao": "sum"}
-        )
-
-        fig = px.bar(
-            caged_ano,
-            x="ano",
-            y="saldo_movimentacao",
-            template=TEMPLATE,
-            labels={
-                "ano": "Ano",
-                "saldo_movimentacao": "Saldo das movimentações",
-            },
-            color_discrete_sequence=["#75BAFF"],
-        )
-        fig.add_annotation(
-            text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged/2025/fevereiro/pagina-inicial'>CAGED e NOVO CAGED</a>",
-            xref="paper",
-            yref="paper",
-            x=0,
-            y=-0.2,
-            showarrow=False,
-            font=dict(size=12),
-        )
-        fig.update_xaxes(tickmode="linear", dtick="M1", tickangle=45)
-        fig.update_yaxes(tickformat=",")
-
-        return fig
-
     # @app.callback(
-    #     [
-    #         Output("card-saldo-atual-value", "children"),
-    #         Output("card-variacao-saldo-value", "children"),
-    #         Output("card-variacao-saldo-arrow", "children"),
-    #         Output("card-variacao-saldo-arrow", "style"),
-    #     ],
-    #     Input("filtro-cnae-caged-saldo", "value"),
+    #     Output("fig-saldo-anual", "figure"), Input("filtro-cnae-caged-saldo", "value")
     # )
-    # def atualizar_cards_estoque(filtro_cnae):
+    # def atualizar_grafico_caged(filtro_cnae):
+
     #     if filtro_cnae == "Todos":
     #         df_filtrado = all_data["caged_saldo_anual"]
     #     else:
     #         df_filtrado = all_data["caged_saldo_anual"][
     #             all_data["caged_saldo_anual"]["cnae_2_descricao_secao"] == filtro_cnae
     #         ]
-    #     saldo_ano_max = (
-    #         df_filtrado.loc[df_filtrado["ano"] == df_filtrado["ano"].max()]
-    #         .agg({"saldo_movimentacao": "sum"})
-    #         .values[0]
-    #     )
-    #     saldo_ano_max_formatted = format_decimal(
-    #         saldo_ano_max, format="#,##0", locale="pt_BR"
+
+    #     caged_ano = df_filtrado.groupby("ano", as_index=False).agg(
+    #         {"saldo_movimentacao": "sum"}
     #     )
 
-    #     saldo_ano_max_var = (
-    #         df_filtrado.loc[df_filtrado["ano"] == df_filtrado["ano"].max() - 1]
-    #         .agg({"saldo_movimentacao": "sum"})
-    #         .values[0]
+    #     fig = px.bar(
+    #         caged_ano,
+    #         x="ano",
+    #         y="saldo_movimentacao",
+    #         template=TEMPLATE,
+    #         labels={
+    #             "ano": "Ano",
+    #             "saldo_movimentacao": "Saldo das movimentações",
+    #         },
+    #         color_discrete_sequence=["#75BAFF"],
     #     )
 
-    #     saldo_ano_max_lag1 = (
-    #         df_filtrado.loc[df_filtrado["ano"] == df_filtrado["ano"].max() - 2]
-    #         .agg({"saldo_movimentacao": "sum"})
-    #         .values[0]
-    #     )
-    #     variacao_mov = (saldo_ano_max_var - saldo_ano_max_lag1) / saldo_ano_max_lag1
-    #     variacao_mov_formatted = format_percent(
-    #         variacao_mov, format="#,##0%", locale="pt_BR"
+    #     fig.update_yaxes(
+    #         tickformat=",",
+    #         showgrid=True,
+    #         gridcolor="rgba(0,0,0,0.08)",
+    #         zeroline=False,
+    #         ticks="outside", 
+    #         automargin=True
     #     )
 
-    #     arrow_symbol = "▲" if variacao_mov >= 0 else "▼"
-    #     arrow_style = {
-    #         "color": "#28a745" if variacao_mov >= 0 else "#dc3545",
-    #         "fontSize": "24px",
-    #         "marginLeft": "8px",
-    #     }
-
-    #     return (
-    #         saldo_ano_max_formatted,
-    #         variacao_mov_formatted,
-    #         arrow_symbol,
-    #         arrow_style,
+    #     fig.update_xaxes(
+    #         zeroline=False,
+    #         ticks="outside", 
+    #         tickmode="linear", 
+    #         dtick="M1", 
+    #         tickangle=45
     #     )
+
+    #     fig.update_traces(
+    #         text=caged_ano["saldo_movimentacao"],
+    #         texttemplate="%{y:,.0f}",
+    #         textposition="outside",
+    #         cliponaxis=False,
+    #         marker_line_color="black",
+    #         marker_line_width=1,
+    #         hovertemplate="<b>%{x}</b><br>Saldo: %{y:.0f}<extra></extra>",
+    #     )
+
+    #     fig.update_layout(
+    #         bargap=0.25,
+    #         showlegend=False,
+    #         margin=dict(l=40, r=40, t=30, b=80),
+    #         plot_bgcolor="white",
+    #         separators=",.",
+    #     )
+
+    #     fig.add_annotation(
+    #         text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged/2025/fevereiro/pagina-inicial'>CAGED e NOVO CAGED</a>",
+    #         xref="paper",
+    #         yref="paper",
+    #         x=0.0,
+    #         y=-0.2,
+    #         showarrow=False,
+    #         font=dict(size=12),
+    #         xanchor="center",
+    #     )
+
+    #     return fig
+
+
+
+    @app.callback(
+        Output("fig-saldo-anual", "figure"),
+        [
+            Input("filtro-cnae-caged-saldo", "value"),
+            Input("saldo-anual-view-type", "value"),
+            Input("filtro-ano-caged-anual", "value"),
+        ],
+    )
+    def atualizar_grafico_caged(filtro_cnae, tipo_visualizacao, filtro_ano):
+        if tipo_visualizacao == "anual":
+            # Visualização anual (comportamento original)
+            if filtro_cnae == "Todos":
+                df_filtrado = all_data["caged_saldo_anual"]
+            else:
+                df_filtrado = all_data["caged_saldo_anual"][
+                    all_data["caged_saldo_anual"]["cnae_2_descricao_secao"] == filtro_cnae
+                ]
+
+            caged_ano = df_filtrado.groupby("ano", as_index=False).agg(
+                {"saldo_movimentacao": "sum"}
+            )
+
+            fig = px.bar(
+                caged_ano,
+                x="ano",
+                y="saldo_movimentacao",
+                template=TEMPLATE,
+                labels={
+                    "ano": "Ano",
+                    "saldo_movimentacao": "Saldo das movimentações",
+                },
+                color_discrete_sequence=["#75BAFF"],
+            )
+
+            fig.update_yaxes(
+                tickformat=",",
+                showgrid=True,
+                gridcolor="rgba(0,0,0,0.08)",
+                zeroline=False,
+                ticks="outside", 
+                automargin=True
+            )
+
+            fig.update_xaxes(
+                zeroline=False,
+                ticks="outside", 
+                tickmode="linear", 
+                dtick="M1", 
+                tickangle=45
+            )
+
+            fig.update_traces(
+                text=caged_ano["saldo_movimentacao"],
+                texttemplate="%{y:,.0f}",
+                textposition="outside",
+                cliponaxis=False,
+                marker_line_color="black",
+                marker_line_width=1,
+                hovertemplate="<b>%{x}</b><br>Saldo: %{y:.0f}<extra></extra>",
+            )
+
+            fig.update_layout(
+                bargap=0.25,
+                showlegend=False,
+                margin=dict(l=40, r=40, t=30, b=80),
+                plot_bgcolor="white",
+                separators=",.",
+            )
+
+            fig.add_annotation(
+                text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged/2025/fevereiro/pagina-inicial'>CAGED e NOVO CAGED</a>",
+                xref="paper",
+                yref="paper",
+                x=0.0,
+                y=-0.2,
+                showarrow=False,
+                font=dict(size=12),
+                xanchor="center",
+            )
+
+        else:
+            # Visualização mensal
+            if filtro_cnae == "Todos":
+                df_filtrado = all_data["caged_saldo_anual"]
+            else:
+                df_filtrado = all_data["caged_saldo_anual"][
+                    all_data["caged_saldo_anual"]["cnae_2_descricao_secao"] == filtro_cnae
+                ]
+
+            # Filtrar por ano se especificado
+            if filtro_ano:
+                df_filtrado = df_filtrado[df_filtrado["ano"] == filtro_ano]
+
+            # Agrupar por mês e somar os saldos
+            caged_mensal = (
+                df_filtrado.groupby("mes", as_index=False)
+                .agg({"saldo_movimentacao": "sum"})
+                .sort_values("mes")
+            )
+
+            # Mapear números dos meses para nomes
+            meses_nomes = {
+                1: "Janeiro", 2: "Fevereiro", 3: "Março", 4: "Abril",
+                5: "Maio", 6: "Junho", 7: "Julho", 8: "Agosto",
+                9: "Setembro", 10: "Outubro", 11: "Novembro", 12: "Dezembro"
+            }
+            
+            caged_mensal["mes_nome"] = caged_mensal["mes"].map(meses_nomes)
+
+            fig = px.bar(
+                caged_mensal,
+                x="mes_nome",
+                y="saldo_movimentacao",
+                template=TEMPLATE,
+                labels={
+                    "mes_nome": "Mês",
+                    "saldo_movimentacao": "Saldo das movimentações",
+                },
+                color_discrete_sequence=["#75BAFF"],
+            )
+
+            fig.update_yaxes(
+                tickformat=",",
+                showgrid=True,
+                gridcolor="rgba(0,0,0,0.08)",
+                zeroline=False,
+                ticks="outside", 
+                automargin=True
+            )
+
+            fig.update_xaxes(
+                zeroline=False,
+                ticks="outside",
+                tickangle=45
+            )
+
+            fig.update_traces(
+                text=caged_mensal["saldo_movimentacao"],
+                texttemplate="%{y:,.0f}",
+                textposition="outside",
+                cliponaxis=False,
+                marker_line_color="black",
+                marker_line_width=1,
+                hovertemplate="<b>%{x}</b><br>Saldo: %{y:.0f}<extra></extra>",
+            )
+
+            fig.update_layout(
+                bargap=0.25,
+                showlegend=False,
+                margin=dict(l=40, r=40, t=30, b=80),
+                plot_bgcolor="white",
+                separators=",.",
+            )
+
+            fig.add_annotation(
+                text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged/2025/fevereiro/pagina-inicial'>CAGED e NOVO CAGED</a>",
+                xref="paper",
+                yref="paper",
+                x=0.0,
+                y=-0.2,
+                showarrow=False,
+                font=dict(size=12),
+                xanchor="center",
+            )
+
+        return fig
+
 
     @app.callback(
         [
@@ -291,6 +473,10 @@ def init_callbacks(app, all_data):
             "cnae_2_descricao_secao"
         ].str.capitalize()
 
+        # altura do grafico depende do tamanho das categorias do ano
+        n = len(caged_saldo_secao_grp)
+        height = max(420, 38 * n)
+
         fig = px.bar(
             caged_saldo_secao_grp,
             x="saldo_movimentacao",
@@ -301,19 +487,53 @@ def init_callbacks(app, all_data):
                 "cnae_2_descricao_secao": "Seção da CNAE",
             },
             template=TEMPLATE,
-            color_discrete_sequence=["#75BAFF"],
+            color_discrete_sequence=["#75BAFF"],  # elegant blue
+            height=height,
         )
+
+        fig.update_yaxes(categoryorder="total ascending", automargin=True)
+
+        fig.update_xaxes(
+            showgrid=True,
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside",
+        )
+        fig.update_yaxes(ticks="")
+
+        fig.update_traces(
+            text=caged_saldo_secao_grp["saldo_movimentacao"],
+            texttemplate="%{x:,.0f}",
+            textposition="outside",
+            cliponaxis=False,
+            marker_line_color="black",
+            marker_line_width=1,
+            hovertemplate="<b>%{y}</b><br>Saldo: %{x:,.0f}<extra></extra>",
+        )
+
+        # layout polish
+        fig.update_layout(
+            bargap=0.25,
+            showlegend=False,
+            margin=dict(l=260, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
+        )
+
         fig.add_annotation(
             text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged/2025/fevereiro/pagina-inicial'>CAGED e NOVO CAGED</a>",
             xref="paper",
             yref="paper",
             x=0.0,
-            y=-0.2,
+            y=-0.1,
             showarrow=False,
             font=dict(size=12),
             xanchor="center",
         )
+
         return fig
+
+
 
     @app.callback(
         Output("fig-caged-saldo-idade", "figure"),
@@ -370,17 +590,46 @@ def init_callbacks(app, all_data):
             template=TEMPLATE,
             color_discrete_sequence=["#75BAFF"],
         )
-        fig.update_layout(bargap=0.05)
+
+        fig.update_xaxes(
+            showgrid=True,
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside",
+        )
+        fig.update_yaxes(ticks="")
+
+        fig.update_traces(
+            text=caged_saldo_idade_grp["saldo_movimentacao"],
+            texttemplate="%{x:,.0f}",
+            textposition="outside",
+            cliponaxis=False,
+            marker_line_color="black",
+            marker_line_width=1,
+            hovertemplate="<b>%{y}</b><br>Saldo: %{x:.0f}<extra></extra>",
+        )
+
+        # layout polish
+        fig.update_layout(
+            bargap=0.25,
+            showlegend=False,
+            margin=dict(l=40, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
+        )
+
         fig.add_annotation(
             text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged/2025/fevereiro/pagina-inicial'>CAGED e NOVO CAGED</a>",
             xref="paper",
             yref="paper",
             x=0.05,
-            y=-0.2,
+            y=-0.15,
             showarrow=False,
             font=dict(size=12),
             xanchor="center",
         )
+
+
         return fig
 
     @app.callback(
@@ -438,7 +687,35 @@ def init_callbacks(app, all_data):
             font=dict(size=12),
             xanchor="left",
         )
-
+        fig.update_yaxes(
+            showgrid=True,
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside",
+            tickformat=",",
+            automargin=True,
+        )
+        fig.update_xaxes(
+            zeroline=False,
+            tickformat="d",
+            tickangle=45,
+            tickmode="linear",
+            range=[caged_media_salario_grp["ano"].min() - 0.5, caged_media_salario_grp["ano"].max() + 0.5]
+        )
+        fig.update_traces(
+            cliponaxis=False,
+            marker_line_color="black",
+            marker_line_width=1,
+            hovertemplate="<b>%{fullData.name}</b><br>Salário médio: %{y:,.0f}<extra></extra>"
+        )
+        fig.update_layout(
+            bargap=0.3,
+            showlegend=True,
+            margin=dict(l=40, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
+            hovermode="x unified"
+        )
         return fig
 
     @app.callback(
@@ -497,6 +774,36 @@ def init_callbacks(app, all_data):
             xanchor="left",
         )
 
+        fig.update_yaxes(
+            showgrid=True,
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside",
+            tickformat=",",
+            automargin=True,
+        )
+        fig.update_xaxes(
+            tickangle=45,
+            zeroline=False,
+            tickformat="d",
+            tickmode="linear",
+            range=[caged_media_idade_grp["ano"].min() - 0.5, caged_media_idade_grp["ano"].max() + 0.5]
+        )
+        fig.update_traces(
+            cliponaxis=False,
+            marker_line_color="black",
+            marker_line_width=1,
+            hovertemplate="<b>%{fullData.name}</b><br>Média de idade: %{y:,.0f}<extra></extra>"
+        )
+        fig.update_layout(
+            bargap=0.3,
+            showlegend=True,
+            margin=dict(l=40, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
+            hovermode="x unified"
+        )
+
         return fig
 
     @app.callback(
@@ -545,6 +852,7 @@ def init_callbacks(app, all_data):
             ),
             bargap=0.15,
             bargroupgap=0.05,
+            separators=",.",
         )
         fig_abertura_encerramento.update_yaxes(tickformat=",")
 
@@ -577,7 +885,7 @@ def init_callbacks(app, all_data):
             xref="paper",
             yref="paper",
             x=0,
-            y=-0.1,
+            y=-0.15,
             showarrow=False,
             font=dict(size=12),
         )
@@ -587,11 +895,39 @@ def init_callbacks(app, all_data):
             xref="paper",
             yref="paper",
             x=0.35,
-            y=-0.25,
+            y=-0.22,
             showarrow=False,
             font=dict(size=12),
             xanchor="center",
             clicktoshow=False,
+        )
+
+
+        fig_abertura_encerramento.update_yaxes(
+            showgrid=True,
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside", 
+            tickformat=",", 
+            automargin=True
+        )
+
+        fig_abertura_encerramento.update_xaxes(
+            zeroline=False,
+        )
+
+        fig_abertura_encerramento.update_traces(
+            cliponaxis=False,
+            marker_line_color="black",
+            marker_line_width=1,
+        )
+
+        fig_abertura_encerramento.update_layout(
+            bargap=0.25,
+            showlegend=True,
+            margin=dict(l=40, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
         )
 
         return fig_abertura_encerramento
@@ -683,20 +1019,37 @@ def init_callbacks(app, all_data):
             },
         )
 
-        fig.update_layout(
-            xaxis_tickangle=-45,
-            showlegend=True,
-            legend_title="Ano",
-            bargap=0.5,
-            margin=dict(t=20, b=40, l=40, r=20),
+        fig.update_yaxes(
+            categoryorder="total ascending",
+            showgrid=True,
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside",
+            tickformat=",",
+            automargin=True,
         )
-
+        fig.update_xaxes(
+            zeroline=False,
+            tickformat=",",
+        )
         fig.update_traces(
+            text=df_filtrado["TOTAL_RECEITA_MILHOES"],
+            texttemplate="%{text:,.0f}",
             textposition="outside",
-            texttemplate="%{text:.1f}",
+            cliponaxis=False,
             marker_line_color="black",
             marker_line_width=1,
         )
+        fig.update_layout(
+            bargap=0.5,
+            showlegend=True,
+            legend_title="Ano",
+            margin=dict(l=40, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
+            xaxis_tickangle=-45
+        )
+
 
         return fig
 
@@ -755,17 +1108,49 @@ def init_callbacks(app, all_data):
             template=TEMPLATE,
             color_discrete_sequence=["#75BAFF"],
         )
-        fig.update_layout(bargap=0.05)
+
+        fig.update_yaxes(
+            showgrid=True,
+            gridcolor="rgba(0,0,0,0.08)",
+            zeroline=False,
+            ticks="outside", 
+            tickformat=",", 
+            automargin=True
+        )
+
+        fig.update_xaxes(
+            zeroline=False,
+        )
+
+        fig.update_traces(
+            text=rais_tamanho_estabelecimento_grp["size"],
+            texttemplate="%{x:.0f}",
+            textposition="outside",
+            cliponaxis=False,
+            marker_line_color="black",
+            marker_line_width=1,
+            hovertemplate="<b>%{y}</b><br>Quantidade de empresas: %{x:.0f}<extra></extra>",
+        )
+
+        fig.update_layout(
+            bargap=0.25,
+            showlegend=False,
+            margin=dict(l=40, r=40, t=30, b=80),
+            plot_bgcolor="white",
+            separators=",.",
+        )
+
         fig.add_annotation(
-            text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2024'>RAIS</a>",
+            text="Fonte: <a href='https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged/2025/fevereiro/pagina-inicial'>CAGED e NOVO CAGED</a>",
             xref="paper",
             yref="paper",
-            x=0.05,
-            y=-0.2,
+            x=0.0,
+            y=-0.15,
             showarrow=False,
             font=dict(size=12),
             xanchor="center",
         )
+
         return fig
 
     try:

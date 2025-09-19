@@ -148,22 +148,98 @@ cartoes_estoque_ano = html.Div(
 
 
 # Gráfico do saldo de movimentações por ano
+# fig_saldo_mov_ano = dbc.Col(
+#     html.Div(
+#         [
+#             html.Label("Selecione uma Seção da CNAE:"),
+#             dcc.Dropdown(
+#                 id="filtro-cnae-caged-saldo",
+#                 options=[{"label": "Todos", "value": "Todos"}] + opcoes_cnae,
+#                 value="Todos",
+#                 clearable=False,
+#                 className="mb-3",
+#             ),
+#             dcc.Graph(id="fig-saldo-anual", config={"displayModeBar": False}),
+#         ]
+#     ),
+#     width=10,
+# )
+
+
 fig_saldo_mov_ano = dbc.Col(
     html.Div(
         [
-            html.Label("Selecione uma Seção da CNAE:"),
-            dcc.Dropdown(
-                id="filtro-cnae-caged-saldo",
-                options=[{"label": "Todos", "value": "Todos"}] + opcoes_cnae,
-                value="Todos",
-                clearable=False,
-                className="mb-3",
+            dbc.Row(
+                [
+                    dbc.Col(
+                        [
+                            html.Label("Selecione uma Seção da CNAE:"),
+                            dcc.Dropdown(
+                                id="filtro-cnae-caged-saldo",
+                                options=[{"label": "Todos", "value": "Todos"}]
+                                + opcoes_cnae,
+                                value="Todos",
+                                clearable=False,
+                                className="mb-3",
+                            ),
+                        ],
+                        width=6,
+                    ),
+                    dbc.Col(
+                        [
+                            html.Label(
+                                "Tipo de visualização:",
+                                style={"fontWeight": "light"},
+                            ),
+                            dcc.RadioItems(
+                                id="saldo-anual-view-type",
+                                options=[
+                                    {"label": " Anual", "value": "anual"},
+                                    {"label": " Mensal", "value": "mensal"},
+                                ],
+                                value="anual",
+                                inline=True,
+                                className="mb-3",
+                                style={
+                                    "marginTop": "8px",
+                                    "display": "flex",
+                                    "justifyContent": "left",
+                                    "gap": "20px",
+                                },
+                            ),
+                        ],
+                        width=6,
+                    ),
+                ]
+            ),
+            html.Div(
+                id="filtro-ano-container",
+                children=[
+                    html.Label("Selecione um ano:", style={"fontWeight": "light"}),
+                    dcc.Slider(
+                        id="filtro-ano-caged-anual",
+                        min=min(all_data["caged_saldo_anual"]["ano"]),
+                        max=max(all_data["caged_saldo_anual"]["ano"]),
+                        value=2025,
+                        marks={
+                            str(year): str(year)
+                            for year in all_data["caged_saldo_anual"]["ano"].unique()
+                        },
+                        step=None,
+                        className="mb-3",
+                        updatemode="drag",
+                        included=False,
+                        tooltip={"placement": "bottom", "always_visible": True},
+                    ),
+                ],
+                style={"display": "none"},  # Inicialmente oculto
             ),
             dcc.Graph(id="fig-saldo-anual", config={"displayModeBar": False}),
         ]
     ),
     width=10,
 )
+
 
 # cards de movimentações por ano
 card_saldo_atual = html.Div(
@@ -315,6 +391,7 @@ fig_saldo_mov_secao = html.Div(
     style={"marginBottom": "3rem"},
 )
 
+
 fig_saldo_mov_idade = html.Div(
     [
         html.H4("Saldo de postos de trabalho por idade"),
@@ -380,7 +457,7 @@ fig_media_salario_mov = html.Div(
                             "Métrica:",
                             style={
                                 "fontWeight": "light",
-                                "textAlign": "center",
+                                "textAlign": "left",
                                 "width": "100%",
                             },
                         ),
@@ -396,7 +473,7 @@ fig_media_salario_mov = html.Div(
                             style={
                                 "marginTop": "8px",
                                 "display": "flex",
-                                "justifyContent": "center",
+                                "justifyContent": "left",
                                 "gap": "20px",
                             },
                         ),
@@ -444,7 +521,7 @@ fig_media_idade_mov = html.Div(
                             "Métrica:",
                             style={
                                 "fontWeight": "light",
-                                "textAlign": "center",
+                                "textAlign": "left",
                                 "width": "100%",
                             },
                         ),
@@ -460,7 +537,7 @@ fig_media_idade_mov = html.Div(
                             style={
                                 "marginTop": "8px",
                                 "display": "flex",
-                                "justifyContent": "center",
+                                "justifyContent": "left",
                                 "gap": "20px",
                             },
                         ),
